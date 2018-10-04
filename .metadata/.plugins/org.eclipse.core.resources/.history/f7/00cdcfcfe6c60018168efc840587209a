@@ -1,0 +1,619 @@
+2018-10-02 11:39:25:930 - info: [Appium] Welcome to Appium v1.9.1
+2018-10-02 11:39:25:932 - info: [Appium] Non-default server args:
+2018-10-02 11:39:25:933 - info: [Appium]   address: 127.0.0.1
+2018-10-02 11:39:25:933 - info: [Appium]   port: 34656
+2018-10-02 11:39:25:933 - info: [Appium]   sessionOverride: true
+2018-10-02 11:39:25:934 - info: [Appium]   log: C:\Users\sreddy6\Desktop\Framework\AppiumFramework\47b608f8_2018_10_02_170914_log.txt
+2018-10-02 11:39:25:934 - info: [Appium]   defaultCapabilities: {
+2018-10-02 11:39:25:934 - info: [Appium]     noReset: true
+2018-10-02 11:39:25:935 - info: [Appium]     udid: 47b608f8
+2018-10-02 11:39:25:935 - info: [Appium]   }
+2018-10-02 11:39:25:936 - info: [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2018-10-02 11:39:25:936 - info: [Appium]   noReset: true
+2018-10-02 11:39:25:936 - info: [Appium]   udid: 47b608f8
+2018-10-02 11:39:26:066 - info: [Appium] Appium REST http interface listener started on 127.0.0.1:34656
+2018-10-02 11:39:26:281 - info: [HTTP] --> GET /wd/hub/status
+2018-10-02 11:39:26:282 - info: [HTTP] {}
+2018-10-02 11:39:26:287 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-10-02 11:39:26:292 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1"}}
+2018-10-02 11:39:26:300 - info: [HTTP] <-- GET /wd/hub/status 200 15 ms - 67
+2018-10-02 11:39:26:300 - info: [HTTP] 
+2018-10-02 11:39:27:666 - info: [HTTP] --> POST /wd/hub/session
+2018-10-02 11:39:27:666 - info: [HTTP] {"desiredCapabilities":{"app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","deviceName":"47b608f8","platformName":"Android"},"capabilities":{"desiredCapabilities":{"app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","deviceName":"47b608f8","platformName":"Android"},"firstMatch":[{"appium:app":"C:\\Users\\sreddy6\\base.apk","appium:appPackage":"com.bigbasket.mobileapp","appium:appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","appium:deviceName":"47b608f8","platformName":"android"}]}}
+2018-10-02 11:39:27:667 - info: [debug] [W3C] Calling AppiumDriver.createSession() with args: [{"app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","deviceName":"47b608f8","platformName":"Android"},null,{"desiredCapabilities":{"app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","deviceName":"47b608f8","platformName":"Android"},"firstMatch":[{"appium:app":"C:\\Users\\sreddy6\\base.apk","appium:appPackage":"com.bigbasket.mobileapp","appium:appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","appium:deviceName":"47b608f8","platformName":"android"}]}]
+2018-10-02 11:39:27:668 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1538480367668 (17:09:27 GMT+0530 (India Standard Time))
+2018-10-02 11:39:27:672 - warn: [BaseDriver] The capabilities ["noReset","udid"] are not standard capabilities and should have an extension prefix
+2018-10-02 11:39:27:676 - info: [Appium] Creating new AndroidDriver (v4.1.1) session
+2018-10-02 11:39:27:676 - info: [Appium] Capabilities:
+2018-10-02 11:39:27:677 - info: [Appium]   platformName: android
+2018-10-02 11:39:27:677 - info: [Appium]   noReset: true
+2018-10-02 11:39:27:677 - info: [Appium]   udid: 47b608f8
+2018-10-02 11:39:27:677 - info: [Appium]   app: C:\Users\sreddy6\base.apk
+2018-10-02 11:39:27:677 - info: [Appium]   appPackage: com.bigbasket.mobileapp
+2018-10-02 11:39:27:677 - info: [Appium]   appWaitActivity: com.bigbasket.mobileapp.activity.HomeActivity
+2018-10-02 11:39:27:678 - info: [Appium]   deviceName: 47b608f8
+2018-10-02 11:39:27:682 - info: [debug] [BaseDriver] W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"noReset":true,"udid":"47b... were provided
+2018-10-02 11:39:27:682 - info: [debug] [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+2018-10-02 11:39:27:689 - info: [BaseDriver] Session created with session id: f18c28ad-e716-41d7-897f-e8b9c1d7b029
+2018-10-02 11:39:29:172 - info: [AndroidDriver] Java version is: 1.8.0_151
+2018-10-02 11:39:29:175 - info: [ADB] Checking whether adb is present
+2018-10-02 11:39:29:186 - info: [ADB] Found 3 'build-tools' folders under 'C:\Program Files\Android-sdk' (newest first):
+2018-10-02 11:39:29:187 - info: [ADB]     C:/Program Files/Android-sdk/build-tools/28.0.1
+2018-10-02 11:39:29:187 - info: [ADB]     C:/Program Files/Android-sdk/build-tools/28.0.0
+2018-10-02 11:39:29:187 - info: [ADB]     C:/Program Files/Android-sdk/build-tools/27.0.2
+2018-10-02 11:39:29:188 - info: [ADB] Using adb.exe from C:\Program Files\Android-sdk\platform-tools\adb.exe
+2018-10-02 11:39:29:189 - info: [AndroidDriver] Retrieving device list
+2018-10-02 11:39:29:190 - info: [debug] [ADB] Trying to find a connected android device
+2018-10-02 11:39:29:191 - info: [debug] [ADB] Getting connected devices...
+2018-10-02 11:39:30:604 - info: [debug] [ADB] 1 device(s) connected
+2018-10-02 11:39:30:605 - info: [AndroidDriver] Using device: 47b608f8
+2018-10-02 11:39:30:606 - info: [debug] [ADB] Setting device id to 47b608f8
+2018-10-02 11:39:30:608 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell getprop ro.build.version.sdk'
+2018-10-02 11:39:32:052 - info: [debug] [ADB] Current device property 'ro.build.version.sdk': 27
+2018-10-02 11:39:32:052 - info: [debug] [ADB] Device API level: 27
+2018-10-02 11:39:32:052 - warn: [AndroidDriver] Consider setting 'automationName' capability to 'uiautomator2' on Android >= 6, since UIAutomator framework is not maintained anymore by the OS vendor.
+2018-10-02 11:39:32:054 - info: [BaseDriver] Using local app 'C:\Users\sreddy6\base.apk'
+2018-10-02 11:39:32:055 - info: [debug] [AndroidDriver] Checking whether app is actually present
+2018-10-02 11:39:32:057 - info: [AndroidDriver] Starting Android session
+2018-10-02 11:39:32:058 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 wait-for-device'
+2018-10-02 11:39:33:429 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell echo ping'
+2018-10-02 11:39:34:948 - info: [debug] [AndroidDriver] Pushing settings apk to device...
+2018-10-02 11:39:34:951 - info: [debug] [ADB] Getting install status for io.appium.settings
+2018-10-02 11:39:34:951 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell pm list packages io.appium.settings'
+2018-10-02 11:39:36:943 - info: [debug] [ADB] App is installed
+2018-10-02 11:39:36:944 - info: [debug] [ADB] Getting package info for 'io.appium.settings'
+2018-10-02 11:39:36:944 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell dumpsys package io.appium.settings'
+2018-10-02 11:39:38:447 - info: [ADB] Checking whether aapt is present
+2018-10-02 11:39:38:452 - info: [ADB] Using aapt.exe from C:\Program Files\Android-sdk\build-tools\28.0.1\aapt.exe
+2018-10-02 11:39:39:735 - info: [debug] [ADB] The installed 'io.appium.settings' package does not require upgrade ('2.3.0' >= '2.3.0')
+2018-10-02 11:39:39:736 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell ps'
+2018-10-02 11:39:41:323 - info: [debug] [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2018-10-02 11:39:41:324 - info: [debug] [ADB] Device API level: 27
+2018-10-02 11:39:41:324 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell appops set io.appium.settings android\:mock_location allow'
+2018-10-02 11:39:42:813 - warn: [AndroidDriver] setDeviceLanguageCountry requires language or country.
+2018-10-02 11:39:42:814 - warn: [AndroidDriver] Got language: 'null' and country: 'null'
+2018-10-02 11:39:42:815 - info: [debug] [Logcat] Starting logcat capture
+2018-10-02 11:39:43:880 - info: [debug] [AndroidDriver] Pushing unlock helper app to device...
+2018-10-02 11:39:43:880 - info: [debug] [ADB] Getting install status for io.appium.unlock
+2018-10-02 11:39:43:881 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell pm list packages io.appium.unlock'
+2018-10-02 11:39:45:738 - info: [debug] [ADB] App is installed
+2018-10-02 11:39:45:738 - info: [debug] [ADB] Getting package info for 'io.appium.unlock'
+2018-10-02 11:39:45:738 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell dumpsys package io.appium.unlock'
+2018-10-02 11:39:48:728 - info: [debug] [ADB] The installed 'io.appium.unlock' package does not require upgrade ('2.0.0' >= '2.0.0')
+2018-10-02 11:39:48:728 - info: [ADB] Getting device platform version
+2018-10-02 11:39:48:730 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell getprop ro.build.version.release'
+2018-10-02 11:39:50:223 - info: [debug] [ADB] Current device property 'ro.build.version.release': 8.1.0
+2018-10-02 11:39:50:225 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell wm size'
+2018-10-02 11:39:52:079 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell getprop ro.product.model'
+2018-10-02 11:39:53:516 - info: [debug] [ADB] Current device property 'ro.product.model': Mi A2
+2018-10-02 11:39:53:517 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell getprop ro.product.manufacturer'
+2018-10-02 11:39:55:102 - info: [debug] [ADB] Current device property 'ro.product.manufacturer': Xiaomi
+2018-10-02 11:39:55:103 - info: [debug] [AndroidDriver] Parsing package and activity from app manifest
+2018-10-02 11:39:55:111 - info: [ADB] Using the alternative activity name detection method because of: Could not find apkanalyzer.bat in C:\Program Files\Android-sdk\platform-tools\apkanalyzer.bat,C:\Program Files\Android-sdk\emulator\apkanalyzer.bat,C:\Program Files\Android-sdk\tools\apkanalyzer.bat,C:\Program Files\Android-sdk\tools\bin\apkanalyzer.bat,C:\Program Files\Android-sdk\build-tools\28.0.1\apkanalyzer.bat,C:\Program Files\Android-sdk\build-tools\28.0.0\apkanalyzer.bat,C:\Program Files\Android-sdk\build-tools\27.0.2\apkanalyzer.bat. Do you have the Android SDK installed at 'C:\Program Files\Android-sdk'?
+2018-10-02 11:39:55:112 - info: [ADB] Extracting package and launch activity from manifest
+2018-10-02 11:39:57:133 - info: [ADB] Package name: 'com.bigbasket.mobileapp'
+2018-10-02 11:39:57:134 - info: [ADB] Main activity name: 'com.bigbasket.mobileapp.activity.SplashActivity'
+2018-10-02 11:39:57:134 - info: [debug] [AndroidDriver] Parsed package and activity are: com.bigbasket.mobileapp/com.bigbasket.mobileapp.activity.SplashActivity
+2018-10-02 11:39:57:134 - info: [debug] [ADB] Getting install status for com.bigbasket.mobileapp
+2018-10-02 11:39:57:134 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell pm list packages com.bigbasket.mobileapp'
+2018-10-02 11:39:59:031 - info: [debug] [ADB] App is installed
+2018-10-02 11:39:59:031 - info: [debug] [ADB] Getting package info for 'com.bigbasket.mobileapp'
+2018-10-02 11:39:59:033 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell dumpsys package com.bigbasket.mobileapp'
+2018-10-02 11:40:01:862 - info: [debug] [ADB] The installed 'com.bigbasket.mobileapp' package does not require upgrade (1716148 > 1716132)
+2018-10-02 11:40:01:863 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell rm -rf /data/local/tmp/strings.json'
+2018-10-02 11:40:03:339 - info: [debug] [AndroidDriver] Extracting strings from apk
+2018-10-02 11:40:03:339 - info: [debug] [AndroidDriver] C:\Users\sreddy6\base.apk
+2018-10-02 11:40:03:340 - info: [debug] [AndroidDriver] null
+2018-10-02 11:40:03:340 - info: [debug] [AndroidDriver] C:\Users\sreddy6\AppData\Local\Temp\com.bigbasket.mobileapp
+2018-10-02 11:40:03:341 - info: [debug] [ADB] Extracting strings for language: default
+2018-10-02 11:40:05:035 - info: [ADB] Successfully extracted 1422 strings from 'C:\Users\sreddy6\base.apk' resources for '(default)' configuration
+2018-10-02 11:40:05:072 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 push C\:\\Users\\sreddy6\\AppData\\Local\\Temp\\com.bigbasket.mobileapp\\strings.json /data/local/tmp'
+2018-10-02 11:40:06:530 - info: [debug] [AndroidBootstrap] Watching for bootstrap disconnect
+2018-10-02 11:40:06:532 - info: [debug] [ADB] Forwarding system: 4724 to device: 4724
+2018-10-02 11:40:06:533 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 forward tcp\:4724 tcp\:4724'
+2018-10-02 11:40:07:950 - info: [debug] [UiAutomator] Starting UiAutomator
+2018-10-02 11:40:07:950 - info: [debug] [UiAutomator] Moving to state 'starting'
+2018-10-02 11:40:07:951 - info: [debug] [UiAutomator] Parsing uiautomator jar
+2018-10-02 11:40:07:951 - info: [debug] [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2018-10-02 11:40:07:951 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 push C\:\\Users\\sreddy6\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-android-driver\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+2018-10-02 11:40:09:428 - info: [debug] [ADB] Attempting to kill all uiautomator processes
+2018-10-02 11:40:09:429 - info: [debug] [ADB] Getting all processes with uiautomator
+2018-10-02 11:40:09:429 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell ps'
+2018-10-02 11:40:11:353 - info: [ADB] No uiautomator process found to kill, continuing...
+2018-10-02 11:40:11:354 - info: [debug] [UiAutomator] Starting UIAutomator
+2018-10-02 11:40:11:354 - info: [debug] [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","47b608f8","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.bigbasket.mobileapp","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+2018-10-02 11:40:12:925 - info: [debug] [UiAutomator] Moving to state 'online'
+2018-10-02 11:40:12:929 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Loading json...
+2018-10-02 11:40:12:934 - info: [AndroidBootstrap] Android bootstrap socket is now connected
+2018-10-02 11:40:12:938 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell dumpsys window'
+2018-10-02 11:40:13:829 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+2018-10-02 11:40:13:829 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2018-10-02 11:40:13:830 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2018-10-02 11:40:14:469 - info: [AndroidDriver] Screen already unlocked, doing nothing
+2018-10-02 11:40:14:470 - info: [debug] [ADB] Device API level: 27
+2018-10-02 11:40:14:471 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell am start -W -n com.bigbasket.mobileapp/com.bigbasket.mobileapp.activity.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2018-10-02 11:40:16:930 - info: [debug] [ADB] Waiting up to 20000ms for activity matching pkg: 'com.bigbasket.mobileapp' and activity: 'com.bigbasket.mobileapp.activity.HomeActivity' to be focused
+2018-10-02 11:40:16:931 - info: [debug] [ADB] Possible activities, to be checked: 'com.bigbasket.mobileapp.activity.HomeActivity', 'com.bigbasket.mobileapp.com.bigbasket.mobileapp.activity.HomeActivity'
+2018-10-02 11:40:16:932 - info: [debug] [ADB] Getting focused package and activity
+2018-10-02 11:40:16:933 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell dumpsys window windows'
+2018-10-02 11:40:18:385 - info: [debug] [ADB] Found package: 'com.bigbasket.mobileapp' and fully qualified activity name : 'com.bigbasket.mobileapp.activity.HomeActivity'
+2018-10-02 11:40:18:387 - info: [Appium] New AndroidDriver session created successfully, session f18c28ad-e716-41d7-897f-e8b9c1d7b029 added to master session list
+2018-10-02 11:40:18:387 - info: [debug] [BaseDriver] Event 'newSessionStarted' logged at 1538480418387 (17:10:18 GMT+0530 (India Standard Time))
+2018-10-02 11:40:18:388 - info: [debug] [W3C] Cached the protocol value 'W3C' for the new session f18c28ad-e716-41d7-897f-e8b9c1d7b029
+2018-10-02 11:40:18:389 - info: [debug] [W3C] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","noReset":true,"udid":"47b608f8","app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","deviceName":"47b608f8"},"platformName":"android","noReset":true,"udid":"47b608f8","app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","deviceName":"47b608f8","deviceUDID":"47b608f8","platformVersion":"8.1.0","deviceScreenSize":"1080x2160","deviceModel":"Mi A2","deviceManufacturer":"Xiaomi","appWaitPackage":"com.bigbasket.mobileapp","appActivity":"com.bigbasket.mobileapp.activity.SplashActivity"}}
+2018-10-02 11:40:18:390 - info: [HTTP] <-- POST /wd/hub/session 200 50724 ms - 973
+2018-10-02 11:40:18:391 - info: [HTTP] 
+2018-10-02 11:40:18:488 - info: [HTTP] --> GET /wd/hub/session/f18c28ad-e716-41d7-897f-e8b9c1d7b029
+2018-10-02 11:40:18:488 - info: [HTTP] {}
+2018-10-02 11:40:18:489 - info: [debug] [W3C] Calling AppiumDriver.getSession() with args: ["f18c28ad-e716-41d7-897f-e8b9c1d7b029"]
+2018-10-02 11:40:18:512 - info: [debug] [W3C] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","noReset":true,"udid":"47b608f8","app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","deviceName":"47b608f8"},"platformName":"android","noReset":true,"udid":"47b608f8","app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","deviceName":"47b608f8","deviceUDID":"47b608f8","platformVersion":"8.1.0","deviceScreenSize":"1080x2160","deviceModel":"Mi A2","deviceManufacturer":"Xiaomi","appWaitPackage":"com.bigbasket.mobileapp","appActivity":"com.bigbasket.mobileapp.activity.SplashActivity"}
+2018-10-02 11:40:18:513 - info: [HTTP] <-- GET /wd/hub/session/f18c28ad-e716-41d7-897f-e8b9c1d7b029 200 25 ms - 905
+2018-10-02 11:40:18:514 - info: [HTTP] 
+2018-10-02 11:40:18:525 - info: [HTTP] --> GET /wd/hub/session/f18c28ad-e716-41d7-897f-e8b9c1d7b029
+2018-10-02 11:40:18:525 - info: [HTTP] {}
+2018-10-02 11:40:18:526 - info: [debug] [W3C] Calling AppiumDriver.getSession() with args: ["f18c28ad-e716-41d7-897f-e8b9c1d7b029"]
+2018-10-02 11:40:18:527 - info: [debug] [W3C] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","noReset":true,"udid":"47b608f8","app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","deviceName":"47b608f8"},"platformName":"android","noReset":true,"udid":"47b608f8","app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","deviceName":"47b608f8","deviceUDID":"47b608f8","platformVersion":"8.1.0","deviceScreenSize":"1080x2160","deviceModel":"Mi A2","deviceManufacturer":"Xiaomi","appWaitPackage":"com.bigbasket.mobileapp","appActivity":"com.bigbasket.mobileapp.activity.SplashActivity"}
+2018-10-02 11:40:18:529 - info: [HTTP] <-- GET /wd/hub/session/f18c28ad-e716-41d7-897f-e8b9c1d7b029 200 3 ms - 905
+2018-10-02 11:40:18:529 - info: [HTTP] 
+2018-10-02 11:40:18:535 - info: [HTTP] --> GET /wd/hub/session/f18c28ad-e716-41d7-897f-e8b9c1d7b029/appium/device/system_time
+2018-10-02 11:40:18:535 - info: [HTTP] {}
+2018-10-02 11:40:18:537 - info: [debug] [W3C] Calling AppiumDriver.getDeviceTime() with args: [null,"f18c28ad-e716-41d7-897f-e8b9c1d7b029"]
+2018-10-02 11:40:18:540 - info: [AndroidDriver] Attempting to capture android device date and time
+2018-10-02 11:40:18:540 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell date +%Y-%m-%dT%T%z'
+2018-10-02 11:40:19:970 - info: [debug] [W3C] Responding to client with driver.getDeviceTime() result: "2018-10-02T17:10:18+05:30"
+2018-10-02 11:40:19:971 - info: [HTTP] <-- GET /wd/hub/session/f18c28ad-e716-41d7-897f-e8b9c1d7b029/appium/device/system_time 200 1435 ms - 37
+2018-10-02 11:40:19:971 - info: [HTTP] 
+2018-10-02 11:40:19:979 - info: [HTTP] --> POST /wd/hub/session/f18c28ad-e716-41d7-897f-e8b9c1d7b029/timeouts
+2018-10-02 11:40:19:979 - info: [HTTP] {"implicit":20000}
+2018-10-02 11:40:19:980 - info: [debug] [W3C] Calling AppiumDriver.timeouts() with args: [null,null,null,null,20000,"f18c28ad-e716-41d7-897f-e8b9c1d7b029"]
+2018-10-02 11:40:19:982 - info: [debug] [BaseDriver] W3C timeout argument: {"implicit":20000}}
+2018-10-02 11:40:19:982 - info: [debug] [BaseDriver] Set implicit wait to 20000ms
+2018-10-02 11:40:19:983 - info: [debug] [W3C] Responding to client with driver.timeouts() result: null
+2018-10-02 11:40:19:983 - info: [HTTP] <-- POST /wd/hub/session/f18c28ad-e716-41d7-897f-e8b9c1d7b029/timeouts 200 4 ms - 14
+2018-10-02 11:40:19:984 - info: [HTTP] 
+2018-10-02 11:40:20:017 - info: [HTTP] --> POST /wd/hub/session/f18c28ad-e716-41d7-897f-e8b9c1d7b029/elements
+2018-10-02 11:40:20:017 - info: [HTTP] {"using":"id","value":"com.bigbasket.mobileapp:id/text_your_location"}
+2018-10-02 11:40:20:018 - info: [debug] [W3C] Calling AppiumDriver.findElements() with args: ["id","com.bigbasket.mobileapp:id/text_your_location","f18c28ad-e716-41d7-897f-e8b9c1d7b029"]
+2018-10-02 11:40:20:019 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-02 11:40:20:020 - info: [debug] [BaseDriver] Waiting up to 20000 ms for condition
+2018-10-02 11:40:20:023 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/text_your_location","context":"","multiple":true}}
+2018-10-02 11:40:20:030 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/text_your_location","context":"","multiple":true}}
+2018-10-02 11:40:20:031 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 11:40:20:032 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 11:40:20:032 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.bigbasket.mobileapp:id/text_your_location' using 'ID' with the contextId: '' multiple: true
+2018-10-02 11:40:20:032 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.bigbasket.mobileapp:id/text_your_location]
+2018-10-02 11:40:20:032 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.bigbasket.mobileapp:id/text_your_location]
+2018-10-02 11:40:20:033 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-10-02 11:40:20:033 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/text_your_location]
+2018-10-02 11:40:20:041 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (1)
+2018-10-02 11:40:20:043 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=1, RESOURCE_ID=com.bigbasket.mobileapp:id/text_your_location]
+2018-10-02 11:40:20:057 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"1"}]}
+2018-10-02 11:40:20:058 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 11:40:20:059 - info: [debug] [W3C] Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"1"}]
+2018-10-02 11:40:20:060 - info: [HTTP] <-- POST /wd/hub/session/f18c28ad-e716-41d7-897f-e8b9c1d7b029/elements 200 43 ms - 55
+2018-10-02 11:40:20:062 - info: [HTTP] 
+2018-10-02 11:40:20:082 - info: [HTTP] --> POST /wd/hub/session/f18c28ad-e716-41d7-897f-e8b9c1d7b029/element
+2018-10-02 11:40:20:082 - info: [HTTP] {"using":"id","value":"com.bigbasket.mobileapp:id/text_your_location"}
+2018-10-02 11:40:20:083 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.bigbasket.mobileapp:id/text_your_location","f18c28ad-e716-41d7-897f-e8b9c1d7b029"]
+2018-10-02 11:40:20:085 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-02 11:40:20:085 - info: [debug] [BaseDriver] Waiting up to 20000 ms for condition
+2018-10-02 11:40:20:086 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/text_your_location","context":"","multiple":false}}
+2018-10-02 11:40:20:091 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/text_your_location","context":"","multiple":false}}
+2018-10-02 11:40:20:092 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 11:40:20:093 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 11:40:20:093 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.bigbasket.mobileapp:id/text_your_location' using 'ID' with the contextId: '' multiple: false
+2018-10-02 11:40:20:093 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/text_your_location]
+2018-10-02 11:40:20:113 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"2"}}
+2018-10-02 11:40:20:114 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 11:40:20:114 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"2"}
+2018-10-02 11:40:20:115 - info: [HTTP] <-- POST /wd/hub/session/f18c28ad-e716-41d7-897f-e8b9c1d7b029/element 200 33 ms - 53
+2018-10-02 11:40:20:117 - info: [HTTP] 
+2018-10-02 11:40:20:124 - info: [HTTP] --> GET /wd/hub/session/f18c28ad-e716-41d7-897f-e8b9c1d7b029/element/2/text
+2018-10-02 11:40:20:124 - info: [HTTP] {}
+2018-10-02 11:40:20:124 - info: [debug] [W3C] Calling AppiumDriver.getText() with args: ["2","f18c28ad-e716-41d7-897f-e8b9c1d7b029"]
+2018-10-02 11:40:20:126 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getText","params":{"elementId":"2"}}
+2018-10-02 11:40:20:131 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getText","params":{"elementId":"2"}}
+2018-10-02 11:40:20:132 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 11:40:20:132 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getText
+2018-10-02 11:40:20:145 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"Your Location"}
+2018-10-02 11:40:20:148 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 11:40:20:149 - info: [debug] [W3C] Responding to client with driver.getText() result: "Your Location"
+2018-10-02 11:40:20:150 - info: [HTTP] <-- GET /wd/hub/session/f18c28ad-e716-41d7-897f-e8b9c1d7b029/element/2/text 200 26 ms - 25
+2018-10-02 11:40:20:151 - info: [HTTP] 
+2018-10-02 11:40:20:159 - info: [HTTP] --> POST /wd/hub/session/f18c28ad-e716-41d7-897f-e8b9c1d7b029/element
+2018-10-02 11:40:20:160 - info: [HTTP] {"using":"id","value":"imgInRow"}
+2018-10-02 11:40:20:160 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","imgInRow","f18c28ad-e716-41d7-897f-e8b9c1d7b029"]
+2018-10-02 11:40:20:163 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-02 11:40:20:164 - info: [debug] [BaseDriver] Waiting up to 20000 ms for condition
+2018-10-02 11:40:20:164 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"imgInRow","context":"","multiple":false}}
+2018-10-02 11:40:20:170 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"imgInRow","context":"","multiple":false}}
+2018-10-02 11:40:20:171 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 11:40:20:172 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 11:40:20:173 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'imgInRow' using 'ID' with the contextId: '' multiple: false
+2018-10-02 11:40:20:174 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/imgInRow]
+2018-10-02 11:40:20:243 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"3"}}
+2018-10-02 11:40:20:244 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 11:40:20:246 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"3"}
+2018-10-02 11:40:20:247 - info: [HTTP] <-- POST /wd/hub/session/f18c28ad-e716-41d7-897f-e8b9c1d7b029/element 200 88 ms - 53
+2018-10-02 11:40:20:247 - info: [HTTP] 
+2018-10-02 11:40:20:252 - info: [HTTP] --> GET /wd/hub/session/f18c28ad-e716-41d7-897f-e8b9c1d7b029/element/3/attribute/content-desc
+2018-10-02 11:40:20:252 - info: [HTTP] {}
+2018-10-02 11:40:20:253 - info: [debug] [W3C] Calling AppiumDriver.getAttribute() with args: ["content-desc","3","f18c28ad-e716-41d7-897f-e8b9c1d7b029"]
+2018-10-02 11:40:20:255 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"content-desc","elementId":"3"}}
+2018-10-02 11:40:20:260 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"content-desc","elementId":"3"}}
+2018-10-02 11:40:20:262 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 11:40:20:263 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getAttribute
+2018-10-02 11:40:20:265 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 11:40:20:265 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 11:40:20:331 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"This element does not have the 'content-desc' attribute"}
+2018-10-02 11:40:20:332 - info: [debug] [W3C] Encountered internal error running command: NoSuchElementError: This element does not have the 'content-desc' attribute
+2018-10-02 11:40:20:332 - info: [debug] [W3C]     at errorFromMJSONWPStatusCode (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:786:12)
+2018-10-02 11:40:20:332 - info: [debug] [W3C]     at Socket.<anonymous> (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\bootstrap.js:139:18)
+2018-10-02 11:40:20:332 - info: [debug] [W3C]     at emitOne (events.js:116:13)
+2018-10-02 11:40:20:332 - info: [debug] [W3C]     at Socket.emit (events.js:211:7)
+2018-10-02 11:40:20:332 - info: [debug] [W3C]     at addChunk (_stream_readable.js:263:12)
+2018-10-02 11:40:20:333 - info: [debug] [W3C]     at readableAddChunk (_stream_readable.js:246:13)
+2018-10-02 11:40:20:333 - info: [debug] [W3C]     at Socket.Readable.push (_stream_readable.js:208:10)
+2018-10-02 11:40:20:333 - info: [debug] [W3C]     at TCP.onread (net.js:601:20)
+2018-10-02 11:40:20:335 - info: [HTTP] <-- GET /wd/hub/session/f18c28ad-e716-41d7-897f-e8b9c1d7b029/element/3/attribute/content-desc 404 82 ms - 786
+2018-10-02 11:40:20:336 - info: [HTTP] 
+2018-10-02 11:40:20:385 - info: [HTTP] --> POST /wd/hub/session/f18c28ad-e716-41d7-897f-e8b9c1d7b029/element
+2018-10-02 11:40:20:386 - info: [HTTP] {"using":"xpath","value":"//*[@id='bbBottomNavItemText'][2]"}
+2018-10-02 11:40:20:386 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["xpath","//*[@id='bbBottomNavItemText'][2]","f18c28ad-e716-41d7-897f-e8b9c1d7b029"]
+2018-10-02 11:40:20:386 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-02 11:40:20:386 - info: [debug] [BaseDriver] Waiting up to 20000 ms for condition
+2018-10-02 11:40:20:387 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:20:390 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:20:392 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 11:40:20:392 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 11:40:20:392 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:20:627 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 11:40:20:637 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:20:685 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 11:40:20:686 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 11:40:20:687 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 11:40:20:688 - info: [debug] [BaseDriver] Waited for 301 ms so far
+2018-10-02 11:40:21:190 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:21:197 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:21:198 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 11:40:21:199 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 11:40:21:199 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:21:263 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 11:40:21:264 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:21:321 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 11:40:21:322 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 11:40:21:323 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 11:40:21:324 - info: [debug] [BaseDriver] Waited for 937 ms so far
+2018-10-02 11:40:21:826 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:21:836 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:21:837 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 11:40:21:837 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 11:40:21:844 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:21:924 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 11:40:21:925 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:22:055 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 11:40:22:055 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 11:40:22:055 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 11:40:22:056 - info: [debug] [BaseDriver] Waited for 1669 ms so far
+2018-10-02 11:40:22:559 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:22:566 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:22:568 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 11:40:22:569 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 11:40:22:570 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:22:656 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 11:40:22:658 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:22:743 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 11:40:22:743 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 11:40:22:744 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 11:40:22:747 - info: [debug] [BaseDriver] Waited for 2359 ms so far
+2018-10-02 11:40:23:249 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:23:258 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:23:262 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 11:40:23:263 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 11:40:23:265 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:23:360 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 11:40:23:362 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:23:433 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 11:40:23:433 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 11:40:23:434 - info: [debug] [BaseDriver] Waited for 3047 ms so far
+2018-10-02 11:40:23:434 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 11:40:23:935 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:23:942 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:23:945 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 11:40:23:947 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 11:40:23:948 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:24:016 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 11:40:24:017 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:24:079 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 11:40:24:079 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 11:40:24:080 - info: [debug] [BaseDriver] Waited for 3693 ms so far
+2018-10-02 11:40:24:080 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 11:40:24:581 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:24:587 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:24:588 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 11:40:24:590 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 11:40:24:590 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:24:676 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 11:40:24:679 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:24:750 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 11:40:24:751 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 11:40:24:751 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 11:40:24:752 - info: [debug] [BaseDriver] Waited for 4365 ms so far
+2018-10-02 11:40:25:254 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:25:263 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:25:265 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 11:40:25:267 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 11:40:25:268 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:25:350 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 11:40:25:352 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:25:413 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 11:40:25:415 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 11:40:25:415 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 11:40:25:415 - info: [debug] [BaseDriver] Waited for 5028 ms so far
+2018-10-02 11:40:25:917 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:25:922 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:25:924 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 11:40:25:925 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 11:40:25:925 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:25:996 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 11:40:25:998 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:26:121 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 11:40:26:122 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 11:40:26:122 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 11:40:26:124 - info: [debug] [BaseDriver] Waited for 5736 ms so far
+2018-10-02 11:40:26:625 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:26:631 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:26:632 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 11:40:26:634 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 11:40:26:635 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:26:691 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 11:40:26:692 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:26:768 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 11:40:26:769 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 11:40:26:771 - info: [debug] [BaseDriver] Waited for 6383 ms so far
+2018-10-02 11:40:26:771 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 11:40:27:272 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:27:281 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:27:284 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 11:40:27:285 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 11:40:27:285 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:27:387 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 11:40:27:389 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:27:448 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 11:40:27:462 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 11:40:27:463 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 11:40:27:464 - info: [debug] [BaseDriver] Waited for 7077 ms so far
+2018-10-02 11:40:27:967 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:27:973 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:27:975 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 11:40:27:977 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 11:40:27:978 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:28:050 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 11:40:28:052 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:28:114 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 11:40:28:116 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 11:40:28:117 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 11:40:28:118 - info: [debug] [BaseDriver] Waited for 7731 ms so far
+2018-10-02 11:40:28:620 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:28:624 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:28:626 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 11:40:28:626 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 11:40:28:627 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:28:681 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 11:40:28:684 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:28:743 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 11:40:28:744 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 11:40:28:745 - info: [debug] [BaseDriver] Waited for 8358 ms so far
+2018-10-02 11:40:28:746 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 11:40:29:246 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:29:252 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:29:255 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 11:40:29:255 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 11:40:29:256 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:29:329 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 11:40:29:330 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:29:386 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 11:40:29:386 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 11:40:29:388 - info: [debug] [BaseDriver] Waited for 9001 ms so far
+2018-10-02 11:40:29:389 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 11:40:29:891 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:29:897 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:29:900 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 11:40:29:901 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 11:40:29:901 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:29:978 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 11:40:29:979 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:30:096 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 11:40:30:098 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 11:40:30:098 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 11:40:30:099 - info: [debug] [BaseDriver] Waited for 9712 ms so far
+2018-10-02 11:40:30:603 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:30:611 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:30:614 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 11:40:30:616 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 11:40:30:617 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:30:681 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 11:40:30:683 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:30:759 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 11:40:30:761 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 11:40:30:761 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 11:40:30:763 - info: [debug] [BaseDriver] Waited for 10376 ms so far
+2018-10-02 11:40:31:264 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:31:285 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:31:285 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 11:40:31:286 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 11:40:31:287 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:31:361 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 11:40:31:363 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:31:418 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 11:40:31:418 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 11:40:31:419 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 11:40:31:420 - info: [debug] [BaseDriver] Waited for 11033 ms so far
+2018-10-02 11:40:31:922 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:31:930 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:31:933 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 11:40:31:935 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 11:40:31:936 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:32:012 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 11:40:32:015 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:32:071 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 11:40:32:073 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 11:40:32:074 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 11:40:32:078 - info: [debug] [BaseDriver] Waited for 11691 ms so far
+2018-10-02 11:40:32:581 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:32:588 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:32:590 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 11:40:32:596 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 11:40:32:597 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:32:658 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 11:40:32:661 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:32:741 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 11:40:32:743 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 11:40:32:744 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 11:40:32:749 - info: [debug] [BaseDriver] Waited for 12361 ms so far
+2018-10-02 11:40:33:251 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:33:256 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:33:256 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 11:40:33:257 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 11:40:33:257 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:33:311 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 11:40:33:312 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:33:375 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 11:40:33:380 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 11:40:33:381 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 11:40:33:383 - info: [debug] [BaseDriver] Waited for 12995 ms so far
+2018-10-02 11:40:33:884 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:33:890 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:33:893 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 11:40:33:895 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 11:40:33:896 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:33:965 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 11:40:33:967 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:34:088 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 11:40:34:090 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 11:40:34:091 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 11:40:34:091 - info: [debug] [BaseDriver] Waited for 13704 ms so far
+2018-10-02 11:40:34:593 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:34:617 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:34:625 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 11:40:34:626 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 11:40:34:626 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:34:660 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 11:40:34:661 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:34:735 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 11:40:34:735 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 11:40:34:736 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 11:40:34:738 - info: [debug] [BaseDriver] Waited for 14350 ms so far
+2018-10-02 11:40:35:239 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:35:249 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:35:251 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 11:40:35:253 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 11:40:35:254 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:35:347 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 11:40:35:350 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:35:401 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 11:40:35:402 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 11:40:35:402 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 11:40:35:403 - info: [debug] [BaseDriver] Waited for 15016 ms so far
+2018-10-02 11:40:35:904 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:35:911 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:35:915 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 11:40:35:916 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 11:40:35:917 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:35:993 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 11:40:35:997 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:36:047 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 11:40:36:049 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 11:40:36:051 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 11:40:36:055 - info: [debug] [BaseDriver] Waited for 15668 ms so far
+2018-10-02 11:40:36:559 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:36:572 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:36:574 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 11:40:36:574 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 11:40:36:576 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:36:641 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 11:40:36:643 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:36:695 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 11:40:36:695 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 11:40:36:696 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 11:40:36:698 - info: [debug] [BaseDriver] Waited for 16310 ms so far
+2018-10-02 11:40:37:199 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:37:206 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:37:208 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 11:40:37:210 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 11:40:37:211 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:37:293 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 11:40:37:295 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:37:350 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 11:40:37:350 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 11:40:37:351 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 11:40:37:352 - info: [debug] [BaseDriver] Waited for 16965 ms so far
+2018-10-02 11:40:37:853 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:37:861 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:37:863 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 11:40:37:865 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 11:40:37:866 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:37:977 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 11:40:37:978 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:38:084 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 11:40:38:085 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 11:40:38:085 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 11:40:38:086 - info: [debug] [BaseDriver] Waited for 17699 ms so far
+2018-10-02 11:40:38:589 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:38:596 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:38:598 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 11:40:38:599 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 11:40:38:600 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:38:659 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 11:40:38:661 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:38:756 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 11:40:38:756 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 11:40:38:756 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 11:40:38:759 - info: [debug] [BaseDriver] Waited for 18372 ms so far
+2018-10-02 11:40:39:261 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:39:279 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:39:280 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 11:40:39:282 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 11:40:39:282 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:39:353 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 11:40:39:354 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:39:403 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 11:40:39:404 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 11:40:39:404 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 11:40:39:406 - info: [debug] [BaseDriver] Waited for 19018 ms so far
+2018-10-02 11:40:39:907 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:39:916 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:39:920 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 11:40:39:922 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 11:40:39:923 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:40:002 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 11:40:40:004 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:40:060 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 11:40:40:061 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 11:40:40:061 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 11:40:40:063 - info: [debug] [BaseDriver] Waited for 19675 ms so far
+2018-10-02 11:40:40:565 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:40:572 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@id='bbBottomNavItemText'][2]","context":"","multiple":false}}
+2018-10-02 11:40:40:574 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 11:40:40:575 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 11:40:40:576 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:40:638 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 11:40:40:639 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@id='bbBottomNavItemText'][2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-02 11:40:40:694 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 11:40:40:694 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 11:40:40:695 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 11:40:40:702 - info: [debug] [W3C] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2018-10-02 11:40:40:703 - info: [debug] [W3C]     at AndroidDriver.callee$0$0$ (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+2018-10-02 11:40:40:703 - info: [debug] [W3C]     at tryCatch (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+2018-10-02 11:40:40:703 - info: [debug] [W3C]     at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+2018-10-02 11:40:40:703 - info: [debug] [W3C]     at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+2018-10-02 11:40:40:703 - info: [debug] [W3C]     at GeneratorFunctionPrototype.invoke (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+2018-10-02 11:40:40:703 - info: [debug] [W3C]     at <anonymous>
+2018-10-02 11:40:40:705 - info: [HTTP] <-- POST /wd/hub/session/f18c28ad-e716-41d7-897f-e8b9c1d7b029/element 404 20319 ms - 1127
+2018-10-02 11:40:40:706 - info: [HTTP] 
+2018-10-02 11:40:40:731 - info: [HTTP] --> GET /wd/hub/status
+2018-10-02 11:40:40:731 - info: [HTTP] {}
+2018-10-02 11:40:40:731 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-10-02 11:40:40:733 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-10-02 11:40:40:733 - info: [HTTP] <-- GET /wd/hub/status 200 2 ms - 151
+2018-10-02 11:40:40:733 - info: [HTTP] 

@@ -1,0 +1,23 @@
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.testng.TestNG;
+import org.testng.xml.XmlSuite;
+
+import com.appium.setup.SetupSession;
+
+public class AutomationDriver {
+
+	public static void main(String[] args) throws ClassNotFoundException, IOException {
+		TestNG testNg = new TestNG();
+		List<String> testcases = new ArrayList<String>();
+		testcases.add("com.appium.tests.Tester.class");
+		
+		testNg.setTestClasses(new Class[] {com.appium.base.BaseTest.class});
+		testNg.setThreadCount(2);
+		testNg.setParallel(XmlSuite.ParallelMode.CLASSES);
+		testNg.setPreserveOrder(true);
+		testNg.run();
+	}
+}

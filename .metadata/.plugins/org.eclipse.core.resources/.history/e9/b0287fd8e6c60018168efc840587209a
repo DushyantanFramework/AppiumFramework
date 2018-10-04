@@ -1,0 +1,278 @@
+2018-09-29 10:10:42:139 - info: [Appium] Welcome to Appium v1.9.1
+2018-09-29 10:10:42:141 - info: [Appium] Non-default server args:
+2018-09-29 10:10:42:141 - info: [Appium]   address: 127.0.0.1
+2018-09-29 10:10:42:141 - info: [Appium]   port: 40853
+2018-09-29 10:10:42:142 - info: [Appium]   sessionOverride: true
+2018-09-29 10:10:42:142 - info: [Appium]   log: C:\Users\sreddy6\Desktop\Framework\AppiumFramework\ZL522255X4_2018_09_29_154031_log.txt
+2018-09-29 10:10:42:142 - info: [Appium]   defaultCapabilities: {
+2018-09-29 10:10:42:142 - info: [Appium]     noReset: true
+2018-09-29 10:10:42:143 - info: [Appium]     udid: ZL522255X4
+2018-09-29 10:10:42:143 - info: [Appium]   }
+2018-09-29 10:10:42:143 - info: [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2018-09-29 10:10:42:143 - info: [Appium]   noReset: true
+2018-09-29 10:10:42:144 - info: [Appium]   udid: ZL522255X4
+2018-09-29 10:10:42:256 - info: [Appium] Appium REST http interface listener started on 127.0.0.1:40853
+2018-09-29 10:10:42:912 - info: [HTTP] --> GET /wd/hub/status
+2018-09-29 10:10:42:913 - info: [HTTP] {}
+2018-09-29 10:10:42:915 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-09-29 10:10:42:917 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1"}}
+2018-09-29 10:10:42:921 - info: [HTTP] <-- GET /wd/hub/status 200 7 ms - 67
+2018-09-29 10:10:42:921 - info: [HTTP] 
+2018-09-29 10:10:44:115 - info: [HTTP] --> POST /wd/hub/session
+2018-09-29 10:10:44:115 - info: [HTTP] {"desiredCapabilities":{"app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","deviceName":"ZL522255X4","platformName":"Android"},"capabilities":{"desiredCapabilities":{"app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","deviceName":"ZL522255X4","platformName":"Android"},"firstMatch":[{"appium:app":"C:\\Users\\sreddy6\\base.apk","appium:appPackage":"com.bigbasket.mobileapp","appium:deviceName":"ZL522255X4","platformName":"android"}]}}
+2018-09-29 10:10:44:116 - info: [debug] [W3C] Calling AppiumDriver.createSession() with args: [{"app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","deviceName":"ZL522255X4","platformName":"Android"},null,{"desiredCapabilities":{"app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","deviceName":"ZL522255X4","platformName":"Android"},"firstMatch":[{"appium:app":"C:\\Users\\sreddy6\\base.apk","appium:appPackage":"com.bigbasket.mobileapp","appium:deviceName":"ZL522255X4","platformName":"android"}]}]
+2018-09-29 10:10:44:117 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1538215844117 (15:40:44 GMT+0530 (India Standard Time))
+2018-09-29 10:10:44:121 - warn: [BaseDriver] The capabilities ["noReset","udid"] are not standard capabilities and should have an extension prefix
+2018-09-29 10:10:44:124 - info: [Appium] Creating new AndroidDriver (v4.1.1) session
+2018-09-29 10:10:44:125 - info: [Appium] Capabilities:
+2018-09-29 10:10:44:125 - info: [Appium]   platformName: android
+2018-09-29 10:10:44:125 - info: [Appium]   noReset: true
+2018-09-29 10:10:44:125 - info: [Appium]   udid: ZL522255X4
+2018-09-29 10:10:44:126 - info: [Appium]   app: C:\Users\sreddy6\base.apk
+2018-09-29 10:10:44:126 - info: [Appium]   appPackage: com.bigbasket.mobileapp
+2018-09-29 10:10:44:126 - info: [Appium]   deviceName: ZL522255X4
+2018-09-29 10:10:44:130 - info: [debug] [BaseDriver] W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"noReset":true,"udid":"ZL5... were provided
+2018-09-29 10:10:44:131 - info: [debug] [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+2018-09-29 10:10:44:136 - info: [BaseDriver] Session created with session id: 83a8c2a1-96b7-4b3e-919b-3f1a4ae6d576
+2018-09-29 10:10:45:440 - info: [AndroidDriver] Java version is: 1.8.0_151
+2018-09-29 10:10:45:444 - info: [ADB] Checking whether adb is present
+2018-09-29 10:10:45:452 - info: [ADB] Found 3 'build-tools' folders under 'C:\Program Files\Android-sdk' (newest first):
+2018-09-29 10:10:45:453 - info: [ADB]     C:/Program Files/Android-sdk/build-tools/28.0.1
+2018-09-29 10:10:45:453 - info: [ADB]     C:/Program Files/Android-sdk/build-tools/28.0.0
+2018-09-29 10:10:45:453 - info: [ADB]     C:/Program Files/Android-sdk/build-tools/27.0.2
+2018-09-29 10:10:45:454 - info: [ADB] Using adb.exe from C:\Program Files\Android-sdk\platform-tools\adb.exe
+2018-09-29 10:10:45:454 - info: [AndroidDriver] Retrieving device list
+2018-09-29 10:10:45:455 - info: [debug] [ADB] Trying to find a connected android device
+2018-09-29 10:10:45:456 - info: [debug] [ADB] Getting connected devices...
+2018-09-29 10:10:46:619 - info: [debug] [ADB] 2 device(s) connected
+2018-09-29 10:10:46:620 - info: [AndroidDriver] Using device: ZL522255X4
+2018-09-29 10:10:46:621 - info: [debug] [ADB] Setting device id to ZL522255X4
+2018-09-29 10:10:46:623 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell getprop ro.build.version.sdk'
+2018-09-29 10:10:47:780 - info: [debug] [ADB] Current device property 'ro.build.version.sdk': 26
+2018-09-29 10:10:47:781 - info: [debug] [ADB] Device API level: 26
+2018-09-29 10:10:47:781 - warn: [AndroidDriver] Consider setting 'automationName' capability to 'uiautomator2' on Android >= 6, since UIAutomator framework is not maintained anymore by the OS vendor.
+2018-09-29 10:10:47:783 - info: [BaseDriver] Using local app 'C:\Users\sreddy6\base.apk'
+2018-09-29 10:10:47:784 - info: [debug] [AndroidDriver] Checking whether app is actually present
+2018-09-29 10:10:47:785 - info: [AndroidDriver] Starting Android session
+2018-09-29 10:10:47:786 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 wait-for-device'
+2018-09-29 10:10:48:921 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell echo ping'
+2018-09-29 10:10:50:065 - info: [debug] [AndroidDriver] Pushing settings apk to device...
+2018-09-29 10:10:50:066 - info: [debug] [ADB] Getting install status for io.appium.settings
+2018-09-29 10:10:50:067 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell pm list packages io.appium.settings'
+2018-09-29 10:10:52:120 - info: [debug] [ADB] App is installed
+2018-09-29 10:10:52:121 - info: [debug] [ADB] Getting package info for 'io.appium.settings'
+2018-09-29 10:10:52:121 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys package io.appium.settings'
+2018-09-29 10:10:53:375 - info: [ADB] Checking whether aapt is present
+2018-09-29 10:10:53:380 - info: [ADB] Using aapt.exe from C:\Program Files\Android-sdk\build-tools\28.0.1\aapt.exe
+2018-09-29 10:10:54:892 - info: [debug] [ADB] The installed 'io.appium.settings' package does not require upgrade ('2.3.0' >= '2.3.0')
+2018-09-29 10:10:54:893 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell ps'
+2018-09-29 10:10:56:204 - info: [debug] [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2018-09-29 10:10:56:205 - info: [debug] [ADB] Device API level: 26
+2018-09-29 10:10:56:206 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell appops set io.appium.settings android\:mock_location allow'
+2018-09-29 10:10:57:401 - warn: [AndroidDriver] setDeviceLanguageCountry requires language or country.
+2018-09-29 10:10:57:402 - warn: [AndroidDriver] Got language: 'null' and country: 'null'
+2018-09-29 10:10:57:403 - info: [debug] [Logcat] Starting logcat capture
+2018-09-29 10:10:58:225 - info: [debug] [AndroidDriver] Pushing unlock helper app to device...
+2018-09-29 10:10:58:225 - info: [debug] [ADB] Getting install status for io.appium.unlock
+2018-09-29 10:10:58:226 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell pm list packages io.appium.unlock'
+2018-09-29 10:11:00:461 - info: [debug] [ADB] App is installed
+2018-09-29 10:11:00:461 - info: [debug] [ADB] Getting package info for 'io.appium.unlock'
+2018-09-29 10:11:00:462 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys package io.appium.unlock'
+2018-09-29 10:11:02:756 - info: [debug] [ADB] The installed 'io.appium.unlock' package does not require upgrade ('2.0.0' >= '2.0.0')
+2018-09-29 10:11:02:756 - info: [ADB] Getting device platform version
+2018-09-29 10:11:02:757 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell getprop ro.build.version.release'
+2018-09-29 10:11:03:929 - info: [debug] [ADB] Current device property 'ro.build.version.release': 8.0.0
+2018-09-29 10:11:03:929 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell wm size'
+2018-09-29 10:11:05:953 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell getprop ro.product.model'
+2018-09-29 10:11:07:116 - info: [debug] [ADB] Current device property 'ro.product.model': moto g(6) play
+2018-09-29 10:11:07:117 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell getprop ro.product.manufacturer'
+2018-09-29 10:11:08:285 - info: [debug] [ADB] Current device property 'ro.product.manufacturer': motorola
+2018-09-29 10:11:08:286 - info: [debug] [AndroidDriver] Parsing package and activity from app manifest
+2018-09-29 10:11:08:292 - info: [ADB] Using the alternative activity name detection method because of: Could not find apkanalyzer.bat in C:\Program Files\Android-sdk\platform-tools\apkanalyzer.bat,C:\Program Files\Android-sdk\emulator\apkanalyzer.bat,C:\Program Files\Android-sdk\tools\apkanalyzer.bat,C:\Program Files\Android-sdk\tools\bin\apkanalyzer.bat,C:\Program Files\Android-sdk\build-tools\28.0.1\apkanalyzer.bat,C:\Program Files\Android-sdk\build-tools\28.0.0\apkanalyzer.bat,C:\Program Files\Android-sdk\build-tools\27.0.2\apkanalyzer.bat. Do you have the Android SDK installed at 'C:\Program Files\Android-sdk'?
+2018-09-29 10:11:08:293 - info: [ADB] Extracting package and launch activity from manifest
+2018-09-29 10:11:09:365 - info: [ADB] Package name: 'com.bigbasket.mobileapp'
+2018-09-29 10:11:09:365 - info: [ADB] Main activity name: 'com.bigbasket.mobileapp.activity.SplashActivity'
+2018-09-29 10:11:09:366 - info: [debug] [AndroidDriver] Parsed package and activity are: com.bigbasket.mobileapp/com.bigbasket.mobileapp.activity.SplashActivity
+2018-09-29 10:11:09:367 - info: [debug] [ADB] Getting install status for com.bigbasket.mobileapp
+2018-09-29 10:11:09:367 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell pm list packages com.bigbasket.mobileapp'
+2018-09-29 10:11:11:418 - info: [debug] [ADB] App is installed
+2018-09-29 10:11:11:419 - info: [debug] [ADB] Getting package info for 'com.bigbasket.mobileapp'
+2018-09-29 10:11:11:419 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys package com.bigbasket.mobileapp'
+2018-09-29 10:11:13:849 - info: [debug] [ADB] The installed 'com.bigbasket.mobileapp' package does not require upgrade ('4.7.0' >= '4.7.0')
+2018-09-29 10:11:13:850 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell rm -rf /data/local/tmp/strings.json'
+2018-09-29 10:11:15:032 - info: [debug] [AndroidDriver] Extracting strings from apk
+2018-09-29 10:11:15:033 - info: [debug] [AndroidDriver] C:\Users\sreddy6\base.apk
+2018-09-29 10:11:15:033 - info: [debug] [AndroidDriver] null
+2018-09-29 10:11:15:033 - info: [debug] [AndroidDriver] C:\Users\sreddy6\AppData\Local\Temp\com.bigbasket.mobileapp
+2018-09-29 10:11:15:034 - info: [debug] [ADB] Extracting strings for language: default
+2018-09-29 10:11:16:483 - info: [ADB] Successfully extracted 1422 strings from 'C:\Users\sreddy6\base.apk' resources for '(default)' configuration
+2018-09-29 10:11:16:517 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 push C\:\\Users\\sreddy6\\AppData\\Local\\Temp\\com.bigbasket.mobileapp\\strings.json /data/local/tmp'
+2018-09-29 10:11:17:677 - info: [debug] [AndroidBootstrap] Watching for bootstrap disconnect
+2018-09-29 10:11:17:678 - info: [debug] [ADB] Forwarding system: 4724 to device: 4724
+2018-09-29 10:11:17:679 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 forward tcp\:4724 tcp\:4724'
+2018-09-29 10:11:18:827 - info: [debug] [UiAutomator] Starting UiAutomator
+2018-09-29 10:11:18:827 - info: [debug] [UiAutomator] Moving to state 'starting'
+2018-09-29 10:11:18:827 - info: [debug] [UiAutomator] Parsing uiautomator jar
+2018-09-29 10:11:18:828 - info: [debug] [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2018-09-29 10:11:18:828 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 push C\:\\Users\\sreddy6\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-android-driver\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+2018-09-29 10:11:19:990 - info: [debug] [ADB] Attempting to kill all uiautomator processes
+2018-09-29 10:11:19:990 - info: [debug] [ADB] Getting all processes with uiautomator
+2018-09-29 10:11:19:991 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell ps'
+2018-09-29 10:11:21:303 - info: [ADB] No uiautomator process found to kill, continuing...
+2018-09-29 10:11:21:303 - info: [debug] [UiAutomator] Starting UIAutomator
+2018-09-29 10:11:21:303 - info: [debug] [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","ZL522255X4","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.bigbasket.mobileapp","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+2018-09-29 10:11:23:054 - info: [debug] [UiAutomator] Moving to state 'online'
+2018-09-29 10:11:23:056 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Loading json...
+2018-09-29 10:11:23:058 - info: [AndroidBootstrap] Android bootstrap socket is now connected
+2018-09-29 10:11:23:059 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window'
+2018-09-29 10:11:23:703 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+2018-09-29 10:11:23:703 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2018-09-29 10:11:23:704 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2018-09-29 10:11:24:279 - info: [AndroidDriver] Screen already unlocked, doing nothing
+2018-09-29 10:11:24:280 - info: [debug] [ADB] Device API level: 26
+2018-09-29 10:11:24:281 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell am start -W -n com.bigbasket.mobileapp/com.bigbasket.mobileapp.activity.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2018-09-29 10:11:26:651 - info: [debug] [ADB] Waiting up to 20000ms for activity matching pkg: 'com.bigbasket.mobileapp' and activity: 'com.bigbasket.mobileapp.activity.SplashActivity' to be focused
+2018-09-29 10:11:26:652 - info: [debug] [ADB] Possible activities, to be checked: 'com.bigbasket.mobileapp.activity.SplashActivity', 'com.bigbasket.mobileapp.com.bigbasket.mobileapp.activity.SplashActivity'
+2018-09-29 10:11:26:653 - info: [debug] [ADB] Getting focused package and activity
+2018-09-29 10:11:26:653 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-29 10:11:27:864 - info: [debug] [ADB] Found package: 'com.bigbasket.mobileapp' and fully qualified activity name : 'com.bigbasket.mobileapp.activity.HomeActivity'
+2018-09-29 10:11:27:865 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-29 10:11:28:616 - info: [debug] [ADB] Getting focused package and activity
+2018-09-29 10:11:28:617 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-29 10:11:29:845 - info: [debug] [ADB] Found package: 'com.bigbasket.mobileapp' and fully qualified activity name : 'com.bigbasket.mobileapp.activity.HomeActivity'
+2018-09-29 10:11:29:846 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-29 10:11:30:597 - info: [debug] [ADB] Getting focused package and activity
+2018-09-29 10:11:30:598 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-29 10:11:31:771 - info: [debug] [ADB] Found package: 'com.bigbasket.mobileapp' and fully qualified activity name : 'com.bigbasket.mobileapp.activity.HomeActivity'
+2018-09-29 10:11:31:772 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-29 10:11:32:522 - info: [debug] [ADB] Getting focused package and activity
+2018-09-29 10:11:32:523 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-29 10:11:33:700 - info: [debug] [ADB] Found package: 'com.bigbasket.mobileapp' and fully qualified activity name : 'com.bigbasket.mobileapp.activity.HomeActivity'
+2018-09-29 10:11:33:701 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-29 10:11:34:451 - info: [debug] [ADB] Getting focused package and activity
+2018-09-29 10:11:34:451 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-29 10:11:35:661 - info: [debug] [ADB] Found package: 'com.bigbasket.mobileapp' and fully qualified activity name : 'com.bigbasket.mobileapp.activity.HomeActivity'
+2018-09-29 10:11:35:661 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-29 10:11:36:412 - info: [debug] [ADB] Getting focused package and activity
+2018-09-29 10:11:36:412 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-29 10:11:37:585 - info: [debug] [ADB] Found package: 'com.bigbasket.mobileapp' and fully qualified activity name : 'com.bigbasket.mobileapp.activity.HomeActivity'
+2018-09-29 10:11:37:586 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-29 10:11:38:336 - info: [debug] [ADB] Getting focused package and activity
+2018-09-29 10:11:38:337 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-29 10:11:39:509 - info: [debug] [ADB] Found package: 'com.bigbasket.mobileapp' and fully qualified activity name : 'com.bigbasket.mobileapp.activity.HomeActivity'
+2018-09-29 10:11:39:509 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-29 10:11:40:261 - info: [debug] [ADB] Getting focused package and activity
+2018-09-29 10:11:40:261 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-29 10:11:41:455 - info: [debug] [ADB] Found package: 'com.bigbasket.mobileapp' and fully qualified activity name : 'com.bigbasket.mobileapp.activity.HomeActivity'
+2018-09-29 10:11:41:455 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-29 10:11:42:207 - info: [debug] [ADB] Getting focused package and activity
+2018-09-29 10:11:42:207 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-29 10:11:43:385 - info: [debug] [ADB] Found package: 'com.bigbasket.mobileapp' and fully qualified activity name : 'com.bigbasket.mobileapp.activity.HomeActivity'
+2018-09-29 10:11:43:386 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-29 10:11:44:137 - info: [debug] [ADB] Getting focused package and activity
+2018-09-29 10:11:44:138 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-29 10:11:45:333 - info: [debug] [ADB] Found package: 'com.bigbasket.mobileapp' and fully qualified activity name : 'com.bigbasket.mobileapp.activity.HomeActivity'
+2018-09-29 10:11:45:333 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-29 10:11:46:083 - info: [debug] [ADB] Getting focused package and activity
+2018-09-29 10:11:46:084 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-29 10:11:47:295 - info: [debug] [ADB] Found package: 'com.bigbasket.mobileapp' and fully qualified activity name : 'com.bigbasket.mobileapp.activity.HomeActivity'
+2018-09-29 10:11:47:296 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-29 10:11:48:046 - info: [debug] [ADB] Getting focused package and activity
+2018-09-29 10:11:48:046 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-29 10:11:49:232 - info: [debug] [ADB] Found package: 'com.bigbasket.mobileapp' and fully qualified activity name : 'com.bigbasket.mobileapp.activity.HomeActivity'
+2018-09-29 10:11:49:233 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-29 10:11:49:984 - info: [debug] [ADB] Getting focused package and activity
+2018-09-29 10:11:49:984 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-29 10:11:51:152 - info: [debug] [ADB] Found package: 'com.bigbasket.mobileapp' and fully qualified activity name : 'com.bigbasket.mobileapp.activity.HomeActivity'
+2018-09-29 10:11:51:153 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-29 10:11:51:904 - info: [debug] [ADB] Getting focused package and activity
+2018-09-29 10:11:51:905 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-29 10:11:53:106 - info: [debug] [ADB] Found package: 'com.bigbasket.mobileapp' and fully qualified activity name : 'com.bigbasket.mobileapp.activity.HomeActivity'
+2018-09-29 10:11:53:106 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-29 10:11:53:857 - info: [debug] [ADB] Getting focused package and activity
+2018-09-29 10:11:53:858 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-29 10:11:55:033 - info: [debug] [ADB] Found package: 'com.bigbasket.mobileapp' and fully qualified activity name : 'com.bigbasket.mobileapp.activity.HomeActivity'
+2018-09-29 10:11:55:034 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-29 10:11:55:785 - info: [debug] [ADB] Getting focused package and activity
+2018-09-29 10:11:55:786 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-29 10:11:57:068 - info: [debug] [ADB] Found package: 'com.bigbasket.mobileapp' and fully qualified activity name : 'com.bigbasket.mobileapp.activity.HomeActivity'
+2018-09-29 10:11:57:068 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-29 10:11:57:819 - info: [debug] [ADB] Getting focused package and activity
+2018-09-29 10:11:57:820 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-29 10:11:59:213 - info: [debug] [ADB] Found package: 'com.bigbasket.mobileapp' and fully qualified activity name : 'com.bigbasket.mobileapp.activity.HomeActivity'
+2018-09-29 10:11:59:213 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-29 10:11:59:964 - info: [debug] [ADB] Getting focused package and activity
+2018-09-29 10:11:59:964 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-29 10:12:01:242 - info: [debug] [ADB] Found package: 'com.bigbasket.mobileapp' and fully qualified activity name : 'com.bigbasket.mobileapp.activity.HomeActivity'
+2018-09-29 10:12:01:243 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-29 10:12:01:994 - info: [debug] [ADB] Getting focused package and activity
+2018-09-29 10:12:01:994 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-29 10:12:03:336 - info: [debug] [ADB] Found package: 'com.bigbasket.mobileapp' and fully qualified activity name : 'com.bigbasket.mobileapp.activity.HomeActivity'
+2018-09-29 10:12:03:337 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-29 10:12:04:087 - info: [debug] [ADB] Getting focused package and activity
+2018-09-29 10:12:04:087 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-29 10:12:05:292 - info: [debug] [ADB] Found package: 'com.bigbasket.mobileapp' and fully qualified activity name : 'com.bigbasket.mobileapp.activity.HomeActivity'
+2018-09-29 10:12:05:292 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-29 10:12:06:043 - info: [debug] [ADB] Getting focused package and activity
+2018-09-29 10:12:06:043 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-29 10:12:07:244 - info: [debug] [ADB] Found package: 'com.bigbasket.mobileapp' and fully qualified activity name : 'com.bigbasket.mobileapp.activity.HomeActivity'
+2018-09-29 10:12:07:244 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-29 10:12:07:995 - info: [debug] [ADB] Getting focused package and activity
+2018-09-29 10:12:07:995 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-29 10:12:09:203 - info: [debug] [ADB] Found package: 'com.bigbasket.mobileapp' and fully qualified activity name : 'com.bigbasket.mobileapp.activity.HomeActivity'
+2018-09-29 10:12:09:203 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-29 10:12:09:955 - info: [debug] [ADB] Getting focused package and activity
+2018-09-29 10:12:09:955 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-29 10:12:11:173 - info: [debug] [ADB] Found package: 'com.bigbasket.mobileapp' and fully qualified activity name : 'com.bigbasket.mobileapp.activity.HomeActivity'
+2018-09-29 10:12:11:173 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-29 10:12:11:924 - info: [debug] [ADB] Getting focused package and activity
+2018-09-29 10:12:11:925 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-29 10:12:13:176 - info: [debug] [ADB] Found package: 'com.bigbasket.mobileapp' and fully qualified activity name : 'com.bigbasket.mobileapp.activity.HomeActivity'
+2018-09-29 10:12:13:176 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-29 10:12:13:926 - info: [debug] [ADB] Getting focused package and activity
+2018-09-29 10:12:13:926 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-29 10:12:15:127 - info: [debug] [ADB] Found package: 'com.bigbasket.mobileapp' and fully qualified activity name : 'com.bigbasket.mobileapp.activity.HomeActivity'
+2018-09-29 10:12:15:128 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-29 10:12:15:879 - info: [debug] [ADB] Getting focused package and activity
+2018-09-29 10:12:15:880 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-29 10:12:17:088 - info: [debug] [ADB] Found package: 'com.bigbasket.mobileapp' and fully qualified activity name : 'com.bigbasket.mobileapp.activity.HomeActivity'
+2018-09-29 10:12:17:088 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-29 10:12:17:089 - info: [debug] [AndroidDriver] Shutting down Android driver
+2018-09-29 10:12:17:091 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell am force-stop com.bigbasket.mobileapp'
+2018-09-29 10:12:18:356 - info: [debug] [ADB] Pressing the HOME button
+2018-09-29 10:12:18:356 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell input keyevent 3'
+2018-09-29 10:12:20:426 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"shutdown"}
+2018-09-29 10:12:20:429 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+2018-09-29 10:12:20:430 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+2018-09-29 10:12:20:431 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+2018-09-29 10:12:20:432 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-09-29 10:12:20:433 - info: [debug] [UiAutomator] Shutting down UiAutomator
+2018-09-29 10:12:20:433 - info: [debug] [UiAutomator] Moving to state 'stopping'
+2018-09-29 10:12:20:435 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Closed client connection
+2018-09-29 10:12:20:435 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: numtests=1
+2018-09-29 10:12:20:436 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=.
+2018-09-29 10:12:20:436 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+2018-09-29 10:12:20:436 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
+2018-09-29 10:12:20:436 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
+2018-09-29 10:12:20:437 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: current=1
+2018-09-29 10:12:20:437 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: 0
+2018-09-29 10:12:20:446 - info: [debug] [UiAutomator] UiAutomator shut down normally
+2018-09-29 10:12:20:446 - info: [debug] [UiAutomator] Moving to state 'stopped'
+2018-09-29 10:12:20:447 - info: [debug] [ADB] Attempting to kill all uiautomator processes
+2018-09-29 10:12:20:447 - info: [debug] [ADB] Getting all processes with uiautomator
+2018-09-29 10:12:20:447 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell ps'
+2018-09-29 10:12:21:773 - info: [ADB] No uiautomator process found to kill, continuing...
+2018-09-29 10:12:21:774 - info: [debug] [UiAutomator] Moving to state 'stopped'
+2018-09-29 10:12:21:774 - info: [debug] [Logcat] Stopping logcat capture
+2018-09-29 10:12:21:785 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell am force-stop io.appium.unlock'
+2018-09-29 10:12:22:983 - info: [debug] [AndroidDriver] Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
+2018-09-29 10:12:22:984 - info: [debug] [BaseDriver] Event 'newSessionStarted' logged at 1538215942984 (15:42:22 GMT+0530 (India Standard Time))
+2018-09-29 10:12:23:010 - info: [debug] [W3C] Encountered internal error running command: Error: Cannot start the 'com.bigbasket.mobileapp' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.bigbasket.mobileapp.activity.SplashActivity' or 'com.bigbasket.mobileapp.com.bigbasket.mobileapp.activity.SplashActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting
+2018-09-29 10:12:23:011 - info: [debug] [W3C]     at ADB.callee$0$0$ (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\apk-utils.js:134:11)
+2018-09-29 10:12:23:011 - info: [debug] [W3C]     at tryCatch (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+2018-09-29 10:12:23:011 - info: [debug] [W3C]     at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+2018-09-29 10:12:23:011 - info: [debug] [W3C]     at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+2018-09-29 10:12:23:011 - info: [debug] [W3C]     at GeneratorFunctionPrototype.invoke (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+2018-09-29 10:12:23:012 - info: [debug] [W3C]     at <anonymous>
+2018-09-29 10:12:23:072 - info: [HTTP] <-- POST /wd/hub/session 500 98954 ms - 2231
+2018-09-29 10:12:23:072 - info: [HTTP] 

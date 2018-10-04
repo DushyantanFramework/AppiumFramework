@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Command line suite]" parallel="classes">
+  <test thread-count="1" name="Command line test(failed)" parallel="classes">
+    <classes>
+      <class name="com.appium.tests.Tester">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="testSearch"/>
+          <include name="AfterClass"/>
+        </methods>
+      </class> <!-- com.appium.tests.Tester -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

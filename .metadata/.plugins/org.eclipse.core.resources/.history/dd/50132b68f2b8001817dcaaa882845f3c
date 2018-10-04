@@ -1,0 +1,50 @@
+package com.test.dush;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeClass;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.CommandExecutor;
+import org.testng.annotations.AfterClass;
+
+public class NewTest {
+	public WebDriver driver;
+	
+	  @Test
+	  public void openMyBlog() {
+		driver.get("https://www.softwaretestingmaterial.com/");
+	  }
+	  
+	  @BeforeClass
+	  public void beforeClass() throws IOException {
+		  String projectLocation = System.getProperty("user.dir");
+		  System.out.println(projectLocation);
+//		  Process result = Runtime.getRuntime().exec("java -jar "+projectLocation+"\\libs\\selenium-server-standalone-3.9.1.jar -role hub");
+//		  String ipAddress ="";
+//			 String port="" ;
+//		 BufferedReader reader = new BufferedReader(
+//					new InputStreamReader(result.getInputStream()));
+//		 String line;
+//		    while ((line = reader.readLine()) != null) {
+//		        if(line.contains("client should connect to")) {
+//		        	ipAddress = line.split("http://")[1].split(":")[0];
+//		        	port = line.split("http://")[1].split(":")[1].split("/")[0];
+//		        }
+//		    }
+//		    System.out.println("ip : "+ipAddress );
+//		    System.out.println("ip : "+port );
+//		  System.setProperty("webdriver.chrome.driver", "C:\\Users\\sreddy6\\Desktop\\Framework\\TestJenkins\\resources\\chromedriver.exe");
+		  driver = new ChromeDriver();
+		  
+	  }
+
+	  @AfterClass
+	  public void afterClass() {
+		  driver.quit();
+	  }
+}

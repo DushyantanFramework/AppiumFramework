@@ -1,0 +1,73 @@
+2018-09-29 10:07:35:771 - info: [Appium] Welcome to Appium v1.9.1
+2018-09-29 10:07:35:772 - info: [Appium] Non-default server args:
+2018-09-29 10:07:35:773 - info: [Appium]   address: 127.0.0.1
+2018-09-29 10:07:35:773 - info: [Appium]   port: 43648
+2018-09-29 10:07:35:773 - info: [Appium]   sessionOverride: true
+2018-09-29 10:07:35:774 - info: [Appium]   log: C:\Users\sreddy6\Desktop\Framework\AppiumFramework\47b608f8_2018_09_29_153725_log.txt
+2018-09-29 10:07:35:774 - info: [Appium]   defaultCapabilities: {
+2018-09-29 10:07:35:774 - info: [Appium]     noReset: true
+2018-09-29 10:07:35:774 - info: [Appium]     udid: 47b608f8
+2018-09-29 10:07:35:774 - info: [Appium]   }
+2018-09-29 10:07:35:775 - info: [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2018-09-29 10:07:35:775 - info: [Appium]   noReset: true
+2018-09-29 10:07:35:775 - info: [Appium]   udid: 47b608f8
+2018-09-29 10:07:35:902 - info: [Appium] Appium REST http interface listener started on 127.0.0.1:43648
+2018-09-29 10:07:36:628 - info: [HTTP] --> GET /wd/hub/status
+2018-09-29 10:07:36:629 - info: [HTTP] {}
+2018-09-29 10:07:36:631 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-09-29 10:07:36:633 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1"}}
+2018-09-29 10:07:36:637 - info: [HTTP] <-- GET /wd/hub/status 200 7 ms - 67
+2018-09-29 10:07:36:637 - info: [HTTP] 
+2018-09-29 10:07:37:874 - info: [HTTP] --> POST /wd/hub/session
+2018-09-29 10:07:37:875 - info: [HTTP] {"desiredCapabilities":{"app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","deviceName":"47b608f8","fullReset":true,"platformName":"Android"},"capabilities":{"desiredCapabilities":{"app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","deviceName":"47b608f8","fullReset":true,"platformName":"Android"},"firstMatch":[{"appium:app":"C:\\Users\\sreddy6\\base.apk","appium:appPackage":"com.bigbasket.mobileapp","appium:deviceName":"47b608f8","appium:fullReset":true,"platformName":"android"}]}}
+2018-09-29 10:07:37:875 - info: [debug] [W3C] Calling AppiumDriver.createSession() with args: [{"app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","deviceName":"47b608f8","fullReset":true,"platformName":"Android"},null,{"desiredCapabilities":{"app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","deviceName":"47b608f8","fullReset":true,"platformName":"Android"},"firstMatch":[{"appium:app":"C:\\Users\\sreddy6\\base.apk","appium:appPackage":"com.bigbasket.mobileapp","appium:deviceName":"47b608f8","appium:fullReset":true,"platformName":"android"}]}]
+2018-09-29 10:07:37:876 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1538215657876 (15:37:37 GMT+0530 (India Standard Time))
+2018-09-29 10:07:37:880 - warn: [BaseDriver] The capabilities ["noReset","udid"] are not standard capabilities and should have an extension prefix
+2018-09-29 10:07:37:884 - info: [Appium] Creating new AndroidDriver (v4.1.1) session
+2018-09-29 10:07:37:884 - info: [Appium] Capabilities:
+2018-09-29 10:07:37:884 - info: [Appium]   platformName: android
+2018-09-29 10:07:37:885 - info: [Appium]   noReset: true
+2018-09-29 10:07:37:885 - info: [Appium]   udid: 47b608f8
+2018-09-29 10:07:37:885 - info: [Appium]   app: C:\Users\sreddy6\base.apk
+2018-09-29 10:07:37:885 - info: [Appium]   appPackage: com.bigbasket.mobileapp
+2018-09-29 10:07:37:885 - info: [Appium]   deviceName: 47b608f8
+2018-09-29 10:07:37:885 - info: [Appium]   fullReset: true
+2018-09-29 10:07:37:889 - info: [debug] [BaseDriver] W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"noReset":true,"udid":"47b... were provided
+2018-09-29 10:07:37:889 - info: [debug] [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+2018-09-29 10:07:37:896 - info: [debug] [AndroidDriver] Shutting down Android driver
+2018-09-29 10:07:37:897 - info: [debug] [AndroidDriver] Called deleteSession but bootstrap wasn't active
+2018-09-29 10:07:37:897 - info: [debug] [BaseDriver] Event 'newSessionStarted' logged at 1538215657897 (15:37:37 GMT+0530 (India Standard Time))
+2018-09-29 10:07:37:958 - info: [debug] [W3C] Encountered internal error running command: Error: The 'noReset' and 'fullReset' capabilities are mutually exclusive and should not both be set to true. You probably meant to just use 'fullReset' on its own
+2018-09-29 10:07:37:959 - info: [debug] [W3C]     at AndroidDriver.callee$0$0$ (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\session.js:58:11)
+2018-09-29 10:07:37:959 - info: [debug] [W3C]     at tryCatch (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+2018-09-29 10:07:37:959 - info: [debug] [W3C]     at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+2018-09-29 10:07:37:959 - info: [debug] [W3C]     at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+2018-09-29 10:07:37:959 - info: [debug] [W3C]     at invoke (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+2018-09-29 10:07:37:959 - info: [debug] [W3C]     at enqueueResult (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:185:17)
+2018-09-29 10:07:37:960 - info: [debug] [W3C]     at new Promise (<anonymous>)
+2018-09-29 10:07:37:960 - info: [debug] [W3C]     at new F (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\core-js\library\modules\$.export.js:30:36)
+2018-09-29 10:07:37:960 - info: [debug] [W3C]     at AsyncIterator.enqueue (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:184:12)
+2018-09-29 10:07:37:961 - info: [debug] [W3C]     at AsyncIterator.prototype.(anonymous function) [as next] (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+2018-09-29 10:07:37:961 - info: [debug] [W3C]     at Object.runtime.async (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:209:12)
+2018-09-29 10:07:37:962 - info: [debug] [W3C]     at AndroidDriver.callee$0$0 [as createSession] (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\build\lib\basedriver\commands\session.js:35:30)
+2018-09-29 10:07:37:962 - info: [debug] [W3C]     at AndroidDriver.createSession$ (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\driver.js:29:20)
+2018-09-29 10:07:37:963 - info: [debug] [W3C]     at tryCatch (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+2018-09-29 10:07:37:964 - info: [debug] [W3C]     at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+2018-09-29 10:07:37:964 - info: [debug] [W3C]     at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+2018-09-29 10:07:37:965 - info: [debug] [W3C]     at invoke (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+2018-09-29 10:07:37:967 - info: [debug] [W3C]     at enqueueResult (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:185:17)
+2018-09-29 10:07:37:968 - info: [debug] [W3C]     at new Promise (<anonymous>)
+2018-09-29 10:07:37:968 - info: [debug] [W3C]     at new F (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\core-js\library\modules\$.export.js:30:36)
+2018-09-29 10:07:37:970 - info: [debug] [W3C]     at AsyncIterator.enqueue (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:184:12)
+2018-09-29 10:07:37:971 - info: [debug] [W3C]     at AsyncIterator.prototype.(anonymous function) [as next] (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+2018-09-29 10:07:37:971 - info: [debug] [W3C]     at Object.runtime.async (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:209:12)
+2018-09-29 10:07:37:972 - info: [debug] [W3C]     at AndroidDriver.createSession (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\build\lib\driver.js:140:34)
+2018-09-29 10:07:37:972 - info: [debug] [W3C]     at AppiumDriver.callee$2$0$ (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\lib\appium.js:291:43)
+2018-09-29 10:07:37:973 - info: [debug] [W3C]     at tryCatch (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+2018-09-29 10:07:37:973 - info: [debug] [W3C]     at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+2018-09-29 10:07:37:973 - info: [debug] [W3C]     at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+2018-09-29 10:07:37:974 - info: [debug] [W3C]     at GeneratorFunctionPrototype.invoke (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+2018-09-29 10:07:37:974 - info: [debug] [W3C]     at <anonymous>
+2018-09-29 10:07:37:974 - info: [debug] [W3C]     at process._tickCallback (internal/process/next_tick.js:189:7)
+2018-09-29 10:07:37:991 - info: [HTTP] <-- POST /wd/hub/session 500 116 ms - 1661
+2018-09-29 10:07:37:991 - info: [HTTP] 

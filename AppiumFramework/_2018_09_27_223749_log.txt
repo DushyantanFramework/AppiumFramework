@@ -1,0 +1,114 @@
+2018-09-27 17:08:03:899 - info: [Appium] Welcome to Appium v1.9.1
+2018-09-27 17:08:03:901 - info: [Appium] Non-default server args:
+2018-09-27 17:08:03:902 - info: [Appium]   address: 127.0.0.1
+2018-09-27 17:08:03:902 - info: [Appium]   port: 8234
+2018-09-27 17:08:03:902 - info: [Appium]   sessionOverride: true
+2018-09-27 17:08:03:902 - info: [Appium]   log: C:\Users\sreddy6\Desktop\Framework\AppiumFramework\_2018_09_27_223749_log.txt
+2018-09-27 17:08:03:902 - info: [Appium]   defaultCapabilities: {
+2018-09-27 17:08:03:902 - info: [Appium]     app: C:/Users/sreddy6/MMS/MMS_builds/McafeeMobileSecuirty_Android_5.0_LD_bld_1597/release/mms-5.0.2.1597-production-release.apk
+2018-09-27 17:08:03:903 - info: [Appium]     appPackage: com.wsandroid.suite
+2018-09-27 17:08:03:903 - info: [Appium]     appWaitActivity: com.mcafee.activation.WelcomeActivity
+2018-09-27 17:08:03:903 - info: [Appium]     deviceName: 
+2018-09-27 17:08:03:903 - info: [Appium]   }
+2018-09-27 17:08:03:903 - info: [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2018-09-27 17:08:03:904 - info: [Appium]   app: C:/Users/sreddy6/MMS/MMS_builds/McafeeMobileSecuirty_Android_5.0_LD_bld_1597/release/mms-5.0.2.1597-production-release.apk
+2018-09-27 17:08:03:904 - info: [Appium]   appPackage: com.wsandroid.suite
+2018-09-27 17:08:03:904 - info: [Appium]   appWaitActivity: com.mcafee.activation.WelcomeActivity
+2018-09-27 17:08:03:904 - info: [Appium]   deviceName: 
+2018-09-27 17:08:04:028 - info: [Appium] Appium REST http interface listener started on 127.0.0.1:8234
+2018-09-27 17:08:04:545 - info: [HTTP] --> GET /wd/hub/status
+2018-09-27 17:08:04:545 - info: [HTTP] {}
+2018-09-27 17:08:04:549 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-09-27 17:08:04:552 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1"}}
+2018-09-27 17:08:04:558 - info: [HTTP] <-- GET /wd/hub/status 200 11 ms - 67
+2018-09-27 17:08:04:558 - info: [HTTP] 
+2018-09-27 17:08:07:747 - info: [HTTP] --> POST /wd/hub/session
+2018-09-27 17:08:07:747 - info: [HTTP] {"desiredCapabilities":{"app":"C:\\Users\\sreddy6\\MMS\\MMS_builds\\McafeeMobileSecuirty_Android_5.0_LD_bld_1597\\release\\mms-5.0.2.1597-production-release.apk","appPackage":"com.wsandroid.suite","appWaitActivity":"com.mcafee.activation.WelcomeActivity","deviceName":"","platformName":"Android"},"capabilities":{"desiredCapabilities":{"app":"C:\\Users\\sreddy6\\MMS\\MMS_builds\\McafeeMobileSecuirty_Android_5.0_LD_bld_1597\\release\\mms-5.0.2.1597-production-release.apk","appPackage":"com.wsandroid.suite","appWaitActivity":"com.mcafee.activation.WelcomeActivity","deviceName":"","platformName":"Android"},"firstMatch":[{"platformName":"android"}]}}
+2018-09-27 17:08:07:747 - info: [debug] [W3C] Calling AppiumDriver.createSession() with args: [{"app":"C:\\Users\\sreddy6\\MMS\\MMS_builds\\McafeeMobileSecuirty_Android_5.0_LD_bld_1597\\release\\mms-5.0.2.1597-production-release.apk","appPackage":"com.wsandroid.suite","appWaitActivity":"com.mcafee.activation.WelcomeActivity","deviceName":"","platformName":"Android"},null,{"desiredCapabilities":{"app":"C:\\Users\\sreddy6\\MMS\\MMS_builds\\McafeeMobileSecuirty_Android_5.0_LD_bld_1597\\release\\mms-5.0.2.1597-production-release.apk","appPackage":"com.wsandroid.suite","appWaitActivity":"com.mcafee.activation.WelcomeActivity","deviceName":"","platformName":"Android"},"firstMatch":[{"platformName":"android"}]}]
+2018-09-27 17:08:07:749 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1538068087748 (22:38:07 GMT+0530 (India Standard Time))
+2018-09-27 17:08:07:755 - warn: [BaseDriver] The capabilities ["app","appPackage","appWaitActivity","deviceName"] are not standard capabilities and should have an extension prefix
+2018-09-27 17:08:07:760 - info: [Appium] Could not parse W3C capabilities: 'deviceName' can't be blank
+2018-09-27 17:08:07:760 - info: [Appium] Trying to fix W3C capabilities by merging them with JSONWP caps
+2018-09-27 17:08:07:762 - warn: [BaseDriver] The capabilities ["app","appPackage","appWaitActivity","deviceName"] are not standard capabilities and should have an extension prefix
+2018-09-27 17:08:07:763 - warn: [Appium] Could not parse fixed W3C capabilities: 'deviceName' can't be blank. Falling back to JSONWP protocol
+2018-09-27 17:08:07:764 - info: [Appium] Creating new AndroidDriver (v4.1.1) session
+2018-09-27 17:08:07:764 - info: [Appium] Capabilities:
+2018-09-27 17:08:07:765 - info: [Appium]   app: C:\Users\sreddy6\MMS\MMS_builds\McafeeMobileSecuirty_Android_5.0_LD_bld_1597\release\mms-5.0.2.1597-production-release.apk
+2018-09-27 17:08:07:765 - info: [Appium]   appPackage: com.wsandroid.suite
+2018-09-27 17:08:07:765 - info: [Appium]   appWaitActivity: com.mcafee.activation.WelcomeActivity
+2018-09-27 17:08:07:765 - info: [Appium]   deviceName: 
+2018-09-27 17:08:07:765 - info: [Appium]   platformName: Android
+2018-09-27 17:08:07:772 - info: [debug] [BaseDriver] Creating session with MJSONWP desired capabilities: {"app":"C:\\Users\\sreddy6\...
+2018-09-27 17:08:07:839 - error: [BaseDriver] SessionNotCreatedError: A new session could not be created. Details: The desiredCapabilities object was not valid for the following reason(s): 'deviceName' can't be blank
+2018-09-27 17:08:07:839 - error: [BaseDriver]     at AndroidDriver.validateDesiredCaps (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\driver.js:203:25)
+2018-09-27 17:08:07:840 - error: [BaseDriver]     at AndroidDriver.validateDesiredCaps (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\driver.js:29:20)
+2018-09-27 17:08:07:840 - error: [BaseDriver]     at AndroidDriver.callee$0$0$ (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\session.js:45:8)
+2018-09-27 17:08:07:840 - error: [BaseDriver]     at tryCatch (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+2018-09-27 17:08:07:841 - error: [BaseDriver]     at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+2018-09-27 17:08:07:841 - error: [BaseDriver]     at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+2018-09-27 17:08:07:842 - error: [BaseDriver]     at invoke (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+2018-09-27 17:08:07:842 - error: [BaseDriver]     at enqueueResult (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:185:17)
+2018-09-27 17:08:07:842 - error: [BaseDriver]     at new Promise (<anonymous>)
+2018-09-27 17:08:07:843 - error: [BaseDriver]     at new F (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\core-js\library\modules\$.export.js:30:36)
+2018-09-27 17:08:07:843 - error: [BaseDriver]     at AsyncIterator.enqueue (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:184:12)
+2018-09-27 17:08:07:843 - error: [BaseDriver]     at AsyncIterator.prototype.(anonymous function) [as next] (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+2018-09-27 17:08:07:843 - error: [BaseDriver]     at Object.runtime.async (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:209:12)
+2018-09-27 17:08:07:844 - error: [BaseDriver]     at AndroidDriver.callee$0$0 [as createSession] (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\build\lib\basedriver\commands\session.js:35:30)
+2018-09-27 17:08:07:844 - error: [BaseDriver]     at AndroidDriver.createSession$ (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\driver.js:29:20)
+2018-09-27 17:08:07:845 - error: [BaseDriver]     at tryCatch (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+2018-09-27 17:08:07:845 - error: [BaseDriver]     at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+2018-09-27 17:08:07:845 - error: [BaseDriver]     at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+2018-09-27 17:08:07:846 - error: [BaseDriver]     at invoke (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+2018-09-27 17:08:07:846 - error: [BaseDriver]     at enqueueResult (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:185:17)
+2018-09-27 17:08:07:846 - error: [BaseDriver]     at new Promise (<anonymous>)
+2018-09-27 17:08:07:847 - error: [BaseDriver]     at new F (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\core-js\library\modules\$.export.js:30:36)
+2018-09-27 17:08:07:847 - error: [BaseDriver]     at AsyncIterator.enqueue (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:184:12)
+2018-09-27 17:08:07:847 - error: [BaseDriver]     at AsyncIterator.prototype.(anonymous function) [as next] (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+2018-09-27 17:08:07:847 - error: [BaseDriver]     at Object.runtime.async (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:209:12)
+2018-09-27 17:08:07:848 - error: [BaseDriver]     at AndroidDriver.createSession (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\build\lib\driver.js:140:34)
+2018-09-27 17:08:07:850 - error: [BaseDriver]     at AppiumDriver.callee$2$0$ (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\lib\appium.js:291:43)
+2018-09-27 17:08:07:850 - error: [BaseDriver]     at tryCatch (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+2018-09-27 17:08:07:850 - error: [BaseDriver]     at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+2018-09-27 17:08:07:850 - error: [BaseDriver]     at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+2018-09-27 17:08:07:852 - error: [BaseDriver]     at GeneratorFunctionPrototype.invoke (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+2018-09-27 17:08:07:853 - error: [BaseDriver]     at <anonymous>
+2018-09-27 17:08:07:853 - error: [BaseDriver]     at process._tickCallback (internal/process/next_tick.js:189:7)
+2018-09-27 17:08:07:855 - info: [debug] [AndroidDriver] Shutting down Android driver
+2018-09-27 17:08:07:856 - info: [debug] [AndroidDriver] Called deleteSession but bootstrap wasn't active
+2018-09-27 17:08:07:857 - info: [debug] [BaseDriver] Event 'newSessionStarted' logged at 1538068087856 (22:38:07 GMT+0530 (India Standard Time))
+2018-09-27 17:08:07:858 - info: [debug] [MJSONWP] Encountered internal error running command: SessionNotCreatedError: A new session could not be created. Details: The desiredCapabilities object was not valid for the following reason(s): 'deviceName' can't be blank
+2018-09-27 17:08:07:858 - info: [debug] [MJSONWP]     at AndroidDriver.validateDesiredCaps (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\driver.js:203:25)
+2018-09-27 17:08:07:858 - info: [debug] [MJSONWP]     at AndroidDriver.validateDesiredCaps (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\driver.js:29:20)
+2018-09-27 17:08:07:858 - info: [debug] [MJSONWP]     at AndroidDriver.callee$0$0$ (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\session.js:45:8)
+2018-09-27 17:08:07:859 - info: [debug] [MJSONWP]     at tryCatch (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+2018-09-27 17:08:07:859 - info: [debug] [MJSONWP]     at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+2018-09-27 17:08:07:859 - info: [debug] [MJSONWP]     at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+2018-09-27 17:08:07:859 - info: [debug] [MJSONWP]     at invoke (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+2018-09-27 17:08:07:859 - info: [debug] [MJSONWP]     at enqueueResult (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:185:17)
+2018-09-27 17:08:07:859 - info: [debug] [MJSONWP]     at new Promise (<anonymous>)
+2018-09-27 17:08:07:859 - info: [debug] [MJSONWP]     at new F (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\core-js\library\modules\$.export.js:30:36)
+2018-09-27 17:08:07:859 - info: [debug] [MJSONWP]     at AsyncIterator.enqueue (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:184:12)
+2018-09-27 17:08:07:859 - info: [debug] [MJSONWP]     at AsyncIterator.prototype.(anonymous function) [as next] (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+2018-09-27 17:08:07:859 - info: [debug] [MJSONWP]     at Object.runtime.async (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:209:12)
+2018-09-27 17:08:07:859 - info: [debug] [MJSONWP]     at AndroidDriver.callee$0$0 [as createSession] (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\build\lib\basedriver\commands\session.js:35:30)
+2018-09-27 17:08:07:860 - info: [debug] [MJSONWP]     at AndroidDriver.createSession$ (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\driver.js:29:20)
+2018-09-27 17:08:07:860 - info: [debug] [MJSONWP]     at tryCatch (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+2018-09-27 17:08:07:860 - info: [debug] [MJSONWP]     at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+2018-09-27 17:08:07:860 - info: [debug] [MJSONWP]     at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+2018-09-27 17:08:07:860 - info: [debug] [MJSONWP]     at invoke (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+2018-09-27 17:08:07:860 - info: [debug] [MJSONWP]     at enqueueResult (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:185:17)
+2018-09-27 17:08:07:860 - info: [debug] [MJSONWP]     at new Promise (<anonymous>)
+2018-09-27 17:08:07:860 - info: [debug] [MJSONWP]     at new F (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\core-js\library\modules\$.export.js:30:36)
+2018-09-27 17:08:07:861 - info: [debug] [MJSONWP]     at AsyncIterator.enqueue (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:184:12)
+2018-09-27 17:08:07:861 - info: [debug] [MJSONWP]     at AsyncIterator.prototype.(anonymous function) [as next] (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+2018-09-27 17:08:07:861 - info: [debug] [MJSONWP]     at Object.runtime.async (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:209:12)
+2018-09-27 17:08:07:861 - info: [debug] [MJSONWP]     at AndroidDriver.createSession (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\build\lib\driver.js:140:34)
+2018-09-27 17:08:07:861 - info: [debug] [MJSONWP]     at AppiumDriver.callee$2$0$ (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\lib\appium.js:291:43)
+2018-09-27 17:08:07:861 - info: [debug] [MJSONWP]     at tryCatch (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+2018-09-27 17:08:07:861 - info: [debug] [MJSONWP]     at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+2018-09-27 17:08:07:862 - info: [debug] [MJSONWP]     at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+2018-09-27 17:08:07:869 - info: [debug] [MJSONWP]     at GeneratorFunctionPrototype.invoke (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+2018-09-27 17:08:07:870 - info: [debug] [MJSONWP]     at <anonymous>
+2018-09-27 17:08:07:870 - info: [debug] [MJSONWP]     at process._tickCallback (internal/process/next_tick.js:189:7)
+2018-09-27 17:08:07:873 - info: [HTTP] <-- POST /wd/hub/session 500 125 ms - 199
+2018-09-27 17:08:07:873 - info: [HTTP] 

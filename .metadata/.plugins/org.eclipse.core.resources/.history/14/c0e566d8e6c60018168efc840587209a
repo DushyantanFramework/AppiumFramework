@@ -1,0 +1,210 @@
+2018-09-29 09:25:16:985 - info: [Appium] Welcome to Appium v1.9.1
+2018-09-29 09:25:16:987 - info: [Appium] Non-default server args:
+2018-09-29 09:25:16:988 - info: [Appium]   address: 127.0.0.1
+2018-09-29 09:25:16:988 - info: [Appium]   port: 40394
+2018-09-29 09:25:16:988 - info: [Appium]   sessionOverride: true
+2018-09-29 09:25:16:988 - info: [Appium]   log: C:\Users\sreddy6\Desktop\Framework\AppiumFramework\ZL522255X4_2018_09_29_145505_log.txt
+2018-09-29 09:25:16:989 - info: [Appium]   defaultCapabilities: {
+2018-09-29 09:25:16:989 - info: [Appium]     noReset: true
+2018-09-29 09:25:16:989 - info: [Appium]     udid: ZL522255X4
+2018-09-29 09:25:16:989 - info: [Appium]   }
+2018-09-29 09:25:16:990 - info: [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2018-09-29 09:25:16:990 - info: [Appium]   noReset: true
+2018-09-29 09:25:16:990 - info: [Appium]   udid: ZL522255X4
+2018-09-29 09:25:17:135 - info: [Appium] Appium REST http interface listener started on 127.0.0.1:40394
+2018-09-29 09:25:17:178 - warn: [Appium] Cannot retrieve git revision for Appium version 1.9.1 from GitHub. Original error: Error: getaddrinfo ENOTFOUND api.github.com api.github.com:443
+2018-09-29 09:25:17:366 - info: [HTTP] --> GET /wd/hub/status
+2018-09-29 09:25:17:367 - info: [HTTP] {}
+2018-09-29 09:25:17:373 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-09-29 09:25:17:376 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1"}}
+2018-09-29 09:25:17:383 - info: [HTTP] <-- GET /wd/hub/status 200 15 ms - 67
+2018-09-29 09:25:17:384 - info: [HTTP] 
+2018-09-29 09:25:18:920 - info: [HTTP] --> POST /wd/hub/session
+2018-09-29 09:25:18:921 - info: [HTTP] {"desiredCapabilities":{"app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","deviceName":"ZL522255X4","platformName":"Android"},"capabilities":{"desiredCapabilities":{"app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","deviceName":"ZL522255X4","platformName":"Android"},"firstMatch":[{"appium:app":"C:\\Users\\sreddy6\\base.apk","appium:appPackage":"com.bigbasket.mobileapp","appium:deviceName":"ZL522255X4","platformName":"android"}]}}
+2018-09-29 09:25:18:921 - info: [debug] [W3C] Calling AppiumDriver.createSession() with args: [{"app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","deviceName":"ZL522255X4","platformName":"Android"},null,{"desiredCapabilities":{"app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","deviceName":"ZL522255X4","platformName":"Android"},"firstMatch":[{"appium:app":"C:\\Users\\sreddy6\\base.apk","appium:appPackage":"com.bigbasket.mobileapp","appium:deviceName":"ZL522255X4","platformName":"android"}]}]
+2018-09-29 09:25:18:923 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1538213118922 (14:55:18 GMT+0530 (India Standard Time))
+2018-09-29 09:25:18:928 - warn: [BaseDriver] The capabilities ["noReset","udid"] are not standard capabilities and should have an extension prefix
+2018-09-29 09:25:18:935 - info: [Appium] Creating new AndroidDriver (v4.1.1) session
+2018-09-29 09:25:18:935 - info: [Appium] Capabilities:
+2018-09-29 09:25:18:935 - info: [Appium]   platformName: android
+2018-09-29 09:25:18:935 - info: [Appium]   noReset: true
+2018-09-29 09:25:18:936 - info: [Appium]   udid: ZL522255X4
+2018-09-29 09:25:18:936 - info: [Appium]   app: C:\Users\sreddy6\base.apk
+2018-09-29 09:25:18:936 - info: [Appium]   appPackage: com.bigbasket.mobileapp
+2018-09-29 09:25:18:936 - info: [Appium]   deviceName: ZL522255X4
+2018-09-29 09:25:18:944 - info: [debug] [BaseDriver] W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"noReset":true,"udid":"ZL5... were provided
+2018-09-29 09:25:18:944 - info: [debug] [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+2018-09-29 09:25:18:954 - info: [BaseDriver] Session created with session id: c13f628b-c681-4fc6-947d-b55a704225cb
+2018-09-29 09:25:20:376 - info: [AndroidDriver] Java version is: 1.8.0_151
+2018-09-29 09:25:20:380 - info: [ADB] Checking whether adb is present
+2018-09-29 09:25:20:389 - info: [ADB] Found 3 'build-tools' folders under 'C:\Program Files\Android-sdk' (newest first):
+2018-09-29 09:25:20:390 - info: [ADB]     C:/Program Files/Android-sdk/build-tools/28.0.1
+2018-09-29 09:25:20:390 - info: [ADB]     C:/Program Files/Android-sdk/build-tools/28.0.0
+2018-09-29 09:25:20:390 - info: [ADB]     C:/Program Files/Android-sdk/build-tools/27.0.2
+2018-09-29 09:25:20:392 - info: [ADB] Using adb.exe from C:\Program Files\Android-sdk\platform-tools\adb.exe
+2018-09-29 09:25:20:392 - info: [AndroidDriver] Retrieving device list
+2018-09-29 09:25:20:393 - info: [debug] [ADB] Trying to find a connected android device
+2018-09-29 09:25:20:393 - info: [debug] [ADB] Getting connected devices...
+2018-09-29 09:25:21:775 - info: [debug] [ADB] 1 device(s) connected
+2018-09-29 09:25:21:776 - info: [AndroidDriver] Using device: ZL522255X4
+2018-09-29 09:25:21:778 - info: [debug] [ADB] Setting device id to ZL522255X4
+2018-09-29 09:25:21:778 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell getprop ro.build.version.sdk'
+2018-09-29 09:25:23:203 - info: [debug] [ADB] Current device property 'ro.build.version.sdk': 26
+2018-09-29 09:25:23:204 - info: [debug] [ADB] Device API level: 26
+2018-09-29 09:25:23:204 - warn: [AndroidDriver] Consider setting 'automationName' capability to 'uiautomator2' on Android >= 6, since UIAutomator framework is not maintained anymore by the OS vendor.
+2018-09-29 09:25:23:206 - info: [BaseDriver] Using local app 'C:\Users\sreddy6\base.apk'
+2018-09-29 09:25:23:206 - info: [debug] [AndroidDriver] Checking whether app is actually present
+2018-09-29 09:25:23:208 - info: [AndroidDriver] Starting Android session
+2018-09-29 09:25:23:209 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 wait-for-device'
+2018-09-29 09:25:24:604 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell echo ping'
+2018-09-29 09:25:26:034 - info: [debug] [AndroidDriver] Pushing settings apk to device...
+2018-09-29 09:25:26:036 - info: [debug] [ADB] Getting install status for io.appium.settings
+2018-09-29 09:25:26:037 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell pm list packages io.appium.settings'
+2018-09-29 09:25:28:382 - info: [debug] [ADB] App is installed
+2018-09-29 09:25:28:383 - info: [debug] [ADB] Getting package info for 'io.appium.settings'
+2018-09-29 09:25:28:383 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys package io.appium.settings'
+2018-09-29 09:25:29:876 - info: [ADB] Checking whether aapt is present
+2018-09-29 09:25:29:880 - info: [ADB] Using aapt.exe from C:\Program Files\Android-sdk\build-tools\28.0.1\aapt.exe
+2018-09-29 09:25:31:437 - info: [debug] [ADB] The installed 'io.appium.settings' package does not require upgrade ('2.3.0' >= '2.3.0')
+2018-09-29 09:25:31:438 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell ps'
+2018-09-29 09:25:33:025 - info: [debug] [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2018-09-29 09:25:33:026 - info: [debug] [ADB] Device API level: 26
+2018-09-29 09:25:33:026 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell appops set io.appium.settings android\:mock_location allow'
+2018-09-29 09:25:34:494 - warn: [AndroidDriver] setDeviceLanguageCountry requires language or country.
+2018-09-29 09:25:34:496 - warn: [AndroidDriver] Got language: 'null' and country: 'null'
+2018-09-29 09:25:34:496 - info: [debug] [Logcat] Starting logcat capture
+2018-09-29 09:25:35:552 - info: [debug] [AndroidDriver] Pushing unlock helper app to device...
+2018-09-29 09:25:35:553 - info: [debug] [ADB] Getting install status for io.appium.unlock
+2018-09-29 09:25:35:554 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell pm list packages io.appium.unlock'
+2018-09-29 09:25:37:864 - info: [debug] [ADB] App is installed
+2018-09-29 09:25:37:865 - info: [debug] [ADB] Getting package info for 'io.appium.unlock'
+2018-09-29 09:25:37:865 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys package io.appium.unlock'
+2018-09-29 09:25:40:660 - info: [debug] [ADB] The installed 'io.appium.unlock' package does not require upgrade ('2.0.0' >= '2.0.0')
+2018-09-29 09:25:40:661 - info: [ADB] Getting device platform version
+2018-09-29 09:25:40:661 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell getprop ro.build.version.release'
+2018-09-29 09:25:42:111 - info: [debug] [ADB] Current device property 'ro.build.version.release': 8.0.0
+2018-09-29 09:25:42:112 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell wm size'
+2018-09-29 09:25:44:474 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell getprop ro.product.model'
+2018-09-29 09:25:45:904 - info: [debug] [ADB] Current device property 'ro.product.model': moto g(6) play
+2018-09-29 09:25:45:905 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell getprop ro.product.manufacturer'
+2018-09-29 09:25:47:339 - info: [debug] [ADB] Current device property 'ro.product.manufacturer': motorola
+2018-09-29 09:25:47:340 - info: [debug] [AndroidDriver] Parsing package and activity from app manifest
+2018-09-29 09:25:47:347 - info: [ADB] Using the alternative activity name detection method because of: Could not find apkanalyzer.bat in C:\Program Files\Android-sdk\platform-tools\apkanalyzer.bat,C:\Program Files\Android-sdk\emulator\apkanalyzer.bat,C:\Program Files\Android-sdk\tools\apkanalyzer.bat,C:\Program Files\Android-sdk\tools\bin\apkanalyzer.bat,C:\Program Files\Android-sdk\build-tools\28.0.1\apkanalyzer.bat,C:\Program Files\Android-sdk\build-tools\28.0.0\apkanalyzer.bat,C:\Program Files\Android-sdk\build-tools\27.0.2\apkanalyzer.bat. Do you have the Android SDK installed at 'C:\Program Files\Android-sdk'?
+2018-09-29 09:25:47:348 - info: [ADB] Extracting package and launch activity from manifest
+2018-09-29 09:25:48:649 - info: [ADB] Package name: 'com.bigbasket.mobileapp'
+2018-09-29 09:25:48:649 - info: [ADB] Main activity name: 'com.bigbasket.mobileapp.activity.SplashActivity'
+2018-09-29 09:25:48:650 - info: [debug] [AndroidDriver] Parsed package and activity are: com.bigbasket.mobileapp/com.bigbasket.mobileapp.activity.SplashActivity
+2018-09-29 09:25:48:650 - info: [debug] [ADB] Getting install status for com.bigbasket.mobileapp
+2018-09-29 09:25:48:651 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell pm list packages com.bigbasket.mobileapp'
+2018-09-29 09:25:50:985 - info: [debug] [ADB] App is installed
+2018-09-29 09:25:50:986 - info: [debug] [ADB] Getting package info for 'com.bigbasket.mobileapp'
+2018-09-29 09:25:50:986 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys package com.bigbasket.mobileapp'
+2018-09-29 09:25:53:786 - info: [debug] [ADB] The installed 'com.bigbasket.mobileapp' package does not require upgrade ('4.7.0' >= '4.7.0')
+2018-09-29 09:25:53:787 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell rm -rf /data/local/tmp/strings.json'
+2018-09-29 09:25:55:221 - info: [debug] [AndroidDriver] Extracting strings from apk
+2018-09-29 09:25:55:222 - info: [debug] [AndroidDriver] C:\Users\sreddy6\base.apk
+2018-09-29 09:25:55:222 - info: [debug] [AndroidDriver] null
+2018-09-29 09:25:55:222 - info: [debug] [AndroidDriver] C:\Users\sreddy6\AppData\Local\Temp\com.bigbasket.mobileapp
+2018-09-29 09:25:55:223 - info: [debug] [ADB] Extracting strings for language: default
+2018-09-29 09:25:56:884 - info: [ADB] Successfully extracted 1422 strings from 'C:\Users\sreddy6\base.apk' resources for '(default)' configuration
+2018-09-29 09:25:56:923 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 push C\:\\Users\\sreddy6\\AppData\\Local\\Temp\\com.bigbasket.mobileapp\\strings.json /data/local/tmp'
+2018-09-29 09:25:58:361 - info: [debug] [AndroidBootstrap] Watching for bootstrap disconnect
+2018-09-29 09:25:58:363 - info: [debug] [ADB] Forwarding system: 4724 to device: 4724
+2018-09-29 09:25:58:363 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 forward tcp\:4724 tcp\:4724'
+2018-09-29 09:25:59:820 - info: [debug] [UiAutomator] Starting UiAutomator
+2018-09-29 09:25:59:821 - info: [debug] [UiAutomator] Moving to state 'starting'
+2018-09-29 09:25:59:821 - info: [debug] [UiAutomator] Parsing uiautomator jar
+2018-09-29 09:25:59:822 - info: [debug] [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2018-09-29 09:25:59:822 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 push C\:\\Users\\sreddy6\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-android-driver\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+2018-09-29 09:26:01:177 - info: [debug] [ADB] Attempting to kill all uiautomator processes
+2018-09-29 09:26:01:178 - info: [debug] [ADB] Getting all processes with uiautomator
+2018-09-29 09:26:01:178 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell ps'
+2018-09-29 09:26:02:762 - info: [ADB] No uiautomator process found to kill, continuing...
+2018-09-29 09:26:02:762 - info: [debug] [UiAutomator] Starting UIAutomator
+2018-09-29 09:26:02:763 - info: [debug] [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","ZL522255X4","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.bigbasket.mobileapp","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+2018-09-29 09:26:04:823 - info: [debug] [UiAutomator] Moving to state 'online'
+2018-09-29 09:26:04:832 - info: [AndroidBootstrap] Android bootstrap socket is now connected
+2018-09-29 09:26:04:833 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window'
+2018-09-29 09:26:05:708 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+2018-09-29 09:26:05:708 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2018-09-29 09:26:05:709 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2018-09-29 09:26:06:435 - info: [AndroidDriver] Screen already unlocked, doing nothing
+2018-09-29 09:26:06:437 - info: [debug] [ADB] Device API level: 26
+2018-09-29 09:26:06:437 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell am start -W -n com.bigbasket.mobileapp/com.bigbasket.mobileapp.activity.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2018-09-29 09:26:09:253 - info: [debug] [ADB] Waiting up to 20000ms for activity matching pkg: 'com.bigbasket.mobileapp' and activity: 'com.bigbasket.mobileapp.activity.SplashActivity' to be focused
+2018-09-29 09:26:09:254 - info: [debug] [ADB] Possible activities, to be checked: 'com.bigbasket.mobileapp.activity.SplashActivity', 'com.bigbasket.mobileapp.com.bigbasket.mobileapp.activity.SplashActivity'
+2018-09-29 09:26:09:254 - info: [debug] [ADB] Getting focused package and activity
+2018-09-29 09:26:09:254 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-29 09:26:10:702 - info: [debug] [ADB] Found package: 'com.bigbasket.mobileapp' and fully qualified activity name : 'com.bigbasket.mobileapp.activity.SplashActivity'
+2018-09-29 09:26:10:703 - info: [Appium] New AndroidDriver session created successfully, session c13f628b-c681-4fc6-947d-b55a704225cb added to master session list
+2018-09-29 09:26:10:704 - info: [debug] [BaseDriver] Event 'newSessionStarted' logged at 1538213170704 (14:56:10 GMT+0530 (India Standard Time))
+2018-09-29 09:26:10:705 - info: [debug] [W3C] Cached the protocol value 'W3C' for the new session c13f628b-c681-4fc6-947d-b55a704225cb
+2018-09-29 09:26:10:707 - info: [debug] [W3C] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","noReset":true,"udid":"ZL522255X4","app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","deviceName":"ZL522255X4"},"platformName":"android","noReset":true,"udid":"ZL522255X4","app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","deviceName":"ZL522255X4","deviceUDID":"ZL522255X4","platformVersion":"8.0.0","deviceScreenSize":"720x1440","deviceModel":"moto g(6) play","deviceManufacturer":"motorola","appWaitPackage":"com.bigbasket.mobileapp","appActivity":"com.bigbasket.mobileapp.activity.SplashActivity","appWaitActivity":"com.bigbasket.mobileapp.activity.SplashActivity"}}
+2018-09-29 09:26:10:709 - info: [HTTP] <-- POST /wd/hub/session 200 51788 ms - 929
+2018-09-29 09:26:10:709 - info: [HTTP] 
+2018-09-29 09:26:10:805 - info: [HTTP] --> GET /wd/hub/session/c13f628b-c681-4fc6-947d-b55a704225cb
+2018-09-29 09:26:10:805 - info: [HTTP] {}
+2018-09-29 09:26:10:806 - info: [debug] [W3C] Calling AppiumDriver.getSession() with args: ["c13f628b-c681-4fc6-947d-b55a704225cb"]
+2018-09-29 09:26:10:829 - info: [debug] [W3C] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","noReset":true,"udid":"ZL522255X4","app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","deviceName":"ZL522255X4"},"platformName":"android","noReset":true,"udid":"ZL522255X4","app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","deviceName":"ZL522255X4","deviceUDID":"ZL522255X4","platformVersion":"8.0.0","deviceScreenSize":"720x1440","deviceModel":"moto g(6) play","deviceManufacturer":"motorola","appWaitPackage":"com.bigbasket.mobileapp","appActivity":"com.bigbasket.mobileapp.activity.SplashActivity","appWaitActivity":"com.bigbasket.mobileapp.activity.SplashActivity"}
+2018-09-29 09:26:10:831 - info: [HTTP] <-- GET /wd/hub/session/c13f628b-c681-4fc6-947d-b55a704225cb 200 26 ms - 861
+2018-09-29 09:26:10:831 - info: [HTTP] 
+2018-09-29 09:26:10:844 - info: [HTTP] --> GET /wd/hub/session/c13f628b-c681-4fc6-947d-b55a704225cb
+2018-09-29 09:26:10:845 - info: [HTTP] {}
+2018-09-29 09:26:10:845 - info: [debug] [W3C] Calling AppiumDriver.getSession() with args: ["c13f628b-c681-4fc6-947d-b55a704225cb"]
+2018-09-29 09:26:10:848 - info: [debug] [W3C] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","noReset":true,"udid":"ZL522255X4","app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","deviceName":"ZL522255X4"},"platformName":"android","noReset":true,"udid":"ZL522255X4","app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","deviceName":"ZL522255X4","deviceUDID":"ZL522255X4","platformVersion":"8.0.0","deviceScreenSize":"720x1440","deviceModel":"moto g(6) play","deviceManufacturer":"motorola","appWaitPackage":"com.bigbasket.mobileapp","appActivity":"com.bigbasket.mobileapp.activity.SplashActivity","appWaitActivity":"com.bigbasket.mobileapp.activity.SplashActivity"}
+2018-09-29 09:26:10:849 - info: [HTTP] <-- GET /wd/hub/session/c13f628b-c681-4fc6-947d-b55a704225cb 200 5 ms - 861
+2018-09-29 09:26:10:849 - info: [HTTP] 
+2018-09-29 09:26:10:856 - info: [HTTP] --> GET /wd/hub/session/c13f628b-c681-4fc6-947d-b55a704225cb/appium/device/system_time
+2018-09-29 09:26:10:856 - info: [HTTP] {}
+2018-09-29 09:26:10:858 - info: [debug] [W3C] Calling AppiumDriver.getDeviceTime() with args: [null,"c13f628b-c681-4fc6-947d-b55a704225cb"]
+2018-09-29 09:26:10:861 - info: [AndroidDriver] Attempting to capture android device date and time
+2018-09-29 09:26:10:861 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell date +%Y-%m-%dT%T%z'
+2018-09-29 09:26:12:432 - info: [debug] [W3C] Responding to client with driver.getDeviceTime() result: "2018-09-29T14:56:12+05:30"
+2018-09-29 09:26:12:434 - info: [HTTP] <-- GET /wd/hub/session/c13f628b-c681-4fc6-947d-b55a704225cb/appium/device/system_time 200 1577 ms - 37
+2018-09-29 09:26:12:435 - info: [HTTP] 
+2018-09-29 09:26:12:444 - info: [HTTP] --> POST /wd/hub/session/c13f628b-c681-4fc6-947d-b55a704225cb/timeouts
+2018-09-29 09:26:12:445 - info: [HTTP] {"implicit":20000}
+2018-09-29 09:26:12:445 - info: [debug] [W3C] Calling AppiumDriver.timeouts() with args: [null,null,null,null,20000,"c13f628b-c681-4fc6-947d-b55a704225cb"]
+2018-09-29 09:26:12:450 - info: [debug] [BaseDriver] W3C timeout argument: {"implicit":20000}}
+2018-09-29 09:26:12:451 - info: [debug] [BaseDriver] Set implicit wait to 20000ms
+2018-09-29 09:26:12:452 - info: [debug] [W3C] Responding to client with driver.timeouts() result: null
+2018-09-29 09:26:12:453 - info: [HTTP] <-- POST /wd/hub/session/c13f628b-c681-4fc6-947d-b55a704225cb/timeouts 200 8 ms - 14
+2018-09-29 09:26:12:454 - info: [HTTP] 
+2018-09-29 09:26:12:481 - info: [HTTP] --> POST /wd/hub/session/c13f628b-c681-4fc6-947d-b55a704225cb/appium/device/start_activity
+2018-09-29 09:26:12:482 - info: [HTTP] {"appPackage":"com.wsandroid.suite","appActivity":"com.mcafee.activity.MainActivity","appWaitPackage":"","appWaitActivity":"","dontStopAppOnReset":false,"intentAction":"","intentCategory":"","intentFlags":"","optionalIntentArguments":""}
+2018-09-29 09:26:12:483 - info: [debug] [W3C] Calling AppiumDriver.startActivity() with args: ["com.wsandroid.suite","com.mcafee.activity.MainActivity","","","","","","",false,null,null,"c13f628b-c681-4fc6-947d-b55a704225cb"]
+2018-09-29 09:26:12:485 - info: [debug] [AndroidDriver] Starting package 'com.wsandroid.suite' and activity 'com.mcafee.activity.MainActivity'
+2018-09-29 09:26:12:486 - info: [debug] [ADB] Device API level: 26
+2018-09-29 09:26:12:486 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell am start -W -n com.wsandroid.suite/com.mcafee.activity.MainActivity -S'
+2018-09-29 09:26:14:448 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell am start -W -n com.wsandroid.suite/com.mcafee.activity.MainActivity -S'
+2018-09-29 09:26:16:240 - info: [debug] [W3C] Encountered internal error running command: Error: Cannot start the 'com.wsandroid.suite' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Error executing adbExec. Original error: 'Command ''C:\\Program Files\\Android-sdk\\platform-tools\\adb.exe' -P 5037 -s ZL522255X4 shell am start -W -n com.wsandroid.suite/com.mcafee.activity.MainActivity -S' exited with code 4294967295'; Stderr: 'Security exception: Permission Denial: starting Intent { flg=0x10000000 cmp=com.wsandroid.suite/com.mcafee.activity.MainActivity } from null (pid=595, uid=2000) not exported from uid 10215
+2018-09-29 09:26:16:240 - info: [debug] [W3C] 
+2018-09-29 09:26:16:241 - info: [debug] [W3C] java.lang.SecurityException: Permission Denial: starting Intent { flg=0x10000000 cmp=com.wsandroid.suite/com.mcafee.activity.MainActivity } from null (pid=595, uid=2000) not exported from uid 10215
+2018-09-29 09:26:16:241 - info: [debug] [W3C] 	at com.android.server.am.ActivityStackSupervisor.checkStartAnyActivityPermission(ActivityStackSupervisor.java:1682)
+2018-09-29 09:26:16:241 - info: [debug] [W3C] 	at com.android.server.am.ActivityStarter.startActivity(ActivityStarter.java:442)
+2018-09-29 09:26:16:241 - info: [debug] [W3C] 	at com.android.server.am.ActivityStarter.startActivityLocked(ActivityStarter.java:276)
+2018-09-29 09:26:16:241 - info: [debug] [W3C] 	at com.android.server.am.ActivityStarter.startActivityMayWait(ActivityStarter.java:835)
+2018-09-29 09:26:16:242 - info: [debug] [W3C] 	at com.android.server.am.ActivityManagerService.startActivityAndWait(ActivityManagerService.java:4786)
+2018-09-29 09:26:16:242 - info: [debug] [W3C] 	at com.android.server.am.ActivityManagerShellCommand.runStartActivity(ActivityManagerShellCommand.java:408)
+2018-09-29 09:26:16:242 - info: [debug] [W3C] 	at com.android.server.am.ActivityManagerShellCommand.onCommand(ActivityManagerShellCommand.java:142)
+2018-09-29 09:26:16:242 - info: [debug] [W3C] 	at android.os.ShellCommand.exec(ShellCommand.java:96)
+2018-09-29 09:26:16:242 - info: [debug] [W3C] 	at com.android.server.am.ActivityManagerService.onShellCommand(ActivityManagerService.java:15287)
+2018-09-29 09:26:16:242 - info: [debug] [W3C] 	at android.os.Binder.shellCommand(Binder.java:573)
+2018-09-29 09:26:16:243 - info: [debug] [W3C] 	at android.os.Binder.onTransact(Binder.java:473)
+2018-09-29 09:26:16:243 - info: [debug] [W3C] 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:4339)
+2018-09-29 09:26:16:243 - info: [debug] [W3C] 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:3082)
+2018-09-29 09:26:16:244 - info: [debug] [W3C] 	at android.os.Binder.execTransact(Binder.java:674)'; Code: '4294967295'
+2018-09-29 09:26:16:245 - info: [debug] [W3C]     at ADB.callee$0$0$ (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\apk-utils.js:134:11)
+2018-09-29 09:26:16:245 - info: [debug] [W3C]     at tryCatch (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+2018-09-29 09:26:16:245 - info: [debug] [W3C]     at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+2018-09-29 09:26:16:245 - info: [debug] [W3C]     at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+2018-09-29 09:26:16:245 - info: [debug] [W3C]     at GeneratorFunctionPrototype.invoke (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+2018-09-29 09:26:16:246 - info: [debug] [W3C]     at <anonymous>
+2018-09-29 09:26:16:265 - info: [HTTP] <-- POST /wd/hub/session/c13f628b-c681-4fc6-947d-b55a704225cb/appium/device/start_activity 500 3782 ms - 5473
+2018-09-29 09:26:16:265 - info: [HTTP] 
+2018-09-29 09:26:16:305 - info: [HTTP] --> GET /wd/hub/status
+2018-09-29 09:26:16:306 - info: [HTTP] {}
+2018-09-29 09:26:16:306 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-09-29 09:26:16:306 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1"}}
+2018-09-29 09:26:16:308 - info: [HTTP] <-- GET /wd/hub/status 200 2 ms - 67
+2018-09-29 09:26:16:308 - info: [HTTP] 

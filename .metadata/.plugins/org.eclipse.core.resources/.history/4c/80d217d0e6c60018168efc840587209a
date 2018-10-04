@@ -1,0 +1,558 @@
+2018-10-02 12:20:46:520 - info: [Appium] Welcome to Appium v1.9.1
+2018-10-02 12:20:46:522 - info: [Appium] Non-default server args:
+2018-10-02 12:20:46:523 - info: [Appium]   address: 127.0.0.1
+2018-10-02 12:20:46:523 - info: [Appium]   port: 2179
+2018-10-02 12:20:46:523 - info: [Appium]   sessionOverride: true
+2018-10-02 12:20:46:524 - info: [Appium]   log: C:\Users\sreddy6\Desktop\Framework\AppiumFramework\47b608f8_2018_10_02_175034_log.txt
+2018-10-02 12:20:46:524 - info: [Appium]   defaultCapabilities: {
+2018-10-02 12:20:46:524 - info: [Appium]     noReset: true
+2018-10-02 12:20:46:525 - info: [Appium]     udid: 47b608f8
+2018-10-02 12:20:46:525 - info: [Appium]   }
+2018-10-02 12:20:46:525 - info: [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2018-10-02 12:20:46:527 - info: [Appium]   noReset: true
+2018-10-02 12:20:46:527 - info: [Appium]   udid: 47b608f8
+2018-10-02 12:20:46:672 - info: [Appium] Appium REST http interface listener started on 127.0.0.1:2179
+2018-10-02 12:20:46:725 - info: [HTTP] --> GET /wd/hub/status
+2018-10-02 12:20:46:726 - info: [HTTP] {}
+2018-10-02 12:20:46:728 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-10-02 12:20:46:730 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1"}}
+2018-10-02 12:20:46:736 - info: [HTTP] <-- GET /wd/hub/status 200 8 ms - 67
+2018-10-02 12:20:46:736 - info: [HTTP] 
+2018-10-02 12:20:48:173 - info: [HTTP] --> POST /wd/hub/session
+2018-10-02 12:20:48:174 - info: [HTTP] {"desiredCapabilities":{"app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","deviceName":"47b608f8","platformName":"Android"},"capabilities":{"desiredCapabilities":{"app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","deviceName":"47b608f8","platformName":"Android"},"firstMatch":[{"appium:app":"C:\\Users\\sreddy6\\base.apk","appium:appPackage":"com.bigbasket.mobileapp","appium:appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","appium:deviceName":"47b608f8","platformName":"android"}]}}
+2018-10-02 12:20:48:174 - info: [debug] [W3C] Calling AppiumDriver.createSession() with args: [{"app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","deviceName":"47b608f8","platformName":"Android"},null,{"desiredCapabilities":{"app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","deviceName":"47b608f8","platformName":"Android"},"firstMatch":[{"appium:app":"C:\\Users\\sreddy6\\base.apk","appium:appPackage":"com.bigbasket.mobileapp","appium:appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","appium:deviceName":"47b608f8","platformName":"android"}]}]
+2018-10-02 12:20:48:175 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1538482848175 (17:50:48 GMT+0530 (India Standard Time))
+2018-10-02 12:20:48:179 - warn: [BaseDriver] The capabilities ["noReset","udid"] are not standard capabilities and should have an extension prefix
+2018-10-02 12:20:48:184 - info: [Appium] Creating new AndroidDriver (v4.1.1) session
+2018-10-02 12:20:48:184 - info: [Appium] Capabilities:
+2018-10-02 12:20:48:184 - info: [Appium]   platformName: android
+2018-10-02 12:20:48:185 - info: [Appium]   noReset: true
+2018-10-02 12:20:48:185 - info: [Appium]   udid: 47b608f8
+2018-10-02 12:20:48:185 - info: [Appium]   app: C:\Users\sreddy6\base.apk
+2018-10-02 12:20:48:186 - info: [Appium]   appPackage: com.bigbasket.mobileapp
+2018-10-02 12:20:48:186 - info: [Appium]   appWaitActivity: com.bigbasket.mobileapp.activity.HomeActivity
+2018-10-02 12:20:48:186 - info: [Appium]   deviceName: 47b608f8
+2018-10-02 12:20:48:190 - info: [debug] [BaseDriver] W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"noReset":true,"udid":"47b... were provided
+2018-10-02 12:20:48:191 - info: [debug] [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+2018-10-02 12:20:48:197 - info: [BaseDriver] Session created with session id: 38c64b48-e59c-426a-a553-8baa1ea8a09f
+2018-10-02 12:20:49:669 - info: [AndroidDriver] Java version is: 1.8.0_151
+2018-10-02 12:20:49:672 - info: [ADB] Checking whether adb is present
+2018-10-02 12:20:49:685 - info: [ADB] Found 3 'build-tools' folders under 'C:\Program Files\Android-sdk' (newest first):
+2018-10-02 12:20:49:685 - info: [ADB]     C:/Program Files/Android-sdk/build-tools/28.0.1
+2018-10-02 12:20:49:685 - info: [ADB]     C:/Program Files/Android-sdk/build-tools/28.0.0
+2018-10-02 12:20:49:685 - info: [ADB]     C:/Program Files/Android-sdk/build-tools/27.0.2
+2018-10-02 12:20:49:687 - info: [ADB] Using adb.exe from C:\Program Files\Android-sdk\platform-tools\adb.exe
+2018-10-02 12:20:49:687 - info: [AndroidDriver] Retrieving device list
+2018-10-02 12:20:49:688 - info: [debug] [ADB] Trying to find a connected android device
+2018-10-02 12:20:49:689 - info: [debug] [ADB] Getting connected devices...
+2018-10-02 12:20:51:157 - info: [debug] [ADB] 1 device(s) connected
+2018-10-02 12:20:51:159 - info: [AndroidDriver] Using device: 47b608f8
+2018-10-02 12:20:51:159 - info: [debug] [ADB] Setting device id to 47b608f8
+2018-10-02 12:20:51:162 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell getprop ro.build.version.sdk'
+2018-10-02 12:20:52:649 - info: [debug] [ADB] Current device property 'ro.build.version.sdk': 27
+2018-10-02 12:20:52:650 - info: [debug] [ADB] Device API level: 27
+2018-10-02 12:20:52:650 - warn: [AndroidDriver] Consider setting 'automationName' capability to 'uiautomator2' on Android >= 6, since UIAutomator framework is not maintained anymore by the OS vendor.
+2018-10-02 12:20:52:652 - info: [BaseDriver] Using local app 'C:\Users\sreddy6\base.apk'
+2018-10-02 12:20:52:653 - info: [debug] [AndroidDriver] Checking whether app is actually present
+2018-10-02 12:20:52:655 - info: [AndroidDriver] Starting Android session
+2018-10-02 12:20:52:656 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 wait-for-device'
+2018-10-02 12:20:54:079 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell echo ping'
+2018-10-02 12:20:55:583 - info: [debug] [AndroidDriver] Pushing settings apk to device...
+2018-10-02 12:20:55:585 - info: [debug] [ADB] Getting install status for io.appium.settings
+2018-10-02 12:20:55:586 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell pm list packages io.appium.settings'
+2018-10-02 12:20:57:554 - info: [debug] [ADB] App is installed
+2018-10-02 12:20:57:555 - info: [debug] [ADB] Getting package info for 'io.appium.settings'
+2018-10-02 12:20:57:555 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell dumpsys package io.appium.settings'
+2018-10-02 12:20:59:059 - info: [ADB] Checking whether aapt is present
+2018-10-02 12:20:59:063 - info: [ADB] Using aapt.exe from C:\Program Files\Android-sdk\build-tools\28.0.1\aapt.exe
+2018-10-02 12:21:00:462 - info: [debug] [ADB] The installed 'io.appium.settings' package does not require upgrade ('2.3.0' >= '2.3.0')
+2018-10-02 12:21:00:463 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell ps'
+2018-10-02 12:21:02:085 - info: [debug] [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2018-10-02 12:21:02:086 - info: [debug] [ADB] Device API level: 27
+2018-10-02 12:21:02:086 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell appops set io.appium.settings android\:mock_location allow'
+2018-10-02 12:21:03:592 - warn: [AndroidDriver] setDeviceLanguageCountry requires language or country.
+2018-10-02 12:21:03:592 - warn: [AndroidDriver] Got language: 'null' and country: 'null'
+2018-10-02 12:21:03:594 - info: [debug] [Logcat] Starting logcat capture
+2018-10-02 12:21:04:703 - info: [debug] [AndroidDriver] Pushing unlock helper app to device...
+2018-10-02 12:21:04:703 - info: [debug] [ADB] Getting install status for io.appium.unlock
+2018-10-02 12:21:04:703 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell pm list packages io.appium.unlock'
+2018-10-02 12:21:06:672 - info: [debug] [ADB] App is installed
+2018-10-02 12:21:06:673 - info: [debug] [ADB] Getting package info for 'io.appium.unlock'
+2018-10-02 12:21:06:673 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell dumpsys package io.appium.unlock'
+2018-10-02 12:21:09:504 - info: [debug] [ADB] The installed 'io.appium.unlock' package does not require upgrade ('2.0.0' >= '2.0.0')
+2018-10-02 12:21:09:504 - info: [ADB] Getting device platform version
+2018-10-02 12:21:09:505 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell getprop ro.build.version.release'
+2018-10-02 12:21:10:980 - info: [debug] [ADB] Current device property 'ro.build.version.release': 8.1.0
+2018-10-02 12:21:10:980 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell wm size'
+2018-10-02 12:21:12:820 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell getprop ro.product.model'
+2018-10-02 12:21:14:307 - info: [debug] [ADB] Current device property 'ro.product.model': Mi A2
+2018-10-02 12:21:14:308 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell getprop ro.product.manufacturer'
+2018-10-02 12:21:15:789 - info: [debug] [ADB] Current device property 'ro.product.manufacturer': Xiaomi
+2018-10-02 12:21:15:790 - info: [debug] [AndroidDriver] Parsing package and activity from app manifest
+2018-10-02 12:21:15:796 - info: [ADB] Using the alternative activity name detection method because of: Could not find apkanalyzer.bat in C:\Program Files\Android-sdk\platform-tools\apkanalyzer.bat,C:\Program Files\Android-sdk\emulator\apkanalyzer.bat,C:\Program Files\Android-sdk\tools\apkanalyzer.bat,C:\Program Files\Android-sdk\tools\bin\apkanalyzer.bat,C:\Program Files\Android-sdk\build-tools\28.0.1\apkanalyzer.bat,C:\Program Files\Android-sdk\build-tools\28.0.0\apkanalyzer.bat,C:\Program Files\Android-sdk\build-tools\27.0.2\apkanalyzer.bat. Do you have the Android SDK installed at 'C:\Program Files\Android-sdk'?
+2018-10-02 12:21:15:797 - info: [ADB] Extracting package and launch activity from manifest
+2018-10-02 12:21:17:126 - info: [ADB] Package name: 'com.bigbasket.mobileapp'
+2018-10-02 12:21:17:127 - info: [ADB] Main activity name: 'com.bigbasket.mobileapp.activity.SplashActivity'
+2018-10-02 12:21:17:127 - info: [debug] [AndroidDriver] Parsed package and activity are: com.bigbasket.mobileapp/com.bigbasket.mobileapp.activity.SplashActivity
+2018-10-02 12:21:17:128 - info: [debug] [ADB] Getting install status for com.bigbasket.mobileapp
+2018-10-02 12:21:17:128 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell pm list packages com.bigbasket.mobileapp'
+2018-10-02 12:21:19:044 - info: [debug] [ADB] App is installed
+2018-10-02 12:21:19:045 - info: [debug] [ADB] Getting package info for 'com.bigbasket.mobileapp'
+2018-10-02 12:21:19:046 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell dumpsys package com.bigbasket.mobileapp'
+2018-10-02 12:21:21:905 - info: [debug] [ADB] The installed 'com.bigbasket.mobileapp' package does not require upgrade (1716148 > 1716132)
+2018-10-02 12:21:21:906 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell rm -rf /data/local/tmp/strings.json'
+2018-10-02 12:21:23:411 - info: [debug] [AndroidDriver] Extracting strings from apk
+2018-10-02 12:21:23:412 - info: [debug] [AndroidDriver] C:\Users\sreddy6\base.apk
+2018-10-02 12:21:23:412 - info: [debug] [AndroidDriver] null
+2018-10-02 12:21:23:412 - info: [debug] [AndroidDriver] C:\Users\sreddy6\AppData\Local\Temp\com.bigbasket.mobileapp
+2018-10-02 12:21:23:414 - info: [debug] [ADB] Extracting strings for language: default
+2018-10-02 12:21:25:123 - info: [ADB] Successfully extracted 1422 strings from 'C:\Users\sreddy6\base.apk' resources for '(default)' configuration
+2018-10-02 12:21:25:165 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 push C\:\\Users\\sreddy6\\AppData\\Local\\Temp\\com.bigbasket.mobileapp\\strings.json /data/local/tmp'
+2018-10-02 12:21:26:656 - info: [debug] [AndroidBootstrap] Watching for bootstrap disconnect
+2018-10-02 12:21:26:658 - info: [debug] [ADB] Forwarding system: 4724 to device: 4724
+2018-10-02 12:21:26:658 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 forward tcp\:4724 tcp\:4724'
+2018-10-02 12:21:28:148 - info: [debug] [UiAutomator] Starting UiAutomator
+2018-10-02 12:21:28:149 - info: [debug] [UiAutomator] Moving to state 'starting'
+2018-10-02 12:21:28:149 - info: [debug] [UiAutomator] Parsing uiautomator jar
+2018-10-02 12:21:28:149 - info: [debug] [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2018-10-02 12:21:28:149 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 push C\:\\Users\\sreddy6\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-android-driver\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+2018-10-02 12:21:29:649 - info: [debug] [ADB] Attempting to kill all uiautomator processes
+2018-10-02 12:21:29:650 - info: [debug] [ADB] Getting all processes with uiautomator
+2018-10-02 12:21:29:650 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell ps'
+2018-10-02 12:21:31:381 - info: [ADB] No uiautomator process found to kill, continuing...
+2018-10-02 12:21:31:382 - info: [debug] [UiAutomator] Starting UIAutomator
+2018-10-02 12:21:31:382 - info: [debug] [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","47b608f8","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.bigbasket.mobileapp","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+2018-10-02 12:21:32:910 - info: [debug] [UiAutomator] Moving to state 'online'
+2018-10-02 12:21:32:915 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Loading json...
+2018-10-02 12:21:32:916 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+2018-10-02 12:21:32:917 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2018-10-02 12:21:32:921 - info: [AndroidBootstrap] Android bootstrap socket is now connected
+2018-10-02 12:21:32:925 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell dumpsys window'
+2018-10-02 12:21:33:789 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2018-10-02 12:21:34:457 - info: [AndroidDriver] Screen already unlocked, doing nothing
+2018-10-02 12:21:34:458 - info: [debug] [ADB] Device API level: 27
+2018-10-02 12:21:34:459 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell am start -W -n com.bigbasket.mobileapp/com.bigbasket.mobileapp.activity.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2018-10-02 12:21:37:170 - info: [debug] [ADB] Waiting up to 20000ms for activity matching pkg: 'com.bigbasket.mobileapp' and activity: 'com.bigbasket.mobileapp.activity.HomeActivity' to be focused
+2018-10-02 12:21:37:170 - info: [debug] [ADB] Possible activities, to be checked: 'com.bigbasket.mobileapp.activity.HomeActivity', 'com.bigbasket.mobileapp.com.bigbasket.mobileapp.activity.HomeActivity'
+2018-10-02 12:21:37:172 - info: [debug] [ADB] Getting focused package and activity
+2018-10-02 12:21:37:172 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell dumpsys window windows'
+2018-10-02 12:21:38:689 - info: [debug] [ADB] Found package: 'com.bigbasket.mobileapp' and fully qualified activity name : 'com.bigbasket.mobileapp.activity.HomeActivity'
+2018-10-02 12:21:38:690 - info: [Appium] New AndroidDriver session created successfully, session 38c64b48-e59c-426a-a553-8baa1ea8a09f added to master session list
+2018-10-02 12:21:38:691 - info: [debug] [BaseDriver] Event 'newSessionStarted' logged at 1538482898691 (17:51:38 GMT+0530 (India Standard Time))
+2018-10-02 12:21:38:692 - info: [debug] [W3C] Cached the protocol value 'W3C' for the new session 38c64b48-e59c-426a-a553-8baa1ea8a09f
+2018-10-02 12:21:38:693 - info: [debug] [W3C] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","noReset":true,"udid":"47b608f8","app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","deviceName":"47b608f8"},"platformName":"android","noReset":true,"udid":"47b608f8","app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","deviceName":"47b608f8","deviceUDID":"47b608f8","platformVersion":"8.1.0","deviceScreenSize":"1080x2160","deviceModel":"Mi A2","deviceManufacturer":"Xiaomi","appWaitPackage":"com.bigbasket.mobileapp","appActivity":"com.bigbasket.mobileapp.activity.SplashActivity"}}
+2018-10-02 12:21:38:694 - info: [HTTP] <-- POST /wd/hub/session 200 50519 ms - 973
+2018-10-02 12:21:38:695 - info: [HTTP] 
+2018-10-02 12:21:38:800 - info: [HTTP] --> GET /wd/hub/session/38c64b48-e59c-426a-a553-8baa1ea8a09f
+2018-10-02 12:21:38:801 - info: [HTTP] {}
+2018-10-02 12:21:38:801 - info: [debug] [W3C] Calling AppiumDriver.getSession() with args: ["38c64b48-e59c-426a-a553-8baa1ea8a09f"]
+2018-10-02 12:21:38:819 - info: [debug] [W3C] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","noReset":true,"udid":"47b608f8","app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","deviceName":"47b608f8"},"platformName":"android","noReset":true,"udid":"47b608f8","app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","deviceName":"47b608f8","deviceUDID":"47b608f8","platformVersion":"8.1.0","deviceScreenSize":"1080x2160","deviceModel":"Mi A2","deviceManufacturer":"Xiaomi","appWaitPackage":"com.bigbasket.mobileapp","appActivity":"com.bigbasket.mobileapp.activity.SplashActivity"}
+2018-10-02 12:21:38:821 - info: [HTTP] <-- GET /wd/hub/session/38c64b48-e59c-426a-a553-8baa1ea8a09f 200 19 ms - 905
+2018-10-02 12:21:38:822 - info: [HTTP] 
+2018-10-02 12:21:38:834 - info: [HTTP] --> GET /wd/hub/session/38c64b48-e59c-426a-a553-8baa1ea8a09f
+2018-10-02 12:21:38:835 - info: [HTTP] {}
+2018-10-02 12:21:38:835 - info: [debug] [W3C] Calling AppiumDriver.getSession() with args: ["38c64b48-e59c-426a-a553-8baa1ea8a09f"]
+2018-10-02 12:21:38:838 - info: [debug] [W3C] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","noReset":true,"udid":"47b608f8","app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","deviceName":"47b608f8"},"platformName":"android","noReset":true,"udid":"47b608f8","app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","deviceName":"47b608f8","deviceUDID":"47b608f8","platformVersion":"8.1.0","deviceScreenSize":"1080x2160","deviceModel":"Mi A2","deviceManufacturer":"Xiaomi","appWaitPackage":"com.bigbasket.mobileapp","appActivity":"com.bigbasket.mobileapp.activity.SplashActivity"}
+2018-10-02 12:21:38:839 - info: [HTTP] <-- GET /wd/hub/session/38c64b48-e59c-426a-a553-8baa1ea8a09f 200 4 ms - 905
+2018-10-02 12:21:38:839 - info: [HTTP] 
+2018-10-02 12:21:38:847 - info: [HTTP] --> GET /wd/hub/session/38c64b48-e59c-426a-a553-8baa1ea8a09f/appium/device/system_time
+2018-10-02 12:21:38:848 - info: [HTTP] {}
+2018-10-02 12:21:38:850 - info: [debug] [W3C] Calling AppiumDriver.getDeviceTime() with args: [null,"38c64b48-e59c-426a-a553-8baa1ea8a09f"]
+2018-10-02 12:21:38:853 - info: [AndroidDriver] Attempting to capture android device date and time
+2018-10-02 12:21:38:853 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell date +%Y-%m-%dT%T%z'
+2018-10-02 12:21:40:363 - info: [debug] [W3C] Responding to client with driver.getDeviceTime() result: "2018-10-02T17:51:38+05:30"
+2018-10-02 12:21:40:364 - info: [HTTP] <-- GET /wd/hub/session/38c64b48-e59c-426a-a553-8baa1ea8a09f/appium/device/system_time 200 1515 ms - 37
+2018-10-02 12:21:40:364 - info: [HTTP] 
+2018-10-02 12:21:40:372 - info: [HTTP] --> POST /wd/hub/session/38c64b48-e59c-426a-a553-8baa1ea8a09f/timeouts
+2018-10-02 12:21:40:372 - info: [HTTP] {"implicit":20000}
+2018-10-02 12:21:40:373 - info: [debug] [W3C] Calling AppiumDriver.timeouts() with args: [null,null,null,null,20000,"38c64b48-e59c-426a-a553-8baa1ea8a09f"]
+2018-10-02 12:21:40:376 - info: [debug] [BaseDriver] W3C timeout argument: {"implicit":20000}}
+2018-10-02 12:21:40:376 - info: [debug] [BaseDriver] Set implicit wait to 20000ms
+2018-10-02 12:21:40:377 - info: [debug] [W3C] Responding to client with driver.timeouts() result: null
+2018-10-02 12:21:40:378 - info: [HTTP] <-- POST /wd/hub/session/38c64b48-e59c-426a-a553-8baa1ea8a09f/timeouts 200 5 ms - 14
+2018-10-02 12:21:40:378 - info: [HTTP] 
+2018-10-02 12:21:40:404 - info: [HTTP] --> POST /wd/hub/session/38c64b48-e59c-426a-a553-8baa1ea8a09f/elements
+2018-10-02 12:21:40:406 - info: [HTTP] {"using":"id","value":"com.bigbasket.mobileapp:id/bbBottomNavItemText"}
+2018-10-02 12:21:40:406 - info: [debug] [W3C] Calling AppiumDriver.findElements() with args: ["id","com.bigbasket.mobileapp:id/bbBottomNavItemText","38c64b48-e59c-426a-a553-8baa1ea8a09f"]
+2018-10-02 12:21:40:408 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-02 12:21:40:408 - info: [debug] [BaseDriver] Waiting up to 20000 ms for condition
+2018-10-02 12:21:40:410 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/bbBottomNavItemText","context":"","multiple":true}}
+2018-10-02 12:21:40:415 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/bbBottomNavItemText","context":"","multiple":true}}
+2018-10-02 12:21:40:417 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 12:21:40:417 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 12:21:40:418 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.bigbasket.mobileapp:id/bbBottomNavItemText' using 'ID' with the contextId: '' multiple: true
+2018-10-02 12:21:40:423 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.bigbasket.mobileapp:id/bbBottomNavItemText]
+2018-10-02 12:21:40:424 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.bigbasket.mobileapp:id/bbBottomNavItemText]
+2018-10-02 12:21:40:424 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-10-02 12:21:40:425 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/bbBottomNavItemText]
+2018-10-02 12:21:40:446 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (1)
+2018-10-02 12:21:40:447 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=1, RESOURCE_ID=com.bigbasket.mobileapp:id/bbBottomNavItemText]
+2018-10-02 12:21:40:497 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (2)
+2018-10-02 12:21:40:501 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=2, RESOURCE_ID=com.bigbasket.mobileapp:id/bbBottomNavItemText]
+2018-10-02 12:21:40:583 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (3)
+2018-10-02 12:21:40:584 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=3, RESOURCE_ID=com.bigbasket.mobileapp:id/bbBottomNavItemText]
+2018-10-02 12:21:40:600 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (4)
+2018-10-02 12:21:40:602 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=4, RESOURCE_ID=com.bigbasket.mobileapp:id/bbBottomNavItemText]
+2018-10-02 12:21:40:623 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (5)
+2018-10-02 12:21:40:626 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=5, RESOURCE_ID=com.bigbasket.mobileapp:id/bbBottomNavItemText]
+2018-10-02 12:21:40:646 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"1"},{"ELEMENT":"2"},{"ELEMENT":"3"},{"ELEMENT":"4"},{"ELEMENT":"5"}]}
+2018-10-02 12:21:40:647 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 12:21:40:649 - info: [debug] [W3C] Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"1"},{"element-6066-11e4-a52e-4f735466cecf":"2"},{"element-6066-11e4-a52e-4f735466cecf":"3"},{"element-6066-11e4-a52e-4f735466cecf":"4"},{"element-6066-11e4-a52e-4f735466cecf":"5"}]
+2018-10-02 12:21:40:650 - info: [HTTP] <-- POST /wd/hub/session/38c64b48-e59c-426a-a553-8baa1ea8a09f/elements 200 245 ms - 231
+2018-10-02 12:21:40:650 - info: [HTTP] 
+2018-10-02 12:21:40:681 - info: [HTTP] --> POST /wd/hub/session/38c64b48-e59c-426a-a553-8baa1ea8a09f/element/3/click
+2018-10-02 12:21:40:681 - info: [HTTP] {"id":"3"}
+2018-10-02 12:21:40:681 - info: [debug] [W3C] Calling AppiumDriver.click() with args: ["3","38c64b48-e59c-426a-a553-8baa1ea8a09f"]
+2018-10-02 12:21:40:683 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"3"}}
+2018-10-02 12:21:40:688 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"3"}}
+2018-10-02 12:21:40:688 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 12:21:40:688 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2018-10-02 12:21:40:849 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-10-02 12:21:40:850 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 12:21:40:851 - info: [debug] [W3C] Responding to client with driver.click() result: true
+2018-10-02 12:21:40:852 - info: [HTTP] <-- POST /wd/hub/session/38c64b48-e59c-426a-a553-8baa1ea8a09f/element/3/click 200 171 ms - 14
+2018-10-02 12:21:40:852 - info: [HTTP] 
+2018-10-02 12:21:40:857 - info: [HTTP] --> POST /wd/hub/session/38c64b48-e59c-426a-a553-8baa1ea8a09f/element
+2018-10-02 12:21:40:857 - info: [HTTP] {"using":"id","value":"com.bigbasket.mobileapp:id/txtTermHeader"}
+2018-10-02 12:21:40:858 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.bigbasket.mobileapp:id/txtTermHeader","38c64b48-e59c-426a-a553-8baa1ea8a09f"]
+2018-10-02 12:21:40:860 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-02 12:21:40:862 - info: [debug] [BaseDriver] Waiting up to 20000 ms for condition
+2018-10-02 12:21:40:862 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/txtTermHeader","context":"","multiple":false}}
+2018-10-02 12:21:40:866 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/txtTermHeader","context":"","multiple":false}}
+2018-10-02 12:21:40:870 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 12:21:40:870 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 12:21:40:871 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.bigbasket.mobileapp:id/txtTermHeader' using 'ID' with the contextId: '' multiple: false
+2018-10-02 12:21:40:871 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/txtTermHeader]
+2018-10-02 12:21:41:588 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 12:21:41:591 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"6"}}
+2018-10-02 12:21:41:593 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"6"}
+2018-10-02 12:21:41:597 - info: [HTTP] <-- POST /wd/hub/session/38c64b48-e59c-426a-a553-8baa1ea8a09f/element 200 738 ms - 53
+2018-10-02 12:21:41:598 - info: [HTTP] 
+2018-10-02 12:21:41:610 - info: [HTTP] --> GET /wd/hub/session/38c64b48-e59c-426a-a553-8baa1ea8a09f/element/6/enabled
+2018-10-02 12:21:41:611 - info: [HTTP] {}
+2018-10-02 12:21:41:612 - info: [debug] [W3C] Calling AppiumDriver.elementEnabled() with args: ["6","38c64b48-e59c-426a-a553-8baa1ea8a09f"]
+2018-10-02 12:21:41:617 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"enabled","elementId":"6"}}
+2018-10-02 12:21:41:625 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"enabled","elementId":"6"}}
+2018-10-02 12:21:41:626 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 12:21:41:626 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getAttribute
+2018-10-02 12:21:41:638 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 12:21:41:639 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"true"}
+2018-10-02 12:21:41:640 - info: [debug] [W3C] Responding to client with driver.elementEnabled() result: true
+2018-10-02 12:21:41:641 - info: [HTTP] <-- GET /wd/hub/session/38c64b48-e59c-426a-a553-8baa1ea8a09f/element/6/enabled 200 30 ms - 14
+2018-10-02 12:21:41:641 - info: [HTTP] 
+2018-10-02 12:21:41:671 - info: [HTTP] --> POST /wd/hub/session/38c64b48-e59c-426a-a553-8baa1ea8a09f/element
+2018-10-02 12:21:41:671 - info: [HTTP] {"using":"id","value":"com.bigbasket.mobileapp:id/homePageSearchBox"}
+2018-10-02 12:21:41:672 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.bigbasket.mobileapp:id/homePageSearchBox","38c64b48-e59c-426a-a553-8baa1ea8a09f"]
+2018-10-02 12:21:41:674 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-02 12:21:41:675 - info: [debug] [BaseDriver] Waiting up to 20000 ms for condition
+2018-10-02 12:21:41:675 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/homePageSearchBox","context":"","multiple":false}}
+2018-10-02 12:21:41:678 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/homePageSearchBox","context":"","multiple":false}}
+2018-10-02 12:21:41:680 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 12:21:41:680 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 12:21:41:681 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.bigbasket.mobileapp:id/homePageSearchBox' using 'ID' with the contextId: '' multiple: false
+2018-10-02 12:21:41:681 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/homePageSearchBox]
+2018-10-02 12:21:41:690 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"7"}}
+2018-10-02 12:21:41:691 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 12:21:41:692 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"7"}
+2018-10-02 12:21:41:693 - info: [HTTP] <-- POST /wd/hub/session/38c64b48-e59c-426a-a553-8baa1ea8a09f/element 200 22 ms - 53
+2018-10-02 12:21:41:693 - info: [HTTP] 
+2018-10-02 12:21:41:711 - info: [HTTP] --> POST /wd/hub/session/38c64b48-e59c-426a-a553-8baa1ea8a09f/element/7/value
+2018-10-02 12:21:41:712 - info: [HTTP] {"id":"7","text":"bread","value":["b","r","e","a","d"]}
+2018-10-02 12:21:41:712 - info: [debug] [W3C] Calling AppiumDriver.setValue() with args: [["b","r","e","a","d"],"7","38c64b48-e59c-426a-a553-8baa1ea8a09f"]
+2018-10-02 12:21:41:715 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:setText","params":{"elementId":"7","text":"bread","replace":false}}
+2018-10-02 12:21:41:720 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"7","text":"bread","replace":false}}
+2018-10-02 12:21:41:722 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 12:21:41:723 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: setText
+2018-10-02 12:21:41:723 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using element passed in: 7
+2018-10-02 12:21:41:742 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Attempting to clear using UiObject.clearText().
+2018-10-02 12:21:45:137 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Could not check for hint text because the element is not focused!
+2018-10-02 12:21:45:145 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Clearing text not successful. Attempting to clear by selecting all and deleting.
+2018-10-02 12:21:51:627 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Could not check for hint text because the element is not focused!
+2018-10-02 12:21:51:630 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Clearing text not successful. Attempting to clear by sending delete keys.
+2018-10-02 12:21:55:766 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Could not check for hint text because the element is not focused!
+2018-10-02 12:21:55:928 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Exhausted all means to clear text but 'Search 18000+ products' remains.
+2018-10-02 12:21:55:960 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text not cleared. Assuming remainder is hint text.
+2018-10-02 12:21:55:963 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Sending plain text to element: bread
+2018-10-02 12:21:58:364 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 12:21:58:365 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-10-02 12:21:58:367 - info: [debug] [W3C] Responding to client with driver.setValue() result: true
+2018-10-02 12:21:58:369 - info: [HTTP] <-- POST /wd/hub/session/38c64b48-e59c-426a-a553-8baa1ea8a09f/element/7/value 200 16657 ms - 14
+2018-10-02 12:21:58:370 - info: [HTTP] 
+2018-10-02 12:21:58:376 - info: [HTTP] --> POST /wd/hub/session/38c64b48-e59c-426a-a553-8baa1ea8a09f/element
+2018-10-02 12:21:58:377 - info: [HTTP] {"using":"id","value":"com.bigbasket.mobileapp:id/homePageSearchBox"}
+2018-10-02 12:21:58:378 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.bigbasket.mobileapp:id/homePageSearchBox","38c64b48-e59c-426a-a553-8baa1ea8a09f"]
+2018-10-02 12:21:58:382 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-02 12:21:58:382 - info: [debug] [BaseDriver] Waiting up to 20000 ms for condition
+2018-10-02 12:21:58:383 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/homePageSearchBox","context":"","multiple":false}}
+2018-10-02 12:21:58:392 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/homePageSearchBox","context":"","multiple":false}}
+2018-10-02 12:21:58:394 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 12:21:58:394 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 12:21:58:395 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.bigbasket.mobileapp:id/homePageSearchBox' using 'ID' with the contextId: '' multiple: false
+2018-10-02 12:21:58:400 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/homePageSearchBox]
+2018-10-02 12:21:59:582 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"8"}}
+2018-10-02 12:21:59:586 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 12:21:59:588 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"8"}
+2018-10-02 12:21:59:589 - info: [HTTP] <-- POST /wd/hub/session/38c64b48-e59c-426a-a553-8baa1ea8a09f/element 200 1213 ms - 53
+2018-10-02 12:21:59:590 - info: [HTTP] 
+2018-10-02 12:21:59:625 - info: [HTTP] --> POST /wd/hub/session/38c64b48-e59c-426a-a553-8baa1ea8a09f/element/8/value
+2018-10-02 12:21:59:626 - info: [HTTP] {"id":"8","text":"","value":[""]}
+2018-10-02 12:21:59:627 - info: [debug] [W3C] Calling AppiumDriver.setValue() with args: [[""],"8","38c64b48-e59c-426a-a553-8baa1ea8a09f"]
+2018-10-02 12:21:59:629 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:setText","params":{"elementId":"8","text":"","replace":false}}
+2018-10-02 12:21:59:634 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"8","text":"","replace":false}}
+2018-10-02 12:21:59:636 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 12:21:59:636 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: setText
+2018-10-02 12:21:59:636 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using element passed in: 8
+2018-10-02 12:21:59:722 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Attempting to clear using UiObject.clearText().
+2018-10-02 12:22:03:681 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Could not check for hint text because the element is not focused!
+2018-10-02 12:22:03:685 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Clearing text not successful. Attempting to clear by selecting all and deleting.
+2018-10-02 12:22:11:621 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Could not check for hint text because the element is not focused!
+2018-10-02 12:22:11:622 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Clearing text not successful. Attempting to clear by sending delete keys.
+2018-10-02 12:22:16:380 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Could not check for hint text because the element is not focused!
+2018-10-02 12:22:16:421 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Exhausted all means to clear text but 'Search 18000+ products' remains.
+2018-10-02 12:22:16:461 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text not cleared. Assuming remainder is hint text.
+2018-10-02 12:22:16:467 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Sending plain text to element: 
+2018-10-02 12:22:18:790 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-10-02 12:22:18:791 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 12:22:18:794 - info: [debug] [W3C] Responding to client with driver.setValue() result: true
+2018-10-02 12:22:18:798 - info: [HTTP] <-- POST /wd/hub/session/38c64b48-e59c-426a-a553-8baa1ea8a09f/element/8/value 200 19171 ms - 14
+2018-10-02 12:22:18:798 - info: [HTTP] 
+2018-10-02 12:22:18:809 - info: [HTTP] --> POST /wd/hub/session/38c64b48-e59c-426a-a553-8baa1ea8a09f/element
+2018-10-02 12:22:18:810 - info: [HTTP] {"using":"id","value":"com.bigbasket.mobileapp:id/txtProductCount"}
+2018-10-02 12:22:18:811 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.bigbasket.mobileapp:id/txtProductCount","38c64b48-e59c-426a-a553-8baa1ea8a09f"]
+2018-10-02 12:22:18:814 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-02 12:22:18:815 - info: [debug] [BaseDriver] Waiting up to 20000 ms for condition
+2018-10-02 12:22:18:816 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/txtProductCount","context":"","multiple":false}}
+2018-10-02 12:22:18:820 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/txtProductCount","context":"","multiple":false}}
+2018-10-02 12:22:18:822 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 12:22:18:823 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 12:22:18:823 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.bigbasket.mobileapp:id/txtProductCount' using 'ID' with the contextId: '' multiple: false
+2018-10-02 12:22:18:823 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/txtProductCount]
+2018-10-02 12:22:19:672 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 12:22:19:678 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.bigbasket.mobileapp:id/txtProductCount' using 'ID' with the contextId: '' multiple: false
+2018-10-02 12:22:19:680 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/txtProductCount]
+2018-10-02 12:22:19:862 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 12:22:19:863 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 12:22:19:864 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 12:22:19:926 - info: [debug] [BaseDriver] Waited for 1111 ms so far
+2018-10-02 12:22:20:429 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/txtProductCount","context":"","multiple":false}}
+2018-10-02 12:22:20:434 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/txtProductCount","context":"","multiple":false}}
+2018-10-02 12:22:20:436 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 12:22:20:437 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 12:22:20:437 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.bigbasket.mobileapp:id/txtProductCount' using 'ID' with the contextId: '' multiple: false
+2018-10-02 12:22:20:438 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/txtProductCount]
+2018-10-02 12:22:20:529 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 12:22:20:534 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.bigbasket.mobileapp:id/txtProductCount' using 'ID' with the contextId: '' multiple: false
+2018-10-02 12:22:20:535 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/txtProductCount]
+2018-10-02 12:22:20:593 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 12:22:20:595 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 12:22:20:595 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 12:22:20:597 - info: [debug] [BaseDriver] Waited for 1782 ms so far
+2018-10-02 12:22:21:098 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/txtProductCount","context":"","multiple":false}}
+2018-10-02 12:22:21:106 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/txtProductCount","context":"","multiple":false}}
+2018-10-02 12:22:21:109 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 12:22:21:111 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 12:22:21:111 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.bigbasket.mobileapp:id/txtProductCount' using 'ID' with the contextId: '' multiple: false
+2018-10-02 12:22:21:112 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/txtProductCount]
+2018-10-02 12:22:21:209 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 12:22:21:211 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.bigbasket.mobileapp:id/txtProductCount' using 'ID' with the contextId: '' multiple: false
+2018-10-02 12:22:21:213 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/txtProductCount]
+2018-10-02 12:22:21:387 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 12:22:21:388 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 12:22:21:389 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 12:22:21:394 - info: [debug] [BaseDriver] Waited for 2578 ms so far
+2018-10-02 12:22:21:896 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/txtProductCount","context":"","multiple":false}}
+2018-10-02 12:22:21:907 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/txtProductCount","context":"","multiple":false}}
+2018-10-02 12:22:21:912 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 12:22:21:914 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 12:22:21:915 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.bigbasket.mobileapp:id/txtProductCount' using 'ID' with the contextId: '' multiple: false
+2018-10-02 12:22:21:916 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/txtProductCount]
+2018-10-02 12:22:21:936 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 12:22:21:937 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.bigbasket.mobileapp:id/txtProductCount' using 'ID' with the contextId: '' multiple: false
+2018-10-02 12:22:21:938 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/txtProductCount]
+2018-10-02 12:22:23:593 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 12:22:23:597 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 12:22:23:598 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 12:22:23:600 - info: [debug] [BaseDriver] Waited for 4785 ms so far
+2018-10-02 12:22:24:103 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/txtProductCount","context":"","multiple":false}}
+2018-10-02 12:22:24:111 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/txtProductCount","context":"","multiple":false}}
+2018-10-02 12:22:24:114 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 12:22:24:115 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 12:22:24:117 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.bigbasket.mobileapp:id/txtProductCount' using 'ID' with the contextId: '' multiple: false
+2018-10-02 12:22:24:118 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/txtProductCount]
+2018-10-02 12:22:24:135 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 12:22:24:137 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.bigbasket.mobileapp:id/txtProductCount' using 'ID' with the contextId: '' multiple: false
+2018-10-02 12:22:24:139 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/txtProductCount]
+2018-10-02 12:22:24:182 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 12:22:24:184 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 12:22:24:187 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 12:22:24:192 - info: [debug] [BaseDriver] Waited for 5377 ms so far
+2018-10-02 12:22:24:693 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/txtProductCount","context":"","multiple":false}}
+2018-10-02 12:22:24:702 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/txtProductCount","context":"","multiple":false}}
+2018-10-02 12:22:24:703 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 12:22:24:704 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 12:22:24:704 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.bigbasket.mobileapp:id/txtProductCount' using 'ID' with the contextId: '' multiple: false
+2018-10-02 12:22:24:705 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/txtProductCount]
+2018-10-02 12:22:24:776 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 12:22:24:778 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.bigbasket.mobileapp:id/txtProductCount' using 'ID' with the contextId: '' multiple: false
+2018-10-02 12:22:24:778 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/txtProductCount]
+2018-10-02 12:22:24:877 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 12:22:24:878 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 12:22:24:878 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 12:22:24:880 - info: [debug] [BaseDriver] Waited for 6065 ms so far
+2018-10-02 12:22:25:382 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/txtProductCount","context":"","multiple":false}}
+2018-10-02 12:22:25:389 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/txtProductCount","context":"","multiple":false}}
+2018-10-02 12:22:25:393 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 12:22:25:395 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 12:22:25:395 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.bigbasket.mobileapp:id/txtProductCount' using 'ID' with the contextId: '' multiple: false
+2018-10-02 12:22:25:397 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/txtProductCount]
+2018-10-02 12:22:25:406 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 12:22:25:412 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.bigbasket.mobileapp:id/txtProductCount' using 'ID' with the contextId: '' multiple: false
+2018-10-02 12:22:25:413 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/txtProductCount]
+2018-10-02 12:22:25:486 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 12:22:25:489 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 12:22:25:491 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 12:22:25:496 - info: [debug] [BaseDriver] Waited for 6680 ms so far
+2018-10-02 12:22:25:999 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/txtProductCount","context":"","multiple":false}}
+2018-10-02 12:22:26:007 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/txtProductCount","context":"","multiple":false}}
+2018-10-02 12:22:26:011 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 12:22:26:012 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 12:22:26:013 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.bigbasket.mobileapp:id/txtProductCount' using 'ID' with the contextId: '' multiple: false
+2018-10-02 12:22:26:013 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/txtProductCount]
+2018-10-02 12:22:27:581 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 12:22:27:584 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.bigbasket.mobileapp:id/txtProductCount' using 'ID' with the contextId: '' multiple: false
+2018-10-02 12:22:27:585 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/txtProductCount]
+2018-10-02 12:22:27:633 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 12:22:27:635 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 12:22:27:636 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 12:22:27:642 - info: [debug] [BaseDriver] Waited for 8826 ms so far
+2018-10-02 12:22:28:142 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/txtProductCount","context":"","multiple":false}}
+2018-10-02 12:22:28:149 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/txtProductCount","context":"","multiple":false}}
+2018-10-02 12:22:28:151 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 12:22:28:152 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 12:22:28:152 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.bigbasket.mobileapp:id/txtProductCount' using 'ID' with the contextId: '' multiple: false
+2018-10-02 12:22:28:154 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/txtProductCount]
+2018-10-02 12:22:28:173 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 12:22:28:174 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.bigbasket.mobileapp:id/txtProductCount' using 'ID' with the contextId: '' multiple: false
+2018-10-02 12:22:28:176 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/txtProductCount]
+2018-10-02 12:22:28:222 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 12:22:28:224 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 12:22:28:224 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 12:22:28:227 - info: [debug] [BaseDriver] Waited for 9411 ms so far
+2018-10-02 12:22:28:728 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/txtProductCount","context":"","multiple":false}}
+2018-10-02 12:22:28:732 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/txtProductCount","context":"","multiple":false}}
+2018-10-02 12:22:28:734 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 12:22:28:737 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 12:22:28:742 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.bigbasket.mobileapp:id/txtProductCount' using 'ID' with the contextId: '' multiple: false
+2018-10-02 12:22:28:744 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/txtProductCount]
+2018-10-02 12:22:28:813 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 12:22:28:814 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.bigbasket.mobileapp:id/txtProductCount' using 'ID' with the contextId: '' multiple: false
+2018-10-02 12:22:28:815 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/txtProductCount]
+2018-10-02 12:22:28:973 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 12:22:28:974 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 12:22:28:974 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 12:22:28:976 - info: [debug] [BaseDriver] Waited for 10161 ms so far
+2018-10-02 12:22:29:477 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/txtProductCount","context":"","multiple":false}}
+2018-10-02 12:22:29:484 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/txtProductCount","context":"","multiple":false}}
+2018-10-02 12:22:29:486 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 12:22:29:487 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 12:22:29:488 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.bigbasket.mobileapp:id/txtProductCount' using 'ID' with the contextId: '' multiple: false
+2018-10-02 12:22:29:490 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/txtProductCount]
+2018-10-02 12:22:29:536 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 12:22:29:540 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.bigbasket.mobileapp:id/txtProductCount' using 'ID' with the contextId: '' multiple: false
+2018-10-02 12:22:29:540 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/txtProductCount]
+2018-10-02 12:22:29:604 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 12:22:29:608 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 12:22:29:608 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 12:22:29:609 - info: [debug] [BaseDriver] Waited for 10794 ms so far
+2018-10-02 12:22:30:111 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/txtProductCount","context":"","multiple":false}}
+2018-10-02 12:22:30:116 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/txtProductCount","context":"","multiple":false}}
+2018-10-02 12:22:30:118 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 12:22:30:120 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 12:22:30:121 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.bigbasket.mobileapp:id/txtProductCount' using 'ID' with the contextId: '' multiple: false
+2018-10-02 12:22:30:122 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/txtProductCount]
+2018-10-02 12:22:31:656 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 12:22:31:662 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.bigbasket.mobileapp:id/txtProductCount' using 'ID' with the contextId: '' multiple: false
+2018-10-02 12:22:31:663 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/txtProductCount]
+2018-10-02 12:22:31:905 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 12:22:31:907 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 12:22:31:908 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 12:22:31:909 - info: [debug] [BaseDriver] Waited for 13094 ms so far
+2018-10-02 12:22:32:411 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/txtProductCount","context":"","multiple":false}}
+2018-10-02 12:22:32:415 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/txtProductCount","context":"","multiple":false}}
+2018-10-02 12:22:32:416 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 12:22:32:418 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 12:22:32:423 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.bigbasket.mobileapp:id/txtProductCount' using 'ID' with the contextId: '' multiple: false
+2018-10-02 12:22:32:424 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/txtProductCount]
+2018-10-02 12:22:32:448 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 12:22:32:450 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.bigbasket.mobileapp:id/txtProductCount' using 'ID' with the contextId: '' multiple: false
+2018-10-02 12:22:32:450 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/txtProductCount]
+2018-10-02 12:22:32:509 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 12:22:32:511 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 12:22:32:511 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 12:22:32:512 - info: [debug] [BaseDriver] Waited for 13697 ms so far
+2018-10-02 12:22:33:016 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/txtProductCount","context":"","multiple":false}}
+2018-10-02 12:22:33:024 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/txtProductCount","context":"","multiple":false}}
+2018-10-02 12:22:33:026 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 12:22:33:027 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 12:22:33:028 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.bigbasket.mobileapp:id/txtProductCount' using 'ID' with the contextId: '' multiple: false
+2018-10-02 12:22:33:042 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/txtProductCount]
+2018-10-02 12:22:33:048 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 12:22:33:050 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.bigbasket.mobileapp:id/txtProductCount' using 'ID' with the contextId: '' multiple: false
+2018-10-02 12:22:33:052 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/txtProductCount]
+2018-10-02 12:22:33:153 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 12:22:33:154 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 12:22:33:155 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 12:22:33:157 - info: [debug] [BaseDriver] Waited for 14341 ms so far
+2018-10-02 12:22:33:658 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/txtProductCount","context":"","multiple":false}}
+2018-10-02 12:22:33:665 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/txtProductCount","context":"","multiple":false}}
+2018-10-02 12:22:33:668 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 12:22:33:671 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 12:22:33:672 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.bigbasket.mobileapp:id/txtProductCount' using 'ID' with the contextId: '' multiple: false
+2018-10-02 12:22:33:675 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/txtProductCount]
+2018-10-02 12:22:35:649 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 12:22:35:649 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.bigbasket.mobileapp:id/txtProductCount' using 'ID' with the contextId: '' multiple: false
+2018-10-02 12:22:35:651 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/txtProductCount]
+2018-10-02 12:22:35:990 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 12:22:35:991 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 12:22:35:992 - info: [debug] [BaseDriver] Waited for 17177 ms so far
+2018-10-02 12:22:35:993 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 12:22:36:492 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/txtProductCount","context":"","multiple":false}}
+2018-10-02 12:22:36:500 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/txtProductCount","context":"","multiple":false}}
+2018-10-02 12:22:36:500 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 12:22:36:501 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 12:22:36:501 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.bigbasket.mobileapp:id/txtProductCount' using 'ID' with the contextId: '' multiple: false
+2018-10-02 12:22:36:503 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/txtProductCount]
+2018-10-02 12:22:36:504 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 12:22:36:507 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.bigbasket.mobileapp:id/txtProductCount' using 'ID' with the contextId: '' multiple: false
+2018-10-02 12:22:36:507 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/txtProductCount]
+2018-10-02 12:22:36:511 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 12:22:36:511 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 12:22:36:512 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 12:22:36:514 - info: [debug] [BaseDriver] Waited for 17699 ms so far
+2018-10-02 12:22:37:017 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/txtProductCount","context":"","multiple":false}}
+2018-10-02 12:22:37:025 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/txtProductCount","context":"","multiple":false}}
+2018-10-02 12:22:37:026 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 12:22:37:027 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 12:22:37:027 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.bigbasket.mobileapp:id/txtProductCount' using 'ID' with the contextId: '' multiple: false
+2018-10-02 12:22:37:028 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/txtProductCount]
+2018-10-02 12:22:38:734 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 12:22:38:735 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.bigbasket.mobileapp:id/txtProductCount' using 'ID' with the contextId: '' multiple: false
+2018-10-02 12:22:38:736 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/txtProductCount]
+2018-10-02 12:22:46:323 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 12:22:46:324 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-10-02 12:22:46:345 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-02 12:22:46:347 - info: [debug] [W3C] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2018-10-02 12:22:46:347 - info: [debug] [W3C]     at AndroidDriver.callee$0$0$ (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+2018-10-02 12:22:46:347 - info: [debug] [W3C]     at tryCatch (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+2018-10-02 12:22:46:348 - info: [debug] [W3C]     at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+2018-10-02 12:22:46:348 - info: [debug] [W3C]     at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+2018-10-02 12:22:46:348 - info: [debug] [W3C]     at GeneratorFunctionPrototype.invoke (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+2018-10-02 12:22:46:348 - info: [debug] [W3C]     at <anonymous>
+2018-10-02 12:22:46:350 - info: [HTTP] <-- POST /wd/hub/session/38c64b48-e59c-426a-a553-8baa1ea8a09f/element 404 27541 ms - 1127
+2018-10-02 12:22:46:351 - info: [HTTP] 
+2018-10-02 12:22:46:407 - info: [HTTP] --> GET /wd/hub/status
+2018-10-02 12:22:46:408 - info: [HTTP] {}
+2018-10-02 12:22:46:408 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-10-02 12:22:46:409 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-10-02 12:22:46:410 - info: [HTTP] <-- GET /wd/hub/status 200 2 ms - 151
+2018-10-02 12:22:46:410 - info: [HTTP] 

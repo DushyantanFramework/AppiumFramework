@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="263" started-at="2018-09-21T11:50:07Z" finished-at="2018-09-21T11:50:07Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="263" started-at="2018-09-21T11:50:07Z" finished-at="2018-09-21T11:50:07Z">
+      <class name="com.test.dush.NewTest">
+        <test-method status="FAIL" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-09-21T11:50:07Z" finished-at="2018-09-21T11:50:07Z">
+          <exception class="java.io.IOException">
+            <message>
+              <![CDATA[Cannot run program "java -jar C:\Users\sreddy6\Desktop\Framework\TestJenkins\libs\selenium-server-standalone-3.9.1.jar -role hub -port 4437": CreateProcess error=2, The system cannot find the file specified]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.IOException: Cannot run program "java -jar C:\Users\sreddy6\Desktop\Framework\TestJenkins\libs\selenium-server-standalone-3.9.1.jar -role hub -port 4437": CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at com.test.dush.NewTest.beforeClass(NewTest.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:525)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:202)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:130)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:173)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1147)
+	at org.testng.TestRunner.privateRun(TestRunner.java:749)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:317)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:274)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:223)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1039)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:964)
+	at org.testng.TestNG.run(TestNG.java:900)
+	at org.testng.TestNG.privateMain(TestNG.java:1182)
+	at org.testng.TestNG.main(TestNG.java:1146)
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 26 more
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method status="SKIP" signature="openMyBlog()" name="openMyBlog" duration-ms="1" started-at="2018-09-21T11:50:07Z" finished-at="2018-09-21T11:50:07Z">
+        </test-method>
+        <test-method status="SKIP" signature="afterClass()" name="afterClass" is-config="true" duration-ms="0" started-at="2018-09-21T11:50:07Z" finished-at="2018-09-21T11:50:07Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

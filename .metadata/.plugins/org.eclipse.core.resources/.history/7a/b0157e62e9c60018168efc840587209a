@@ -1,0 +1,21 @@
+package com.appium.excel;
+
+import java.io.File;
+import java.io.FileInputStream;
+
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+
+public class ExcelReader {
+
+	HSSFWorkbook wb = null;
+	private String filePath;
+	
+	public ExcelReader(String filePath) {
+		this.filePath=filePath;
+	}
+	
+	public void ReadExcel(String sheetName,String column) {
+		
+		FileInputStream fis = new FileInputStream(new File(this.filePath));
+	}
+}

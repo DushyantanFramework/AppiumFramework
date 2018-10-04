@@ -1,0 +1,283 @@
+2018-09-28 14:38:27:401 - info: [Appium] Welcome to Appium v1.9.1
+2018-09-28 14:38:27:403 - info: [Appium] Non-default server args:
+2018-09-28 14:38:27:403 - info: [Appium]   address: 127.0.0.1
+2018-09-28 14:38:27:404 - info: [Appium]   port: 2568
+2018-09-28 14:38:27:404 - info: [Appium]   sessionOverride: true
+2018-09-28 14:38:27:404 - info: [Appium]   log: C:\Users\sreddy6\Desktop\Framework\AppiumFramework\ZL522255X4_2018_09_28_200816_log.txt
+2018-09-28 14:38:27:404 - info: [Appium]   defaultCapabilities: {
+2018-09-28 14:38:27:404 - info: [Appium]     noReset: true
+2018-09-28 14:38:27:405 - info: [Appium]     udid: ZL522255X4
+2018-09-28 14:38:27:405 - info: [Appium]   }
+2018-09-28 14:38:27:406 - info: [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2018-09-28 14:38:27:406 - info: [Appium]   noReset: true
+2018-09-28 14:38:27:406 - info: [Appium]   udid: ZL522255X4
+2018-09-28 14:38:27:534 - info: [Appium] Appium REST http interface listener started on 127.0.0.1:2568
+2018-09-28 14:38:28:046 - info: [HTTP] --> GET /wd/hub/status
+2018-09-28 14:38:28:046 - info: [HTTP] {}
+2018-09-28 14:38:28:049 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-09-28 14:38:28:050 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1"}}
+2018-09-28 14:38:28:054 - info: [HTTP] <-- GET /wd/hub/status 200 7 ms - 67
+2018-09-28 14:38:28:054 - info: [HTTP] 
+2018-09-28 14:38:29:224 - info: [HTTP] --> POST /wd/hub/session
+2018-09-28 14:38:29:224 - info: [HTTP] {"desiredCapabilities":{"app":"C:\\Users\\sreddy6\\MMS\\MMS_builds\\McafeeMobileSecuirty_Android_5.0_LD_bld_1597\\release\\mms-5.0.2.1597-production-release.apk","appPackage":"com.wsandroid.suite","appWaitActivity":"com.mcafee.activation.WelcomeActivity","deviceName":"ZL522255X4","platformName":"Android"},"capabilities":{"desiredCapabilities":{"app":"C:\\Users\\sreddy6\\MMS\\MMS_builds\\McafeeMobileSecuirty_Android_5.0_LD_bld_1597\\release\\mms-5.0.2.1597-production-release.apk","appPackage":"com.wsandroid.suite","appWaitActivity":"com.mcafee.activation.WelcomeActivity","deviceName":"ZL522255X4","platformName":"Android"},"firstMatch":[{"appium:app":"C:\\Users\\sreddy6\\MMS\\MMS_builds\\McafeeMobileSecuirty_Android_5.0_LD_bld_1597\\release\\mms-5.0.2.1597-production-release.apk","appium:appPackage":"com.wsandroid.suite","appium:appWaitActivity":"com.mcafee.activation.WelcomeActivity","appium:deviceName":"ZL522255X4","platformName":"android"}]}}
+2018-09-28 14:38:29:225 - info: [debug] [W3C] Calling AppiumDriver.createSession() with args: [{"app":"C:\\Users\\sreddy6\\MMS\\MMS_builds\\McafeeMobileSecuirty_Android_5.0_LD_bld_1597\\release\\mms-5.0.2.1597-production-release.apk","appPackage":"com.wsandroid.suite","appWaitActivity":"com.mcafee.activation.WelcomeActivity","deviceName":"ZL522255X4","platformName":"Android"},null,{"desiredCapabilities":{"app":"C:\\Users\\sreddy6\\MMS\\MMS_builds\\McafeeMobileSecuirty_Android_5.0_LD_bld_1597\\release\\mms-5.0.2.1597-production-release.apk","appPackage":"com.wsandroid.suite","appWaitActivity":"com.mcafee.activation.WelcomeActivity","deviceName":"ZL522255X4","platformName":"Android"},"firstMatch":[{"appium:app":"C:\\Users\\sreddy6\\MMS\\MMS_builds\\McafeeMobileSecuirty_Android_5.0_LD_bld_1597\\release\\mms-5.0.2.1597-production-release.apk","appium:appPackage":"com.wsandroid.suite","appium:appWaitActivity":"com.mcafee.activation.WelcomeActivity","appium:deviceName":"ZL522255X4","platformName":"android"}]}]
+2018-09-28 14:38:29:226 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1538145509226 (20:08:29 GMT+0530 (India Standard Time))
+2018-09-28 14:38:29:230 - warn: [BaseDriver] The capabilities ["noReset","udid"] are not standard capabilities and should have an extension prefix
+2018-09-28 14:38:29:234 - info: [Appium] Creating new AndroidDriver (v4.1.1) session
+2018-09-28 14:38:29:234 - info: [Appium] Capabilities:
+2018-09-28 14:38:29:234 - info: [Appium]   platformName: android
+2018-09-28 14:38:29:234 - info: [Appium]   noReset: true
+2018-09-28 14:38:29:235 - info: [Appium]   udid: ZL522255X4
+2018-09-28 14:38:29:235 - info: [Appium]   app: C:\Users\sreddy6\MMS\MMS_builds\McafeeMobileSecuirty_Android_5.0_LD_bld_1597\release\mms-5.0.2.1597-production-release.apk
+2018-09-28 14:38:29:235 - info: [Appium]   appPackage: com.wsandroid.suite
+2018-09-28 14:38:29:235 - info: [Appium]   appWaitActivity: com.mcafee.activation.WelcomeActivity
+2018-09-28 14:38:29:235 - info: [Appium]   deviceName: ZL522255X4
+2018-09-28 14:38:29:239 - info: [debug] [BaseDriver] W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"noReset":true,"udid":"ZL5... were provided
+2018-09-28 14:38:29:240 - info: [debug] [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+2018-09-28 14:38:29:246 - info: [BaseDriver] Session created with session id: d30a5d73-6463-4562-a955-a7df10f1fc4c
+2018-09-28 14:38:30:483 - info: [AndroidDriver] Java version is: 1.8.0_151
+2018-09-28 14:38:30:485 - info: [ADB] Checking whether adb is present
+2018-09-28 14:38:30:495 - info: [ADB] Found 3 'build-tools' folders under 'C:\Program Files\Android-sdk' (newest first):
+2018-09-28 14:38:30:495 - info: [ADB]     C:/Program Files/Android-sdk/build-tools/28.0.1
+2018-09-28 14:38:30:495 - info: [ADB]     C:/Program Files/Android-sdk/build-tools/28.0.0
+2018-09-28 14:38:30:495 - info: [ADB]     C:/Program Files/Android-sdk/build-tools/27.0.2
+2018-09-28 14:38:30:496 - info: [ADB] Using adb.exe from C:\Program Files\Android-sdk\platform-tools\adb.exe
+2018-09-28 14:38:30:497 - info: [AndroidDriver] Retrieving device list
+2018-09-28 14:38:30:497 - info: [debug] [ADB] Trying to find a connected android device
+2018-09-28 14:38:30:498 - info: [debug] [ADB] Getting connected devices...
+2018-09-28 14:38:31:595 - info: [debug] [ADB] 1 device(s) connected
+2018-09-28 14:38:31:596 - info: [AndroidDriver] Using device: ZL522255X4
+2018-09-28 14:38:31:597 - info: [debug] [ADB] Setting device id to ZL522255X4
+2018-09-28 14:38:31:598 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell getprop ro.build.version.sdk'
+2018-09-28 14:38:32:777 - info: [debug] [ADB] Current device property 'ro.build.version.sdk': 26
+2018-09-28 14:38:32:778 - info: [debug] [ADB] Device API level: 26
+2018-09-28 14:38:32:778 - warn: [AndroidDriver] Consider setting 'automationName' capability to 'uiautomator2' on Android >= 6, since UIAutomator framework is not maintained anymore by the OS vendor.
+2018-09-28 14:38:32:781 - info: [BaseDriver] Using local app 'C:\Users\sreddy6\MMS\MMS_builds\McafeeMobileSecuirty_Android_5.0_LD_bld_1597\release\mms-5.0.2.1597-production-release.apk'
+2018-09-28 14:38:32:782 - info: [debug] [AndroidDriver] Checking whether app is actually present
+2018-09-28 14:38:32:783 - info: [AndroidDriver] Starting Android session
+2018-09-28 14:38:32:785 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 wait-for-device'
+2018-09-28 14:38:33:889 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell echo ping'
+2018-09-28 14:38:35:000 - info: [debug] [AndroidDriver] Pushing settings apk to device...
+2018-09-28 14:38:35:001 - info: [debug] [ADB] Getting install status for io.appium.settings
+2018-09-28 14:38:35:002 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell pm list packages io.appium.settings'
+2018-09-28 14:38:37:019 - info: [debug] [ADB] App is installed
+2018-09-28 14:38:37:019 - info: [debug] [ADB] Getting package info for 'io.appium.settings'
+2018-09-28 14:38:37:020 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys package io.appium.settings'
+2018-09-28 14:38:38:167 - info: [ADB] Checking whether aapt is present
+2018-09-28 14:38:38:170 - info: [ADB] Using aapt.exe from C:\Program Files\Android-sdk\build-tools\28.0.1\aapt.exe
+2018-09-28 14:38:39:186 - info: [debug] [ADB] The installed 'io.appium.settings' package does not require upgrade ('2.3.0' >= '2.3.0')
+2018-09-28 14:38:39:187 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell ps'
+2018-09-28 14:38:40:500 - info: [debug] [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2018-09-28 14:38:40:501 - info: [debug] [ADB] Device API level: 26
+2018-09-28 14:38:40:502 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell appops set io.appium.settings android\:mock_location allow'
+2018-09-28 14:38:41:769 - warn: [AndroidDriver] setDeviceLanguageCountry requires language or country.
+2018-09-28 14:38:41:769 - warn: [AndroidDriver] Got language: 'null' and country: 'null'
+2018-09-28 14:38:41:770 - info: [debug] [Logcat] Starting logcat capture
+2018-09-28 14:38:42:561 - info: [debug] [AndroidDriver] Pushing unlock helper app to device...
+2018-09-28 14:38:42:562 - info: [debug] [ADB] Getting install status for io.appium.unlock
+2018-09-28 14:38:42:562 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell pm list packages io.appium.unlock'
+2018-09-28 14:38:44:616 - info: [debug] [ADB] App is installed
+2018-09-28 14:38:44:617 - info: [debug] [ADB] Getting package info for 'io.appium.unlock'
+2018-09-28 14:38:44:617 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys package io.appium.unlock'
+2018-09-28 14:38:46:769 - info: [debug] [ADB] The installed 'io.appium.unlock' package does not require upgrade ('2.0.0' >= '2.0.0')
+2018-09-28 14:38:46:769 - info: [ADB] Getting device platform version
+2018-09-28 14:38:46:770 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell getprop ro.build.version.release'
+2018-09-28 14:38:47:904 - info: [debug] [ADB] Current device property 'ro.build.version.release': 8.0.0
+2018-09-28 14:38:47:905 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell wm size'
+2018-09-28 14:38:49:907 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell getprop ro.product.model'
+2018-09-28 14:38:51:021 - info: [debug] [ADB] Current device property 'ro.product.model': moto g(6) play
+2018-09-28 14:38:51:021 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell getprop ro.product.manufacturer'
+2018-09-28 14:38:52:133 - info: [debug] [ADB] Current device property 'ro.product.manufacturer': motorola
+2018-09-28 14:38:52:134 - info: [debug] [AndroidDriver] Parsing package and activity from app manifest
+2018-09-28 14:38:52:140 - info: [ADB] Using the alternative activity name detection method because of: Could not find apkanalyzer.bat in C:\Program Files\Android-sdk\platform-tools\apkanalyzer.bat,C:\Program Files\Android-sdk\emulator\apkanalyzer.bat,C:\Program Files\Android-sdk\tools\apkanalyzer.bat,C:\Program Files\Android-sdk\tools\bin\apkanalyzer.bat,C:\Program Files\Android-sdk\build-tools\28.0.1\apkanalyzer.bat,C:\Program Files\Android-sdk\build-tools\28.0.0\apkanalyzer.bat,C:\Program Files\Android-sdk\build-tools\27.0.2\apkanalyzer.bat. Do you have the Android SDK installed at 'C:\Program Files\Android-sdk'?
+2018-09-28 14:38:52:141 - info: [ADB] Extracting package and launch activity from manifest
+2018-09-28 14:38:53:240 - info: [ADB] Package name: 'com.wsandroid.suite'
+2018-09-28 14:38:53:240 - info: [ADB] Main activity name: 'com.mcafee.app.LauncherDelegateActivity'
+2018-09-28 14:38:53:241 - info: [debug] [AndroidDriver] Parsed package and activity are: com.wsandroid.suite/com.mcafee.app.LauncherDelegateActivity
+2018-09-28 14:38:53:241 - info: [debug] [ADB] Getting install status for com.wsandroid.suite
+2018-09-28 14:38:53:242 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell pm list packages com.wsandroid.suite'
+2018-09-28 14:38:55:252 - info: [debug] [ADB] App is installed
+2018-09-28 14:38:55:252 - info: [debug] [ADB] Getting package info for 'com.wsandroid.suite'
+2018-09-28 14:38:55:253 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys package com.wsandroid.suite'
+2018-09-28 14:38:57:512 - info: [debug] [ADB] The installed 'com.wsandroid.suite' package does not require upgrade (5100280 > 5001597)
+2018-09-28 14:38:57:513 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell rm -rf /data/local/tmp/strings.json'
+2018-09-28 14:38:58:657 - info: [debug] [AndroidDriver] Extracting strings from apk
+2018-09-28 14:38:58:658 - info: [debug] [AndroidDriver] C:\Users\sreddy6\MMS\MMS_builds\McafeeMobileSecuirty_Android_5.0_LD_bld_1597\release\mms-5.0.2.1597-production-release.apk
+2018-09-28 14:38:58:658 - info: [debug] [AndroidDriver] null
+2018-09-28 14:38:58:658 - info: [debug] [AndroidDriver] C:\Users\sreddy6\AppData\Local\Temp\com.wsandroid.suite
+2018-09-28 14:38:58:659 - info: [debug] [ADB] Extracting strings for language: default
+2018-09-28 14:39:03:520 - info: [ADB] Successfully extracted 3527 strings from 'C:\Users\sreddy6\MMS\MMS_builds\McafeeMobileSecuirty_Android_5.0_LD_bld_1597\release\mms-5.0.2.1597-production-release.apk' resources for '(default)' configuration
+2018-09-28 14:39:03:538 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 push C\:\\Users\\sreddy6\\AppData\\Local\\Temp\\com.wsandroid.suite\\strings.json /data/local/tmp'
+2018-09-28 14:39:04:665 - info: [debug] [AndroidBootstrap] Watching for bootstrap disconnect
+2018-09-28 14:39:04:666 - info: [debug] [ADB] Forwarding system: 4724 to device: 4724
+2018-09-28 14:39:04:667 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 forward tcp\:4724 tcp\:4724'
+2018-09-28 14:39:05:746 - info: [debug] [UiAutomator] Starting UiAutomator
+2018-09-28 14:39:05:746 - info: [debug] [UiAutomator] Moving to state 'starting'
+2018-09-28 14:39:05:747 - info: [debug] [UiAutomator] Parsing uiautomator jar
+2018-09-28 14:39:05:747 - info: [debug] [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2018-09-28 14:39:05:747 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 push C\:\\Users\\sreddy6\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-android-driver\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+2018-09-28 14:39:06:852 - info: [debug] [ADB] Attempting to kill all uiautomator processes
+2018-09-28 14:39:06:853 - info: [debug] [ADB] Getting all processes with uiautomator
+2018-09-28 14:39:06:853 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell ps'
+2018-09-28 14:39:08:126 - info: [ADB] No uiautomator process found to kill, continuing...
+2018-09-28 14:39:08:127 - info: [debug] [UiAutomator] Starting UIAutomator
+2018-09-28 14:39:08:127 - info: [debug] [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","ZL522255X4","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.wsandroid.suite","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+2018-09-28 14:39:09:809 - info: [debug] [UiAutomator] Moving to state 'online'
+2018-09-28 14:39:09:810 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Loading json...
+2018-09-28 14:39:09:812 - info: [AndroidBootstrap] Android bootstrap socket is now connected
+2018-09-28 14:39:09:813 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window'
+2018-09-28 14:39:10:405 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+2018-09-28 14:39:10:405 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2018-09-28 14:39:10:406 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2018-09-28 14:39:10:956 - info: [AndroidDriver] Screen already unlocked, doing nothing
+2018-09-28 14:39:10:957 - info: [debug] [ADB] Device API level: 26
+2018-09-28 14:39:10:957 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell am start -W -n com.wsandroid.suite/com.mcafee.app.LauncherDelegateActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2018-09-28 14:39:13:162 - info: [debug] [ADB] Waiting up to 20000ms for activity matching pkg: 'com.wsandroid.suite' and activity: 'com.mcafee.activation.WelcomeActivity' to be focused
+2018-09-28 14:39:13:163 - info: [debug] [ADB] Possible activities, to be checked: 'com.mcafee.activation.WelcomeActivity', 'com.wsandroid.suite.com.mcafee.activation.WelcomeActivity'
+2018-09-28 14:39:13:164 - info: [debug] [ADB] Getting focused package and activity
+2018-09-28 14:39:13:164 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-28 14:39:14:374 - info: [debug] [ADB] Found package: 'com.wsandroid.suite' and fully qualified activity name : 'com.mcafee.app.SplashActivity'
+2018-09-28 14:39:14:375 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-28 14:39:15:128 - info: [debug] [ADB] Getting focused package and activity
+2018-09-28 14:39:15:128 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-28 14:39:16:274 - info: [debug] [ADB] Found package: 'com.wsandroid.suite' and fully qualified activity name : 'com.mcafee.app.SplashActivity'
+2018-09-28 14:39:16:274 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-28 14:39:17:025 - info: [debug] [ADB] Getting focused package and activity
+2018-09-28 14:39:17:025 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-28 14:39:18:148 - info: [debug] [ADB] Found package: 'com.wsandroid.suite' and fully qualified activity name : 'com.mcafee.app.SplashActivity'
+2018-09-28 14:39:18:148 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-28 14:39:18:898 - info: [debug] [ADB] Getting focused package and activity
+2018-09-28 14:39:18:899 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-28 14:39:20:046 - info: [debug] [ADB] Found package: 'com.wsandroid.suite' and fully qualified activity name : 'com.wsandroid.suite.activities.RemoveAdsActivity'
+2018-09-28 14:39:20:046 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-28 14:39:20:796 - info: [debug] [ADB] Getting focused package and activity
+2018-09-28 14:39:20:796 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-28 14:39:21:954 - info: [debug] [ADB] Found package: 'com.wsandroid.suite' and fully qualified activity name : 'com.wsandroid.suite.activities.RemoveAdsActivity'
+2018-09-28 14:39:21:954 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-28 14:39:22:704 - info: [debug] [ADB] Getting focused package and activity
+2018-09-28 14:39:22:704 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-28 14:39:23:856 - info: [debug] [ADB] Found package: 'com.wsandroid.suite' and fully qualified activity name : 'com.wsandroid.suite.activities.RemoveAdsActivity'
+2018-09-28 14:39:23:856 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-28 14:39:24:608 - info: [debug] [ADB] Getting focused package and activity
+2018-09-28 14:39:24:608 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-28 14:39:25:742 - info: [debug] [ADB] Found package: 'com.wsandroid.suite' and fully qualified activity name : 'com.wsandroid.suite.activities.RemoveAdsActivity'
+2018-09-28 14:39:25:742 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-28 14:39:26:492 - info: [debug] [ADB] Getting focused package and activity
+2018-09-28 14:39:26:492 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-28 14:39:27:610 - info: [debug] [ADB] Found package: 'com.wsandroid.suite' and fully qualified activity name : 'com.wsandroid.suite.activities.RemoveAdsActivity'
+2018-09-28 14:39:27:611 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-28 14:39:28:362 - info: [debug] [ADB] Getting focused package and activity
+2018-09-28 14:39:28:362 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-28 14:39:29:510 - info: [debug] [ADB] Found package: 'com.wsandroid.suite' and fully qualified activity name : 'com.wsandroid.suite.activities.OnBoardingPermissionsActivity'
+2018-09-28 14:39:29:510 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-28 14:39:30:261 - info: [debug] [ADB] Getting focused package and activity
+2018-09-28 14:39:30:262 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-28 14:39:31:409 - info: [debug] [ADB] Found package: 'com.wsandroid.suite' and fully qualified activity name : 'com.mcafee.activity.MainActivity'
+2018-09-28 14:39:31:409 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-28 14:39:32:160 - info: [debug] [ADB] Getting focused package and activity
+2018-09-28 14:39:32:161 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-28 14:39:33:328 - info: [debug] [ADB] Found package: 'com.wsandroid.suite' and fully qualified activity name : 'com.mcafee.activity.MainActivity'
+2018-09-28 14:39:33:329 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-28 14:39:34:079 - info: [debug] [ADB] Getting focused package and activity
+2018-09-28 14:39:34:080 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-28 14:39:35:228 - info: [debug] [ADB] Found package: 'com.wsandroid.suite' and fully qualified activity name : 'com.mcafee.activity.MainActivity'
+2018-09-28 14:39:35:228 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-28 14:39:35:979 - info: [debug] [ADB] Getting focused package and activity
+2018-09-28 14:39:35:979 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-28 14:39:37:129 - info: [debug] [ADB] Found package: 'com.wsandroid.suite' and fully qualified activity name : 'com.mcafee.activity.MainActivity'
+2018-09-28 14:39:37:129 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-28 14:39:37:880 - info: [debug] [ADB] Getting focused package and activity
+2018-09-28 14:39:37:881 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-28 14:39:39:027 - info: [debug] [ADB] Found package: 'com.wsandroid.suite' and fully qualified activity name : 'com.mcafee.activity.MainActivity'
+2018-09-28 14:39:39:028 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-28 14:39:39:778 - info: [debug] [ADB] Getting focused package and activity
+2018-09-28 14:39:39:778 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-28 14:39:40:917 - info: [debug] [ADB] Found package: 'com.wsandroid.suite' and fully qualified activity name : 'com.mcafee.activity.MainActivity'
+2018-09-28 14:39:40:917 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-28 14:39:41:668 - info: [debug] [ADB] Getting focused package and activity
+2018-09-28 14:39:41:669 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-28 14:39:42:809 - info: [debug] [ADB] Found package: 'com.wsandroid.suite' and fully qualified activity name : 'com.mcafee.activity.MainActivity'
+2018-09-28 14:39:42:809 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-28 14:39:43:560 - info: [debug] [ADB] Getting focused package and activity
+2018-09-28 14:39:43:561 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-28 14:39:44:700 - info: [debug] [ADB] Found package: 'com.wsandroid.suite' and fully qualified activity name : 'com.mcafee.activity.MainActivity'
+2018-09-28 14:39:44:701 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-28 14:39:45:453 - info: [debug] [ADB] Getting focused package and activity
+2018-09-28 14:39:45:453 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-28 14:39:46:622 - info: [debug] [ADB] Found package: 'com.wsandroid.suite' and fully qualified activity name : 'com.mcafee.activity.MainActivity'
+2018-09-28 14:39:46:623 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-28 14:39:47:374 - info: [debug] [ADB] Getting focused package and activity
+2018-09-28 14:39:47:375 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-28 14:39:48:547 - info: [debug] [ADB] Found package: 'com.wsandroid.suite' and fully qualified activity name : 'com.mcafee.activity.MainActivity'
+2018-09-28 14:39:48:547 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-28 14:39:49:299 - info: [debug] [ADB] Getting focused package and activity
+2018-09-28 14:39:49:300 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-28 14:39:50:440 - info: [debug] [ADB] Found package: 'com.wsandroid.suite' and fully qualified activity name : 'com.mcafee.activity.MainActivity'
+2018-09-28 14:39:50:441 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-28 14:39:51:192 - info: [debug] [ADB] Getting focused package and activity
+2018-09-28 14:39:51:193 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-28 14:39:52:334 - info: [debug] [ADB] Found package: 'com.wsandroid.suite' and fully qualified activity name : 'com.mcafee.activity.MainActivity'
+2018-09-28 14:39:52:335 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-28 14:39:53:087 - info: [debug] [ADB] Getting focused package and activity
+2018-09-28 14:39:53:087 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-28 14:39:54:228 - info: [debug] [ADB] Found package: 'com.wsandroid.suite' and fully qualified activity name : 'com.mcafee.activity.MainActivity'
+2018-09-28 14:39:54:228 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-28 14:39:54:980 - info: [debug] [ADB] Getting focused package and activity
+2018-09-28 14:39:54:980 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-28 14:39:56:118 - info: [debug] [ADB] Found package: 'com.wsandroid.suite' and fully qualified activity name : 'com.mcafee.activity.MainActivity'
+2018-09-28 14:39:56:118 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-28 14:39:56:870 - info: [debug] [ADB] Getting focused package and activity
+2018-09-28 14:39:56:871 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-28 14:39:57:993 - info: [debug] [ADB] Found package: 'com.wsandroid.suite' and fully qualified activity name : 'com.mcafee.activity.MainActivity'
+2018-09-28 14:39:57:993 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-28 14:39:58:745 - info: [debug] [ADB] Getting focused package and activity
+2018-09-28 14:39:58:745 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-28 14:39:59:886 - info: [debug] [ADB] Found package: 'com.wsandroid.suite' and fully qualified activity name : 'com.mcafee.activity.MainActivity'
+2018-09-28 14:39:59:886 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-28 14:40:00:637 - info: [debug] [ADB] Getting focused package and activity
+2018-09-28 14:40:00:638 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-28 14:40:01:823 - info: [debug] [ADB] Found package: 'com.wsandroid.suite' and fully qualified activity name : 'com.mcafee.activity.MainActivity'
+2018-09-28 14:40:01:824 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-28 14:40:01:825 - info: [debug] [AndroidDriver] Shutting down Android driver
+2018-09-28 14:40:01:826 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell am force-stop com.wsandroid.suite'
+2018-09-28 14:40:03:058 - info: [debug] [ADB] Pressing the HOME button
+2018-09-28 14:40:03:058 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell input keyevent 3'
+2018-09-28 14:40:05:154 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"shutdown"}
+2018-09-28 14:40:05:157 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+2018-09-28 14:40:05:157 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+2018-09-28 14:40:05:159 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+2018-09-28 14:40:05:160 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-09-28 14:40:05:160 - info: [debug] [UiAutomator] Shutting down UiAutomator
+2018-09-28 14:40:05:161 - info: [debug] [UiAutomator] Moving to state 'stopping'
+2018-09-28 14:40:05:162 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Closed client connection
+2018-09-28 14:40:05:163 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: numtests=1
+2018-09-28 14:40:05:163 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=.
+2018-09-28 14:40:05:163 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+2018-09-28 14:40:05:163 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
+2018-09-28 14:40:05:164 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
+2018-09-28 14:40:05:164 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: current=1
+2018-09-28 14:40:05:164 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: 0
+2018-09-28 14:40:05:164 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=
+2018-09-28 14:40:05:164 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] Test results for WatcherResultPrinter=.
+2018-09-28 14:40:05:165 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] Time: 55.372
+2018-09-28 14:40:05:165 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] OK (1 test)
+2018-09-28 14:40:05:180 - info: [debug] [UiAutomator] UiAutomator shut down normally
+2018-09-28 14:40:05:181 - info: [debug] [UiAutomator] Moving to state 'stopped'
+2018-09-28 14:40:05:181 - info: [debug] [ADB] Attempting to kill all uiautomator processes
+2018-09-28 14:40:05:181 - info: [debug] [ADB] Getting all processes with uiautomator
+2018-09-28 14:40:05:182 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell ps'
+2018-09-28 14:40:06:455 - info: [ADB] No uiautomator process found to kill, continuing...
+2018-09-28 14:40:06:455 - info: [debug] [UiAutomator] Moving to state 'stopped'
+2018-09-28 14:40:06:456 - info: [debug] [Logcat] Stopping logcat capture
+2018-09-28 14:40:06:465 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell am force-stop io.appium.unlock'
+2018-09-28 14:40:07:614 - info: [debug] [AndroidDriver] Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
+2018-09-28 14:40:07:615 - info: [debug] [BaseDriver] Event 'newSessionStarted' logged at 1538145607615 (20:10:07 GMT+0530 (India Standard Time))
+2018-09-28 14:40:07:637 - info: [debug] [W3C] Encountered internal error running command: Error: Cannot start the 'com.wsandroid.suite' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.mcafee.activation.WelcomeActivity' or 'com.wsandroid.suite.com.mcafee.activation.WelcomeActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting
+2018-09-28 14:40:07:637 - info: [debug] [W3C]     at ADB.callee$0$0$ (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\apk-utils.js:134:11)
+2018-09-28 14:40:07:637 - info: [debug] [W3C]     at tryCatch (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+2018-09-28 14:40:07:637 - info: [debug] [W3C]     at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+2018-09-28 14:40:07:637 - info: [debug] [W3C]     at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+2018-09-28 14:40:07:637 - info: [debug] [W3C]     at GeneratorFunctionPrototype.invoke (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+2018-09-28 14:40:07:638 - info: [debug] [W3C]     at <anonymous>
+2018-09-28 14:40:07:656 - info: [HTTP] <-- POST /wd/hub/session 500 98432 ms - 2175
+2018-09-28 14:40:07:656 - info: [HTTP] 

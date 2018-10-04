@@ -1,0 +1,897 @@
+2018-09-29 13:39:33:428 - info: [Appium] Welcome to Appium v1.9.1
+2018-09-29 13:39:33:430 - info: [Appium] Non-default server args:
+2018-09-29 13:39:33:431 - info: [Appium]   address: 127.0.0.1
+2018-09-29 13:39:33:431 - info: [Appium]   port: 19935
+2018-09-29 13:39:33:431 - info: [Appium]   sessionOverride: true
+2018-09-29 13:39:33:431 - info: [Appium]   log: C:\Users\sreddy6\Desktop\Framework\AppiumFramework\47b608f8_2018_09_29_190923_log.txt
+2018-09-29 13:39:33:432 - info: [Appium]   defaultCapabilities: {
+2018-09-29 13:39:33:432 - info: [Appium]     noReset: true
+2018-09-29 13:39:33:432 - info: [Appium]     udid: 47b608f8
+2018-09-29 13:39:33:432 - info: [Appium]   }
+2018-09-29 13:39:33:433 - info: [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2018-09-29 13:39:33:433 - info: [Appium]   noReset: true
+2018-09-29 13:39:33:434 - info: [Appium]   udid: 47b608f8
+2018-09-29 13:39:33:561 - info: [Appium] Appium REST http interface listener started on 127.0.0.1:19935
+2018-09-29 13:39:34:008 - info: [HTTP] --> GET /wd/hub/status
+2018-09-29 13:39:34:008 - info: [HTTP] {}
+2018-09-29 13:39:34:011 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-09-29 13:39:34:012 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1"}}
+2018-09-29 13:39:34:016 - info: [HTTP] <-- GET /wd/hub/status 200 7 ms - 67
+2018-09-29 13:39:34:017 - info: [HTTP] 
+2018-09-29 13:39:35:264 - info: [HTTP] --> POST /wd/hub/session
+2018-09-29 13:39:35:264 - info: [HTTP] {"desiredCapabilities":{"app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","deviceName":"47b608f8","platformName":"Android"},"capabilities":{"desiredCapabilities":{"app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","deviceName":"47b608f8","platformName":"Android"},"firstMatch":[{"appium:app":"C:\\Users\\sreddy6\\base.apk","appium:appPackage":"com.bigbasket.mobileapp","appium:appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","appium:deviceName":"47b608f8","platformName":"android"}]}}
+2018-09-29 13:39:35:265 - info: [debug] [W3C] Calling AppiumDriver.createSession() with args: [{"app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","deviceName":"47b608f8","platformName":"Android"},null,{"desiredCapabilities":{"app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","deviceName":"47b608f8","platformName":"Android"},"firstMatch":[{"appium:app":"C:\\Users\\sreddy6\\base.apk","appium:appPackage":"com.bigbasket.mobileapp","appium:appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","appium:deviceName":"47b608f8","platformName":"android"}]}]
+2018-09-29 13:39:35:266 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1538228375266 (19:09:35 GMT+0530 (India Standard Time))
+2018-09-29 13:39:35:270 - warn: [BaseDriver] The capabilities ["noReset","udid"] are not standard capabilities and should have an extension prefix
+2018-09-29 13:39:35:274 - info: [Appium] Creating new AndroidDriver (v4.1.1) session
+2018-09-29 13:39:35:274 - info: [Appium] Capabilities:
+2018-09-29 13:39:35:274 - info: [Appium]   platformName: android
+2018-09-29 13:39:35:275 - info: [Appium]   noReset: true
+2018-09-29 13:39:35:275 - info: [Appium]   udid: 47b608f8
+2018-09-29 13:39:35:275 - info: [Appium]   app: C:\Users\sreddy6\base.apk
+2018-09-29 13:39:35:275 - info: [Appium]   appPackage: com.bigbasket.mobileapp
+2018-09-29 13:39:35:275 - info: [Appium]   appWaitActivity: com.bigbasket.mobileapp.activity.HomeActivity
+2018-09-29 13:39:35:275 - info: [Appium]   deviceName: 47b608f8
+2018-09-29 13:39:35:279 - info: [debug] [BaseDriver] W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"noReset":true,"udid":"47b... were provided
+2018-09-29 13:39:35:280 - info: [debug] [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+2018-09-29 13:39:35:285 - info: [BaseDriver] Session created with session id: 8f52e9d0-adef-4549-9e9b-ea4a84d27be7
+2018-09-29 13:39:36:567 - info: [AndroidDriver] Java version is: 1.8.0_151
+2018-09-29 13:39:36:570 - info: [ADB] Checking whether adb is present
+2018-09-29 13:39:36:579 - info: [ADB] Found 3 'build-tools' folders under 'C:\Program Files\Android-sdk' (newest first):
+2018-09-29 13:39:36:580 - info: [ADB]     C:/Program Files/Android-sdk/build-tools/28.0.1
+2018-09-29 13:39:36:580 - info: [ADB]     C:/Program Files/Android-sdk/build-tools/28.0.0
+2018-09-29 13:39:36:580 - info: [ADB]     C:/Program Files/Android-sdk/build-tools/27.0.2
+2018-09-29 13:39:36:581 - info: [ADB] Using adb.exe from C:\Program Files\Android-sdk\platform-tools\adb.exe
+2018-09-29 13:39:36:582 - info: [AndroidDriver] Retrieving device list
+2018-09-29 13:39:36:582 - info: [debug] [ADB] Trying to find a connected android device
+2018-09-29 13:39:36:583 - info: [debug] [ADB] Getting connected devices...
+2018-09-29 13:39:37:772 - info: [debug] [ADB] 2 device(s) connected
+2018-09-29 13:39:37:773 - info: [AndroidDriver] Using device: 47b608f8
+2018-09-29 13:39:37:774 - info: [debug] [ADB] Setting device id to 47b608f8
+2018-09-29 13:39:37:776 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell getprop ro.build.version.sdk'
+2018-09-29 13:39:38:959 - info: [debug] [ADB] Current device property 'ro.build.version.sdk': 27
+2018-09-29 13:39:38:959 - info: [debug] [ADB] Device API level: 27
+2018-09-29 13:39:38:960 - warn: [AndroidDriver] Consider setting 'automationName' capability to 'uiautomator2' on Android >= 6, since UIAutomator framework is not maintained anymore by the OS vendor.
+2018-09-29 13:39:38:961 - info: [BaseDriver] Using local app 'C:\Users\sreddy6\base.apk'
+2018-09-29 13:39:38:962 - info: [debug] [AndroidDriver] Checking whether app is actually present
+2018-09-29 13:39:38:964 - info: [AndroidDriver] Starting Android session
+2018-09-29 13:39:38:965 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 wait-for-device'
+2018-09-29 13:39:40:113 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell echo ping'
+2018-09-29 13:39:41:244 - info: [debug] [AndroidDriver] Pushing settings apk to device...
+2018-09-29 13:39:41:245 - info: [debug] [ADB] Getting install status for io.appium.settings
+2018-09-29 13:39:41:246 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell pm list packages io.appium.settings'
+2018-09-29 13:39:43:458 - info: [debug] [ADB] App is installed
+2018-09-29 13:39:43:459 - info: [debug] [ADB] Getting package info for 'io.appium.settings'
+2018-09-29 13:39:43:459 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell dumpsys package io.appium.settings'
+2018-09-29 13:39:44:673 - info: [ADB] Checking whether aapt is present
+2018-09-29 13:39:44:676 - info: [ADB] Using aapt.exe from C:\Program Files\Android-sdk\build-tools\28.0.1\aapt.exe
+2018-09-29 13:39:45:754 - info: [debug] [ADB] The installed 'io.appium.settings' package does not require upgrade ('2.3.0' >= '2.3.0')
+2018-09-29 13:39:45:755 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell ps'
+2018-09-29 13:39:47:062 - info: [debug] [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2018-09-29 13:39:47:063 - info: [debug] [ADB] Device API level: 27
+2018-09-29 13:39:47:063 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell appops set io.appium.settings android\:mock_location allow'
+2018-09-29 13:39:48:267 - warn: [AndroidDriver] setDeviceLanguageCountry requires language or country.
+2018-09-29 13:39:48:268 - warn: [AndroidDriver] Got language: 'null' and country: 'null'
+2018-09-29 13:39:48:269 - info: [debug] [Logcat] Starting logcat capture
+2018-09-29 13:39:49:111 - info: [debug] [AndroidDriver] Pushing unlock helper app to device...
+2018-09-29 13:39:49:111 - info: [debug] [ADB] Getting install status for io.appium.unlock
+2018-09-29 13:39:49:111 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell pm list packages io.appium.unlock'
+2018-09-29 13:39:50:776 - info: [debug] [ADB] App is installed
+2018-09-29 13:39:50:777 - info: [debug] [ADB] Getting package info for 'io.appium.unlock'
+2018-09-29 13:39:50:777 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell dumpsys package io.appium.unlock'
+2018-09-29 13:39:53:031 - info: [debug] [ADB] The installed 'io.appium.unlock' package does not require upgrade ('2.0.0' >= '2.0.0')
+2018-09-29 13:39:53:032 - info: [ADB] Getting device platform version
+2018-09-29 13:39:53:033 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell getprop ro.build.version.release'
+2018-09-29 13:39:54:212 - info: [debug] [ADB] Current device property 'ro.build.version.release': 8.1.0
+2018-09-29 13:39:54:212 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell wm size'
+2018-09-29 13:39:55:782 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell getprop ro.product.model'
+2018-09-29 13:39:56:933 - info: [debug] [ADB] Current device property 'ro.product.model': Mi A2
+2018-09-29 13:39:56:934 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell getprop ro.product.manufacturer'
+2018-09-29 13:39:58:082 - info: [debug] [ADB] Current device property 'ro.product.manufacturer': Xiaomi
+2018-09-29 13:39:58:083 - info: [debug] [AndroidDriver] Parsing package and activity from app manifest
+2018-09-29 13:39:58:088 - info: [ADB] Using the alternative activity name detection method because of: Could not find apkanalyzer.bat in C:\Program Files\Android-sdk\platform-tools\apkanalyzer.bat,C:\Program Files\Android-sdk\emulator\apkanalyzer.bat,C:\Program Files\Android-sdk\tools\apkanalyzer.bat,C:\Program Files\Android-sdk\tools\bin\apkanalyzer.bat,C:\Program Files\Android-sdk\build-tools\28.0.1\apkanalyzer.bat,C:\Program Files\Android-sdk\build-tools\28.0.0\apkanalyzer.bat,C:\Program Files\Android-sdk\build-tools\27.0.2\apkanalyzer.bat. Do you have the Android SDK installed at 'C:\Program Files\Android-sdk'?
+2018-09-29 13:39:58:090 - info: [ADB] Extracting package and launch activity from manifest
+2018-09-29 13:39:59:172 - info: [ADB] Package name: 'com.bigbasket.mobileapp'
+2018-09-29 13:39:59:172 - info: [ADB] Main activity name: 'com.bigbasket.mobileapp.activity.SplashActivity'
+2018-09-29 13:39:59:173 - info: [debug] [AndroidDriver] Parsed package and activity are: com.bigbasket.mobileapp/com.bigbasket.mobileapp.activity.SplashActivity
+2018-09-29 13:39:59:173 - info: [debug] [ADB] Getting install status for com.bigbasket.mobileapp
+2018-09-29 13:39:59:174 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell pm list packages com.bigbasket.mobileapp'
+2018-09-29 13:40:00:760 - info: [debug] [ADB] App is installed
+2018-09-29 13:40:00:761 - info: [debug] [ADB] Getting package info for 'com.bigbasket.mobileapp'
+2018-09-29 13:40:00:761 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell dumpsys package com.bigbasket.mobileapp'
+2018-09-29 13:40:03:026 - info: [debug] [ADB] The installed 'com.bigbasket.mobileapp' package does not require upgrade (1716148 > 1716132)
+2018-09-29 13:40:03:027 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell rm -rf /data/local/tmp/strings.json'
+2018-09-29 13:40:04:191 - info: [debug] [AndroidDriver] Extracting strings from apk
+2018-09-29 13:40:04:191 - info: [debug] [AndroidDriver] C:\Users\sreddy6\base.apk
+2018-09-29 13:40:04:192 - info: [debug] [AndroidDriver] null
+2018-09-29 13:40:04:192 - info: [debug] [AndroidDriver] C:\Users\sreddy6\AppData\Local\Temp\com.bigbasket.mobileapp
+2018-09-29 13:40:04:193 - info: [debug] [ADB] Extracting strings for language: default
+2018-09-29 13:40:05:843 - info: [ADB] Successfully extracted 1422 strings from 'C:\Users\sreddy6\base.apk' resources for '(default)' configuration
+2018-09-29 13:40:05:888 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 push C\:\\Users\\sreddy6\\AppData\\Local\\Temp\\com.bigbasket.mobileapp\\strings.json /data/local/tmp'
+2018-09-29 13:40:07:528 - info: [debug] [AndroidBootstrap] Watching for bootstrap disconnect
+2018-09-29 13:40:07:530 - info: [debug] [ADB] Forwarding system: 4724 to device: 4724
+2018-09-29 13:40:07:531 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 forward tcp\:4724 tcp\:4724'
+2018-09-29 13:40:08:689 - info: [debug] [UiAutomator] Starting UiAutomator
+2018-09-29 13:40:08:690 - info: [debug] [UiAutomator] Moving to state 'starting'
+2018-09-29 13:40:08:690 - info: [debug] [UiAutomator] Parsing uiautomator jar
+2018-09-29 13:40:08:690 - info: [debug] [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2018-09-29 13:40:08:691 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 push C\:\\Users\\sreddy6\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-android-driver\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+2018-09-29 13:40:09:889 - info: [debug] [ADB] Attempting to kill all uiautomator processes
+2018-09-29 13:40:09:890 - info: [debug] [ADB] Getting all processes with uiautomator
+2018-09-29 13:40:09:890 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell ps'
+2018-09-29 13:40:11:194 - info: [ADB] No uiautomator process found to kill, continuing...
+2018-09-29 13:40:11:194 - info: [debug] [UiAutomator] Starting UIAutomator
+2018-09-29 13:40:11:194 - info: [debug] [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","47b608f8","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.bigbasket.mobileapp","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+2018-09-29 13:40:12:445 - info: [debug] [UiAutomator] Moving to state 'online'
+2018-09-29 13:40:12:448 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+2018-09-29 13:40:12:449 - info: [AndroidBootstrap] Android bootstrap socket is now connected
+2018-09-29 13:40:12:450 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell dumpsys window'
+2018-09-29 13:40:13:071 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2018-09-29 13:40:13:071 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2018-09-29 13:40:13:621 - info: [AndroidDriver] Screen already unlocked, doing nothing
+2018-09-29 13:40:13:622 - info: [debug] [ADB] Device API level: 27
+2018-09-29 13:40:13:623 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell am start -W -n com.bigbasket.mobileapp/com.bigbasket.mobileapp.activity.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2018-09-29 13:40:15:753 - info: [debug] [ADB] Waiting up to 20000ms for activity matching pkg: 'com.bigbasket.mobileapp' and activity: 'com.bigbasket.mobileapp.activity.HomeActivity' to be focused
+2018-09-29 13:40:15:753 - info: [debug] [ADB] Possible activities, to be checked: 'com.bigbasket.mobileapp.activity.HomeActivity', 'com.bigbasket.mobileapp.com.bigbasket.mobileapp.activity.HomeActivity'
+2018-09-29 13:40:15:755 - info: [debug] [ADB] Getting focused package and activity
+2018-09-29 13:40:15:755 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell dumpsys window windows'
+2018-09-29 13:40:16:950 - info: [debug] [ADB] Found package: 'com.bigbasket.mobileapp' and fully qualified activity name : 'com.bigbasket.mobileapp.activity.HomeActivity'
+2018-09-29 13:40:16:951 - info: [Appium] New AndroidDriver session created successfully, session 8f52e9d0-adef-4549-9e9b-ea4a84d27be7 added to master session list
+2018-09-29 13:40:16:952 - info: [debug] [BaseDriver] Event 'newSessionStarted' logged at 1538228416952 (19:10:16 GMT+0530 (India Standard Time))
+2018-09-29 13:40:16:953 - info: [debug] [W3C] Cached the protocol value 'W3C' for the new session 8f52e9d0-adef-4549-9e9b-ea4a84d27be7
+2018-09-29 13:40:16:954 - info: [debug] [W3C] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","noReset":true,"udid":"47b608f8","app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","deviceName":"47b608f8"},"platformName":"android","noReset":true,"udid":"47b608f8","app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","deviceName":"47b608f8","deviceUDID":"47b608f8","platformVersion":"8.1.0","deviceScreenSize":"1080x2160","deviceModel":"Mi A2","deviceManufacturer":"Xiaomi","appWaitPackage":"com.bigbasket.mobileapp","appActivity":"com.bigbasket.mobileapp.activity.SplashActivity"}}
+2018-09-29 13:40:16:955 - info: [HTTP] <-- POST /wd/hub/session 200 41691 ms - 973
+2018-09-29 13:40:16:956 - info: [HTTP] 
+2018-09-29 13:40:17:047 - info: [HTTP] --> GET /wd/hub/session/8f52e9d0-adef-4549-9e9b-ea4a84d27be7
+2018-09-29 13:40:17:047 - info: [HTTP] {}
+2018-09-29 13:40:17:048 - info: [debug] [W3C] Calling AppiumDriver.getSession() with args: ["8f52e9d0-adef-4549-9e9b-ea4a84d27be7"]
+2018-09-29 13:40:17:060 - info: [debug] [W3C] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","noReset":true,"udid":"47b608f8","app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","deviceName":"47b608f8"},"platformName":"android","noReset":true,"udid":"47b608f8","app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","deviceName":"47b608f8","deviceUDID":"47b608f8","platformVersion":"8.1.0","deviceScreenSize":"1080x2160","deviceModel":"Mi A2","deviceManufacturer":"Xiaomi","appWaitPackage":"com.bigbasket.mobileapp","appActivity":"com.bigbasket.mobileapp.activity.SplashActivity"}
+2018-09-29 13:40:17:062 - info: [HTTP] <-- GET /wd/hub/session/8f52e9d0-adef-4549-9e9b-ea4a84d27be7 200 14 ms - 905
+2018-09-29 13:40:17:062 - info: [HTTP] 
+2018-09-29 13:40:17:074 - info: [HTTP] --> GET /wd/hub/session/8f52e9d0-adef-4549-9e9b-ea4a84d27be7
+2018-09-29 13:40:17:074 - info: [HTTP] {}
+2018-09-29 13:40:17:075 - info: [debug] [W3C] Calling AppiumDriver.getSession() with args: ["8f52e9d0-adef-4549-9e9b-ea4a84d27be7"]
+2018-09-29 13:40:17:078 - info: [debug] [W3C] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","noReset":true,"udid":"47b608f8","app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","deviceName":"47b608f8"},"platformName":"android","noReset":true,"udid":"47b608f8","app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","deviceName":"47b608f8","deviceUDID":"47b608f8","platformVersion":"8.1.0","deviceScreenSize":"1080x2160","deviceModel":"Mi A2","deviceManufacturer":"Xiaomi","appWaitPackage":"com.bigbasket.mobileapp","appActivity":"com.bigbasket.mobileapp.activity.SplashActivity"}
+2018-09-29 13:40:17:079 - info: [HTTP] <-- GET /wd/hub/session/8f52e9d0-adef-4549-9e9b-ea4a84d27be7 200 5 ms - 905
+2018-09-29 13:40:17:080 - info: [HTTP] 
+2018-09-29 13:40:17:087 - info: [HTTP] --> GET /wd/hub/session/8f52e9d0-adef-4549-9e9b-ea4a84d27be7/appium/device/system_time
+2018-09-29 13:40:17:088 - info: [HTTP] {}
+2018-09-29 13:40:17:090 - info: [debug] [W3C] Calling AppiumDriver.getDeviceTime() with args: [null,"8f52e9d0-adef-4549-9e9b-ea4a84d27be7"]
+2018-09-29 13:40:17:092 - info: [AndroidDriver] Attempting to capture android device date and time
+2018-09-29 13:40:17:093 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell date +%Y-%m-%dT%T%z'
+2018-09-29 13:40:18:301 - info: [debug] [W3C] Responding to client with driver.getDeviceTime() result: "2018-09-29T19:10:18+05:30"
+2018-09-29 13:40:18:303 - info: [HTTP] <-- GET /wd/hub/session/8f52e9d0-adef-4549-9e9b-ea4a84d27be7/appium/device/system_time 200 1216 ms - 37
+2018-09-29 13:40:18:303 - info: [HTTP] 
+2018-09-29 13:40:18:311 - info: [HTTP] --> POST /wd/hub/session/8f52e9d0-adef-4549-9e9b-ea4a84d27be7/timeouts
+2018-09-29 13:40:18:311 - info: [HTTP] {"implicit":20000}
+2018-09-29 13:40:18:312 - info: [debug] [W3C] Calling AppiumDriver.timeouts() with args: [null,null,null,null,20000,"8f52e9d0-adef-4549-9e9b-ea4a84d27be7"]
+2018-09-29 13:40:18:313 - info: [debug] [BaseDriver] W3C timeout argument: {"implicit":20000}}
+2018-09-29 13:40:18:314 - info: [debug] [BaseDriver] Set implicit wait to 20000ms
+2018-09-29 13:40:18:314 - info: [debug] [W3C] Responding to client with driver.timeouts() result: null
+2018-09-29 13:40:18:315 - info: [HTTP] <-- POST /wd/hub/session/8f52e9d0-adef-4549-9e9b-ea4a84d27be7/timeouts 200 4 ms - 14
+2018-09-29 13:40:18:315 - info: [HTTP] 
+2018-09-29 13:40:18:343 - info: [HTTP] --> POST /wd/hub/session/8f52e9d0-adef-4549-9e9b-ea4a84d27be7/appium/device/start_activity
+2018-09-29 13:40:18:343 - info: [HTTP] {"appPackage":"com.google.android.apps.messaging","appActivity":".ui.ConversationListActivity","appWaitPackage":"","appWaitActivity":"","dontStopAppOnReset":false,"intentAction":"","intentCategory":"","intentFlags":"","optionalIntentArguments":""}
+2018-09-29 13:40:18:345 - info: [debug] [W3C] Calling AppiumDriver.startActivity() with args: ["com.google.android.apps.messaging",".ui.ConversationListActivity","","","","","","",false,null,null,"8f52e9d0-adef-4549-9e9b-ea4a84d27be7"]
+2018-09-29 13:40:18:347 - info: [debug] [AndroidDriver] Starting package 'com.google.android.apps.messaging' and activity '.ui.ConversationListActivity'
+2018-09-29 13:40:18:347 - info: [debug] [ADB] Device API level: 27
+2018-09-29 13:40:18:348 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell am start -W -n com.google.android.apps.messaging/.ui.ConversationListActivity -S'
+2018-09-29 13:40:20:870 - info: [debug] [ADB] Waiting up to 20000ms for activity matching pkg: 'com.google.android.apps.messaging' and activity: '.ui.ConversationListActivity' to be focused
+2018-09-29 13:40:20:871 - info: [debug] [ADB] Possible activities, to be checked: 'com.google.android.apps.messaging.ui.ConversationListActivity'
+2018-09-29 13:40:20:871 - info: [debug] [ADB] Getting focused package and activity
+2018-09-29 13:40:20:871 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell dumpsys window windows'
+2018-09-29 13:40:22:034 - info: [debug] [ADB] Found package: 'com.google.android.apps.messaging' and fully qualified activity name : 'com.google.android.apps.messaging.ui.ConversationListActivity'
+2018-09-29 13:40:22:035 - info: [debug] [W3C] Responding to client with driver.startActivity() result: null
+2018-09-29 13:40:22:036 - info: [HTTP] <-- POST /wd/hub/session/8f52e9d0-adef-4549-9e9b-ea4a84d27be7/appium/device/start_activity 200 3693 ms - 14
+2018-09-29 13:40:22:036 - info: [HTTP] 
+2018-09-29 13:40:22:043 - info: [HTTP] --> POST /wd/hub/session/8f52e9d0-adef-4549-9e9b-ea4a84d27be7/element
+2018-09-29 13:40:22:044 - info: [HTTP] {"using":"id","value":"com.google.android.apps.messaging:id/start_new_conversation_button"}
+2018-09-29 13:40:22:044 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.google.android.apps.messaging:id/start_new_conversation_button","8f52e9d0-adef-4549-9e9b-ea4a84d27be7"]
+2018-09-29 13:40:22:046 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-09-29 13:40:22:047 - info: [debug] [BaseDriver] Waiting up to 20000 ms for condition
+2018-09-29 13:40:22:049 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/start_new_conversation_button","context":"","multiple":false}}
+2018-09-29 13:40:22:051 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/start_new_conversation_button","context":"","multiple":false}}
+2018-09-29 13:40:22:052 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-09-29 13:40:22:053 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-09-29 13:40:22:053 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/start_new_conversation_button' using 'ID' with the contextId: '' multiple: false
+2018-09-29 13:40:22:053 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/start_new_conversation_button]
+2018-09-29 13:40:22:062 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-09-29 13:40:22:063 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"1"}
+2018-09-29 13:40:22:064 - info: [HTTP] <-- POST /wd/hub/session/8f52e9d0-adef-4549-9e9b-ea4a84d27be7/element 200 20 ms - 53
+2018-09-29 13:40:22:064 - info: [HTTP] 
+2018-09-29 13:40:22:064 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"1"}}
+2018-09-29 13:40:22:078 - info: [HTTP] --> POST /wd/hub/session/8f52e9d0-adef-4549-9e9b-ea4a84d27be7/element/1/click
+2018-09-29 13:40:22:078 - info: [HTTP] {"id":"1"}
+2018-09-29 13:40:22:079 - info: [debug] [W3C] Calling AppiumDriver.click() with args: ["1","8f52e9d0-adef-4549-9e9b-ea4a84d27be7"]
+2018-09-29 13:40:22:080 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+2018-09-29 13:40:22:083 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+2018-09-29 13:40:22:083 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-09-29 13:40:22:084 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2018-09-29 13:40:22:385 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-09-29 13:40:22:386 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-09-29 13:40:22:387 - info: [debug] [W3C] Responding to client with driver.click() result: true
+2018-09-29 13:40:22:387 - info: [HTTP] <-- POST /wd/hub/session/8f52e9d0-adef-4549-9e9b-ea4a84d27be7/element/1/click 200 309 ms - 14
+2018-09-29 13:40:22:388 - info: [HTTP] 
+2018-09-29 13:40:22:395 - info: [HTTP] --> POST /wd/hub/session/8f52e9d0-adef-4549-9e9b-ea4a84d27be7/elements
+2018-09-29 13:40:22:395 - info: [HTTP] {"using":"id","value":"com.google.android.apps.messaging:id/recipient_text_view"}
+2018-09-29 13:40:22:396 - info: [debug] [W3C] Calling AppiumDriver.findElements() with args: ["id","com.google.android.apps.messaging:id/recipient_text_view","8f52e9d0-adef-4549-9e9b-ea4a84d27be7"]
+2018-09-29 13:40:22:398 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-09-29 13:40:22:398 - info: [debug] [BaseDriver] Waiting up to 20000 ms for condition
+2018-09-29 13:40:22:399 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/recipient_text_view","context":"","multiple":true}}
+2018-09-29 13:40:22:403 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/recipient_text_view","context":"","multiple":true}}
+2018-09-29 13:40:22:403 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-09-29 13:40:22:404 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-09-29 13:40:22:404 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/recipient_text_view' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:22:404 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/recipient_text_view]
+2018-09-29 13:40:22:404 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/recipient_text_view]
+2018-09-29 13:40:22:405 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:22:405 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/recipient_text_view]
+2018-09-29 13:40:23:409 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (1)
+2018-09-29 13:40:23:411 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=1, RESOURCE_ID=com.google.android.apps.messaging:id/recipient_text_view]
+2018-09-29 13:40:23:458 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"2"}]}
+2018-09-29 13:40:23:459 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-09-29 13:40:23:460 - info: [debug] [W3C] Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"2"}]
+2018-09-29 13:40:23:460 - info: [HTTP] <-- POST /wd/hub/session/8f52e9d0-adef-4549-9e9b-ea4a84d27be7/elements 200 1066 ms - 55
+2018-09-29 13:40:23:461 - info: [HTTP] 
+2018-09-29 13:40:23:490 - info: [HTTP] --> POST /wd/hub/session/8f52e9d0-adef-4549-9e9b-ea4a84d27be7/element/2/value
+2018-09-29 13:40:23:490 - info: [HTTP] {"id":"2","text":"7259997645","value":["7","2","5","9","9","9","7","6","4","5"]}
+2018-09-29 13:40:23:490 - info: [debug] [W3C] Calling AppiumDriver.setValue() with args: [["7","2","5","9","9","9","7","6","4","5"],"2","8f52e9d0-adef-4549-9e9b-ea4a84d27be7"]
+2018-09-29 13:40:23:493 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:setText","params":{"elementId":"2","text":"7259997645","replace":false}}
+2018-09-29 13:40:23:497 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"2","text":"7259997645","replace":false}}
+2018-09-29 13:40:23:498 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-09-29 13:40:23:498 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: setText
+2018-09-29 13:40:23:499 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using element passed in: 2
+2018-09-29 13:40:23:514 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Attempting to clear using UiObject.clearText().
+2018-09-29 13:40:26:148 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text remains after clearing, but it appears to be hint text.
+2018-09-29 13:40:26:160 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text not cleared. Assuming remainder is hint text.
+2018-09-29 13:40:26:160 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Sending plain text to element: 7259997645
+2018-09-29 13:40:28:670 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-09-29 13:40:28:671 - info: [debug] [W3C] Responding to client with driver.setValue() result: true
+2018-09-29 13:40:28:672 - info: [HTTP] <-- POST /wd/hub/session/8f52e9d0-adef-4549-9e9b-ea4a84d27be7/element/2/value 200 5181 ms - 14
+2018-09-29 13:40:28:672 - info: [HTTP] 
+2018-09-29 13:40:28:673 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-09-29 13:40:28:675 - info: [HTTP] --> POST /wd/hub/session/8f52e9d0-adef-4549-9e9b-ea4a84d27be7/elements
+2018-09-29 13:40:28:676 - info: [HTTP] {"using":"id","value":"com.google.android.apps.messaging:id/recipient_text_view"}
+2018-09-29 13:40:28:676 - info: [debug] [W3C] Calling AppiumDriver.findElements() with args: ["id","com.google.android.apps.messaging:id/recipient_text_view","8f52e9d0-adef-4549-9e9b-ea4a84d27be7"]
+2018-09-29 13:40:28:677 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-09-29 13:40:28:677 - info: [debug] [BaseDriver] Waiting up to 20000 ms for condition
+2018-09-29 13:40:28:678 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/recipient_text_view","context":"","multiple":true}}
+2018-09-29 13:40:28:682 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/recipient_text_view","context":"","multiple":true}}
+2018-09-29 13:40:28:682 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-09-29 13:40:28:683 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-09-29 13:40:28:684 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/recipient_text_view' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:28:684 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/recipient_text_view]
+2018-09-29 13:40:28:684 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/recipient_text_view]
+2018-09-29 13:40:28:685 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:28:685 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/recipient_text_view]
+2018-09-29 13:40:29:302 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (1)
+2018-09-29 13:40:29:302 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=1, RESOURCE_ID=com.google.android.apps.messaging:id/recipient_text_view]
+2018-09-29 13:40:29:336 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-09-29 13:40:29:336 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"3"}]}
+2018-09-29 13:40:29:337 - info: [debug] [W3C] Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"3"}]
+2018-09-29 13:40:29:337 - info: [HTTP] <-- POST /wd/hub/session/8f52e9d0-adef-4549-9e9b-ea4a84d27be7/elements 200 662 ms - 55
+2018-09-29 13:40:29:338 - info: [HTTP] 
+2018-09-29 13:40:29:356 - info: [HTTP] --> POST /wd/hub/session/8f52e9d0-adef-4549-9e9b-ea4a84d27be7/element/3/value
+2018-09-29 13:40:29:356 - info: [HTTP] {"id":"3","text":"","value":[""]}
+2018-09-29 13:40:29:357 - info: [debug] [W3C] Calling AppiumDriver.setValue() with args: [[""],"3","8f52e9d0-adef-4549-9e9b-ea4a84d27be7"]
+2018-09-29 13:40:29:358 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:setText","params":{"elementId":"3","text":"","replace":false}}
+2018-09-29 13:40:29:372 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"3","text":"","replace":false}}
+2018-09-29 13:40:29:372 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-09-29 13:40:29:373 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: setText
+2018-09-29 13:40:29:373 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using element passed in: 3
+2018-09-29 13:40:29:412 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Attempting to clear using UiObject.clearText().
+2018-09-29 13:40:32:658 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text remains after clearing, but it appears to be hint text.
+2018-09-29 13:40:32:684 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text not cleared. Assuming remainder is hint text.
+2018-09-29 13:40:32:687 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Sending plain text to element: 
+2018-09-29 13:40:35:086 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-09-29 13:40:35:087 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-09-29 13:40:35:088 - info: [debug] [W3C] Responding to client with driver.setValue() result: true
+2018-09-29 13:40:35:089 - info: [HTTP] <-- POST /wd/hub/session/8f52e9d0-adef-4549-9e9b-ea4a84d27be7/element/3/value 200 5732 ms - 14
+2018-09-29 13:40:35:089 - info: [HTTP] 
+2018-09-29 13:40:35:092 - info: [HTTP] --> POST /wd/hub/session/8f52e9d0-adef-4549-9e9b-ea4a84d27be7/elements
+2018-09-29 13:40:35:093 - info: [HTTP] {"using":"id","value":"com.google.android.apps.messaging:id/compose_message_text"}
+2018-09-29 13:40:35:093 - info: [debug] [W3C] Calling AppiumDriver.findElements() with args: ["id","com.google.android.apps.messaging:id/compose_message_text","8f52e9d0-adef-4549-9e9b-ea4a84d27be7"]
+2018-09-29 13:40:35:095 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-09-29 13:40:35:095 - info: [debug] [BaseDriver] Waiting up to 20000 ms for condition
+2018-09-29 13:40:35:095 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:35:100 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:35:100 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-09-29 13:40:35:101 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-09-29 13:40:35:101 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:35:101 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:35:101 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:35:102 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:35:102 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:35:109 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-09-29 13:40:35:111 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:35:112 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:35:112 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:35:113 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:35:114 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:35:166 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2018-09-29 13:40:35:167 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-09-29 13:40:35:167 - info: [debug] [BaseDriver] Waited for 72 ms so far
+2018-09-29 13:40:35:668 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:35:673 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:35:673 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-09-29 13:40:35:673 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-09-29 13:40:35:674 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:35:674 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:35:674 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:35:674 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:35:674 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:35:683 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-09-29 13:40:35:687 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:35:688 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:35:688 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:35:689 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:35:690 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:35:730 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2018-09-29 13:40:35:731 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-09-29 13:40:35:732 - info: [debug] [BaseDriver] Waited for 637 ms so far
+2018-09-29 13:40:36:233 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:36:237 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:36:238 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-09-29 13:40:36:238 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-09-29 13:40:36:239 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:36:239 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:36:239 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:36:239 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:36:239 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:36:263 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-09-29 13:40:36:264 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:36:264 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:36:265 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:36:265 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:36:265 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:36:327 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2018-09-29 13:40:36:327 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-09-29 13:40:36:327 - info: [debug] [BaseDriver] Waited for 1232 ms so far
+2018-09-29 13:40:36:831 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:36:835 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:36:835 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-09-29 13:40:36:836 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-09-29 13:40:36:836 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:36:837 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:36:837 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:36:837 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:36:837 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:36:855 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-09-29 13:40:36:856 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:36:857 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:36:858 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:36:859 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:36:859 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:36:954 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2018-09-29 13:40:36:955 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-09-29 13:40:36:955 - info: [debug] [BaseDriver] Waited for 1860 ms so far
+2018-09-29 13:40:37:456 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:37:459 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:37:460 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-09-29 13:40:37:460 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-09-29 13:40:37:461 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:37:461 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:37:461 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:37:462 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:37:462 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:37:518 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-09-29 13:40:37:519 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:37:522 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:37:522 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:37:522 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:37:523 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:37:560 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2018-09-29 13:40:37:561 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-09-29 13:40:37:561 - info: [debug] [BaseDriver] Waited for 2466 ms so far
+2018-09-29 13:40:38:062 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:38:068 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:38:068 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-09-29 13:40:38:068 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-09-29 13:40:38:069 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:38:069 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:38:069 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:38:069 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:38:069 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:38:081 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-09-29 13:40:38:082 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:38:088 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:38:088 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:38:088 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:38:088 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:38:186 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2018-09-29 13:40:38:186 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-09-29 13:40:38:187 - info: [debug] [BaseDriver] Waited for 3092 ms so far
+2018-09-29 13:40:38:689 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:38:693 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:38:693 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-09-29 13:40:38:695 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-09-29 13:40:38:697 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:38:697 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:38:698 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:38:698 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:38:699 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:38:721 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-09-29 13:40:38:723 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:38:724 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:38:724 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:38:725 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:38:725 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:38:774 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2018-09-29 13:40:38:774 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-09-29 13:40:38:774 - info: [debug] [BaseDriver] Waited for 3679 ms so far
+2018-09-29 13:40:39:275 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:39:280 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:39:280 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-09-29 13:40:39:281 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-09-29 13:40:39:281 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:39:283 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:39:283 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:39:284 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:39:284 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:39:313 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-09-29 13:40:39:314 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:39:315 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:39:315 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:39:315 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:39:315 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:39:376 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-09-29 13:40:39:376 - info: [debug] [BaseDriver] Waited for 4281 ms so far
+2018-09-29 13:40:39:377 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2018-09-29 13:40:39:877 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:39:882 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:39:883 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-09-29 13:40:39:883 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-09-29 13:40:39:884 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:39:886 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:39:887 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:39:888 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:39:888 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:39:946 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-09-29 13:40:39:947 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:39:948 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:39:948 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:39:948 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:39:948 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:40:095 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2018-09-29 13:40:40:096 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-09-29 13:40:40:097 - info: [debug] [BaseDriver] Waited for 5002 ms so far
+2018-09-29 13:40:40:599 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:40:604 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:40:604 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-09-29 13:40:40:605 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-09-29 13:40:40:605 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:40:605 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:40:605 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:40:605 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:40:605 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:40:620 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-09-29 13:40:40:621 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:40:622 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:40:623 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:40:623 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:40:623 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:40:662 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2018-09-29 13:40:40:664 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-09-29 13:40:40:664 - info: [debug] [BaseDriver] Waited for 5569 ms so far
+2018-09-29 13:40:41:165 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:41:176 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:41:177 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-09-29 13:40:41:177 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-09-29 13:40:41:178 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:41:178 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:41:178 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:41:178 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:41:178 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:41:202 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-09-29 13:40:41:203 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:41:204 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:41:204 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:41:204 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:41:204 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:41:274 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-09-29 13:40:41:274 - info: [debug] [BaseDriver] Waited for 6179 ms so far
+2018-09-29 13:40:41:275 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2018-09-29 13:40:41:777 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:41:780 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:41:781 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-09-29 13:40:41:781 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-09-29 13:40:41:781 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:41:782 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:41:782 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:41:782 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:41:783 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:41:882 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-09-29 13:40:41:883 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:41:883 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:41:883 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:41:883 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:41:884 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:42:018 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2018-09-29 13:40:42:018 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-09-29 13:40:42:020 - info: [debug] [BaseDriver] Waited for 6924 ms so far
+2018-09-29 13:40:42:520 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:42:523 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:42:526 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-09-29 13:40:42:527 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-09-29 13:40:42:527 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:42:527 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:42:527 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:42:527 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:42:527 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:42:555 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-09-29 13:40:42:556 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:42:556 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:42:557 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:42:557 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:42:558 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:42:677 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2018-09-29 13:40:42:679 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-09-29 13:40:42:680 - info: [debug] [BaseDriver] Waited for 7585 ms so far
+2018-09-29 13:40:43:180 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:43:183 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:43:184 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-09-29 13:40:43:185 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-09-29 13:40:43:185 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:43:185 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:43:186 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:43:186 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:43:186 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:43:258 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-09-29 13:40:43:261 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:43:263 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:43:264 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:43:264 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:43:264 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:43:330 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2018-09-29 13:40:43:331 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-09-29 13:40:43:331 - info: [debug] [BaseDriver] Waited for 8236 ms so far
+2018-09-29 13:40:43:832 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:43:836 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:43:837 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-09-29 13:40:43:837 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-09-29 13:40:43:838 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:43:839 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:43:839 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:43:841 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:43:842 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:43:896 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-09-29 13:40:43:899 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:43:899 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:43:901 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:43:902 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:43:903 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:43:960 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2018-09-29 13:40:43:960 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-09-29 13:40:43:960 - info: [debug] [BaseDriver] Waited for 8865 ms so far
+2018-09-29 13:40:44:462 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:44:468 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:44:468 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-09-29 13:40:44:469 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-09-29 13:40:44:469 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:44:469 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:44:469 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:44:469 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:44:469 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:44:482 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-09-29 13:40:44:482 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:44:483 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:44:483 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:44:483 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:44:483 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:44:536 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2018-09-29 13:40:44:537 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-09-29 13:40:44:537 - info: [debug] [BaseDriver] Waited for 9442 ms so far
+2018-09-29 13:40:45:038 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:45:043 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:45:044 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-09-29 13:40:45:044 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-09-29 13:40:45:045 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:45:045 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:45:045 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:45:046 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:45:046 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:45:132 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-09-29 13:40:45:135 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:45:136 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:45:137 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:45:139 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:45:141 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:45:237 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2018-09-29 13:40:45:239 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-09-29 13:40:45:239 - info: [debug] [BaseDriver] Waited for 10144 ms so far
+2018-09-29 13:40:45:740 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:45:745 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:45:746 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-09-29 13:40:45:746 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-09-29 13:40:45:746 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:45:747 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:45:747 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:45:747 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:45:747 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:45:811 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-09-29 13:40:45:813 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:45:814 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:45:815 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:45:815 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:45:816 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:45:945 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2018-09-29 13:40:45:945 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-09-29 13:40:45:946 - info: [debug] [BaseDriver] Waited for 10851 ms so far
+2018-09-29 13:40:46:447 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:46:452 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:46:453 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-09-29 13:40:46:453 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-09-29 13:40:46:453 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:46:453 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:46:453 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:46:454 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:46:454 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:46:479 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-09-29 13:40:46:479 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:46:479 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:46:480 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:46:480 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:46:480 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:46:546 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2018-09-29 13:40:46:547 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-09-29 13:40:46:548 - info: [debug] [BaseDriver] Waited for 11452 ms so far
+2018-09-29 13:40:47:047 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:47:052 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:47:054 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-09-29 13:40:47:055 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-09-29 13:40:47:056 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:47:059 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:47:061 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:47:061 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:47:061 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:47:118 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-09-29 13:40:47:120 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:47:120 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:47:120 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:47:121 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:47:121 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:47:195 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2018-09-29 13:40:47:200 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-09-29 13:40:47:201 - info: [debug] [BaseDriver] Waited for 12105 ms so far
+2018-09-29 13:40:47:700 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:47:704 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:47:704 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-09-29 13:40:47:705 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-09-29 13:40:47:705 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:47:705 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:47:706 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:47:706 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:47:706 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:47:724 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-09-29 13:40:47:725 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:47:725 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:47:725 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:47:726 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:47:726 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:47:771 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2018-09-29 13:40:47:771 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-09-29 13:40:47:772 - info: [debug] [BaseDriver] Waited for 12677 ms so far
+2018-09-29 13:40:48:272 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:48:277 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:48:278 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-09-29 13:40:48:278 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-09-29 13:40:48:279 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:48:279 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:48:279 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:48:279 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:48:280 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:48:287 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-09-29 13:40:48:292 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:48:292 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:48:293 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:48:293 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:48:293 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:48:372 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2018-09-29 13:40:48:373 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-09-29 13:40:48:373 - info: [debug] [BaseDriver] Waited for 13278 ms so far
+2018-09-29 13:40:48:875 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:48:879 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:48:881 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-09-29 13:40:48:881 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-09-29 13:40:48:882 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:48:883 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:48:884 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:48:884 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:48:885 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:48:902 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-09-29 13:40:48:904 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:48:905 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:48:906 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:48:906 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:48:906 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:48:955 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2018-09-29 13:40:48:956 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-09-29 13:40:48:956 - info: [debug] [BaseDriver] Waited for 13861 ms so far
+2018-09-29 13:40:49:458 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:49:463 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:49:464 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-09-29 13:40:49:465 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-09-29 13:40:49:465 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:49:465 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:49:465 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:49:466 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:49:466 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:49:525 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-09-29 13:40:49:526 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:49:528 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:49:528 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:49:529 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:49:529 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:49:569 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-09-29 13:40:49:569 - info: [debug] [BaseDriver] Waited for 14474 ms so far
+2018-09-29 13:40:49:574 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2018-09-29 13:40:50:070 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:50:077 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:50:077 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-09-29 13:40:50:077 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-09-29 13:40:50:078 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:50:078 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:50:078 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:50:078 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:50:078 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:50:095 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-09-29 13:40:50:098 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:50:099 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:50:101 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:50:103 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:50:103 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:50:200 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2018-09-29 13:40:50:202 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-09-29 13:40:50:202 - info: [debug] [BaseDriver] Waited for 15107 ms so far
+2018-09-29 13:40:50:702 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:50:705 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:50:705 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-09-29 13:40:50:706 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-09-29 13:40:50:706 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:50:706 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:50:706 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:50:706 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:50:706 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:50:752 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-09-29 13:40:50:753 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:50:754 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:50:754 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:50:755 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:50:756 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:50:795 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2018-09-29 13:40:50:795 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-09-29 13:40:50:796 - info: [debug] [BaseDriver] Waited for 15701 ms so far
+2018-09-29 13:40:51:296 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:51:300 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:51:302 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-09-29 13:40:51:302 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-09-29 13:40:51:302 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:51:302 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:51:303 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:51:303 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:51:303 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:51:310 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-09-29 13:40:51:311 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:51:313 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:51:314 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:51:314 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:51:315 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:51:419 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2018-09-29 13:40:51:421 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-09-29 13:40:51:421 - info: [debug] [BaseDriver] Waited for 16326 ms so far
+2018-09-29 13:40:51:923 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:51:927 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:51:930 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-09-29 13:40:51:931 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-09-29 13:40:51:933 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:51:935 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:51:935 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:51:935 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:51:936 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:51:977 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-09-29 13:40:51:979 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:51:981 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:51:982 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:51:982 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:51:983 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:52:046 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2018-09-29 13:40:52:048 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-09-29 13:40:52:049 - info: [debug] [BaseDriver] Waited for 16953 ms so far
+2018-09-29 13:40:52:550 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:52:554 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:52:555 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-09-29 13:40:52:555 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-09-29 13:40:52:556 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:52:557 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:52:557 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:52:558 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:52:559 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:52:578 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-09-29 13:40:52:581 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:52:582 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:52:582 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:52:583 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:52:583 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:52:625 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2018-09-29 13:40:52:626 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-09-29 13:40:52:627 - info: [debug] [BaseDriver] Waited for 17532 ms so far
+2018-09-29 13:40:53:128 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:53:133 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:53:134 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-09-29 13:40:53:134 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-09-29 13:40:53:136 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:53:137 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:53:139 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:53:141 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:53:143 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:53:158 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-09-29 13:40:53:162 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:53:165 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:53:166 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:53:167 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:53:167 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:53:297 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2018-09-29 13:40:53:300 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-09-29 13:40:53:301 - info: [debug] [BaseDriver] Waited for 18205 ms so far
+2018-09-29 13:40:53:802 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:53:805 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:53:808 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-09-29 13:40:53:808 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-09-29 13:40:53:809 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:53:809 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:53:809 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:53:810 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:53:810 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:53:880 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-09-29 13:40:53:884 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:53:885 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:53:885 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:53:885 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:53:885 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:53:941 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-09-29 13:40:53:942 - info: [debug] [BaseDriver] Waited for 18847 ms so far
+2018-09-29 13:40:53:943 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2018-09-29 13:40:54:443 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:54:446 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:54:447 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-09-29 13:40:54:448 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-09-29 13:40:54:448 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:54:449 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:54:449 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:54:449 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:54:449 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:54:553 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-09-29 13:40:54:554 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:54:554 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:54:555 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:54:555 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:54:556 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:54:734 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2018-09-29 13:40:54:734 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-09-29 13:40:54:735 - info: [debug] [BaseDriver] Waited for 19639 ms so far
+2018-09-29 13:40:55:236 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:55:240 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.google.android.apps.messaging:id/compose_message_text","context":"","multiple":true}}
+2018-09-29 13:40:55:243 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-09-29 13:40:55:243 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-09-29 13:40:55:243 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:55:244 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:55:244 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:55:244 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:55:244 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:55:324 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-09-29 13:40:55:325 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.google.android.apps.messaging:id/compose_message_text' using 'ID' with the contextId: '' multiple: true
+2018-09-29 13:40:55:325 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:55:326 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:55:326 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-09-29 13:40:55:327 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.google.android.apps.messaging:id/compose_message_text]
+2018-09-29 13:40:55:379 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2018-09-29 13:40:55:380 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-09-29 13:40:55:381 - info: [debug] [W3C] Responding to client with driver.findElements() result: []
+2018-09-29 13:40:55:382 - info: [HTTP] <-- POST /wd/hub/session/8f52e9d0-adef-4549-9e9b-ea4a84d27be7/elements 200 20289 ms - 12
+2018-09-29 13:40:55:382 - info: [HTTP] 
+2018-09-29 13:40:55:417 - info: [HTTP] --> GET /wd/hub/status
+2018-09-29 13:40:55:417 - info: [HTTP] {}
+2018-09-29 13:40:55:418 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-09-29 13:40:55:418 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-09-29 13:40:55:419 - info: [HTTP] <-- GET /wd/hub/status 200 2 ms - 151
+2018-09-29 13:40:55:419 - info: [HTTP] 

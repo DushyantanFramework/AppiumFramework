@@ -1,0 +1,12 @@
+package com.appium.excel;
+
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+
+public class ExcelReader {
+
+	HSSFWorkbook wb = null;
+	
+	public ExcelReader(String filePath) {
+		// TODO Auto-generated constructor stub
+	}
+}

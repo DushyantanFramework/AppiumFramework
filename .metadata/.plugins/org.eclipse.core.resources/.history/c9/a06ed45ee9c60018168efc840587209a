@@ -1,0 +1,18 @@
+package com.appium.excel;
+
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+
+public class ExcelReader {
+
+	HSSFWorkbook wb = null;
+	private String filePath;
+	
+	public ExcelReader(String filePath) {
+		this.filePath=filePath;
+	}
+	
+	public void ReadExcel(String sheetName,String column) {
+		
+		
+	}
+}

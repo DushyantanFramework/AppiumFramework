@@ -1,0 +1,199 @@
+2018-09-28 14:14:20:108 - info: [Appium] Welcome to Appium v1.9.1
+2018-09-28 14:14:20:110 - info: [Appium] Non-default server args:
+2018-09-28 14:14:20:110 - info: [Appium]   address: 127.0.0.1
+2018-09-28 14:14:20:111 - info: [Appium]   port: 28167
+2018-09-28 14:14:20:111 - info: [Appium]   sessionOverride: true
+2018-09-28 14:14:20:111 - info: [Appium]   log: C:\Users\sreddy6\Desktop\Framework\AppiumFramework\ZL522255X4_2018_09_28_194409_log.txt
+2018-09-28 14:14:20:111 - info: [Appium]   defaultCapabilities: {
+2018-09-28 14:14:20:112 - info: [Appium]     noReset: true
+2018-09-28 14:14:20:112 - info: [Appium]     udid: ZL522255X4
+2018-09-28 14:14:20:113 - info: [Appium]   }
+2018-09-28 14:14:20:113 - info: [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2018-09-28 14:14:20:114 - info: [Appium]   noReset: true
+2018-09-28 14:14:20:114 - info: [Appium]   udid: ZL522255X4
+2018-09-28 14:14:20:240 - info: [Appium] Appium REST http interface listener started on 127.0.0.1:28167
+2018-09-28 14:14:20:677 - info: [HTTP] --> GET /wd/hub/status
+2018-09-28 14:14:20:678 - info: [HTTP] {}
+2018-09-28 14:14:20:680 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-09-28 14:14:20:682 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1"}}
+2018-09-28 14:14:20:686 - info: [HTTP] <-- GET /wd/hub/status 200 7 ms - 67
+2018-09-28 14:14:20:686 - info: [HTTP] 
+2018-09-28 14:14:22:045 - info: [HTTP] --> POST /wd/hub/session
+2018-09-28 14:14:22:046 - info: [HTTP] {"desiredCapabilities":{"app":"C:\\Users\\sreddy6\\MMS\\MMS_builds\\McafeeMobileSecuirty_Android_5.0_LD_bld_1597\\release\\mms-5.0.2.1597-production-release.apk","appPackage":"com.wsandroid.suite","appWaitActivity":"com.mcafee.activation.WelcomeActivity","platformName":"Android","deviceName":"ZL522255X4"},"capabilities":{"firstMatch":[{"platformName":"android"}]}}
+2018-09-28 14:14:22:046 - info: [debug] [W3C] Calling AppiumDriver.createSession() with args: [{"app":"C:\\Users\\sreddy6\\MMS\\MMS_builds\\McafeeMobileSecuirty_Android_5.0_LD_bld_1597\\release\\mms-5.0.2.1597-production-release.apk","appPackage":"com.wsandroid.suite","appWaitActivity":"com.mcafee.activation.WelcomeActivity","platformName":"Android","deviceName":"ZL522255X4"},null,{"firstMatch":[{"platformName":"android"}]}]
+2018-09-28 14:14:22:047 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1538144062047 (19:44:22 GMT+0530 (India Standard Time))
+2018-09-28 14:14:22:051 - warn: [BaseDriver] The capabilities ["noReset","udid"] are not standard capabilities and should have an extension prefix
+2018-09-28 14:14:22:054 - info: [Appium] Could not parse W3C capabilities: 'deviceName' can't be blank
+2018-09-28 14:14:22:055 - info: [Appium] Trying to fix W3C capabilities by merging them with JSONWP caps
+2018-09-28 14:14:22:056 - warn: [BaseDriver] The capabilities ["app","appPackage","appWaitActivity","deviceName","noReset","udid"] are not standard capabilities and should have an extension prefix
+2018-09-28 14:14:22:057 - info: [Appium] Creating new AndroidDriver (v4.1.1) session
+2018-09-28 14:14:22:057 - info: [Appium] Capabilities:
+2018-09-28 14:14:22:057 - info: [Appium]   app: C:\Users\sreddy6\MMS\MMS_builds\McafeeMobileSecuirty_Android_5.0_LD_bld_1597\release\mms-5.0.2.1597-production-release.apk
+2018-09-28 14:14:22:058 - info: [Appium]   appPackage: com.wsandroid.suite
+2018-09-28 14:14:22:058 - info: [Appium]   appWaitActivity: com.mcafee.activation.WelcomeActivity
+2018-09-28 14:14:22:058 - info: [Appium]   deviceName: ZL522255X4
+2018-09-28 14:14:22:058 - info: [Appium]   platformName: android
+2018-09-28 14:14:22:058 - info: [Appium]   noReset: true
+2018-09-28 14:14:22:058 - info: [Appium]   udid: ZL522255X4
+2018-09-28 14:14:22:063 - info: [debug] [BaseDriver] W3C capabilities {"alwaysMatch":{"appium:app... and MJSONWP desired capabilities {"noReset":true,"udid":"ZL5... were provided
+2018-09-28 14:14:22:063 - info: [debug] [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"appium:app...
+2018-09-28 14:14:22:069 - info: [BaseDriver] Session created with session id: ee2d400e-fe7b-4501-b2d1-9dc34843d189
+2018-09-28 14:14:23:358 - info: [AndroidDriver] Java version is: 1.8.0_151
+2018-09-28 14:14:23:361 - info: [ADB] Checking whether adb is present
+2018-09-28 14:14:23:370 - info: [ADB] Found 3 'build-tools' folders under 'C:\Program Files\Android-sdk' (newest first):
+2018-09-28 14:14:23:371 - info: [ADB]     C:/Program Files/Android-sdk/build-tools/28.0.1
+2018-09-28 14:14:23:371 - info: [ADB]     C:/Program Files/Android-sdk/build-tools/28.0.0
+2018-09-28 14:14:23:371 - info: [ADB]     C:/Program Files/Android-sdk/build-tools/27.0.2
+2018-09-28 14:14:23:372 - info: [ADB] Using adb.exe from C:\Program Files\Android-sdk\platform-tools\adb.exe
+2018-09-28 14:14:23:373 - info: [AndroidDriver] Retrieving device list
+2018-09-28 14:14:23:373 - info: [debug] [ADB] Trying to find a connected android device
+2018-09-28 14:14:23:374 - info: [debug] [ADB] Getting connected devices...
+2018-09-28 14:14:24:491 - info: [debug] [ADB] 1 device(s) connected
+2018-09-28 14:14:24:492 - info: [AndroidDriver] Using device: ZL522255X4
+2018-09-28 14:14:24:493 - info: [debug] [ADB] Setting device id to ZL522255X4
+2018-09-28 14:14:24:495 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell getprop ro.build.version.sdk'
+2018-09-28 14:14:25:795 - info: [debug] [ADB] Current device property 'ro.build.version.sdk': 26
+2018-09-28 14:14:25:796 - info: [debug] [ADB] Device API level: 26
+2018-09-28 14:14:25:796 - warn: [AndroidDriver] Consider setting 'automationName' capability to 'uiautomator2' on Android >= 6, since UIAutomator framework is not maintained anymore by the OS vendor.
+2018-09-28 14:14:25:798 - info: [BaseDriver] Using local app 'C:\Users\sreddy6\MMS\MMS_builds\McafeeMobileSecuirty_Android_5.0_LD_bld_1597\release\mms-5.0.2.1597-production-release.apk'
+2018-09-28 14:14:25:798 - info: [debug] [AndroidDriver] Checking whether app is actually present
+2018-09-28 14:14:25:800 - info: [AndroidDriver] Starting Android session
+2018-09-28 14:14:25:801 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 wait-for-device'
+2018-09-28 14:14:26:890 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell echo ping'
+2018-09-28 14:14:27:987 - info: [debug] [AndroidDriver] Pushing settings apk to device...
+2018-09-28 14:14:27:988 - info: [debug] [ADB] Getting install status for io.appium.settings
+2018-09-28 14:14:27:989 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell pm list packages io.appium.settings'
+2018-09-28 14:14:30:127 - info: [debug] [ADB] App is installed
+2018-09-28 14:14:30:128 - info: [debug] [ADB] Getting package info for 'io.appium.settings'
+2018-09-28 14:14:30:128 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys package io.appium.settings'
+2018-09-28 14:14:31:315 - info: [ADB] Checking whether aapt is present
+2018-09-28 14:14:31:319 - info: [ADB] Using aapt.exe from C:\Program Files\Android-sdk\build-tools\28.0.1\aapt.exe
+2018-09-28 14:14:32:362 - info: [debug] [ADB] The installed 'io.appium.settings' package does not require upgrade ('2.3.0' >= '2.3.0')
+2018-09-28 14:14:32:363 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell ps'
+2018-09-28 14:14:33:667 - info: [debug] [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2018-09-28 14:14:33:668 - info: [debug] [ADB] Device API level: 26
+2018-09-28 14:14:33:668 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell appops set io.appium.settings android\:mock_location allow'
+2018-09-28 14:14:34:844 - warn: [AndroidDriver] setDeviceLanguageCountry requires language or country.
+2018-09-28 14:14:34:844 - warn: [AndroidDriver] Got language: 'null' and country: 'null'
+2018-09-28 14:14:34:846 - info: [debug] [Logcat] Starting logcat capture
+2018-09-28 14:14:35:659 - info: [debug] [AndroidDriver] Pushing unlock helper app to device...
+2018-09-28 14:14:35:659 - info: [debug] [ADB] Getting install status for io.appium.unlock
+2018-09-28 14:14:35:660 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell pm list packages io.appium.unlock'
+2018-09-28 14:14:37:748 - info: [debug] [ADB] App is installed
+2018-09-28 14:14:37:748 - info: [debug] [ADB] Getting package info for 'io.appium.unlock'
+2018-09-28 14:14:37:749 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys package io.appium.unlock'
+2018-09-28 14:14:40:008 - info: [debug] [ADB] The installed 'io.appium.unlock' package does not require upgrade ('2.0.0' >= '2.0.0')
+2018-09-28 14:14:40:010 - info: [ADB] Getting device platform version
+2018-09-28 14:14:40:010 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell getprop ro.build.version.release'
+2018-09-28 14:14:41:251 - info: [debug] [ADB] Current device property 'ro.build.version.release': 8.0.0
+2018-09-28 14:14:41:252 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell wm size'
+2018-09-28 14:14:43:305 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell getprop ro.product.model'
+2018-09-28 14:14:44:470 - info: [debug] [ADB] Current device property 'ro.product.model': moto g(6) play
+2018-09-28 14:14:44:470 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell getprop ro.product.manufacturer'
+2018-09-28 14:14:45:608 - info: [debug] [ADB] Current device property 'ro.product.manufacturer': motorola
+2018-09-28 14:14:45:609 - info: [debug] [AndroidDriver] Parsing package and activity from app manifest
+2018-09-28 14:14:45:616 - info: [ADB] Using the alternative activity name detection method because of: Could not find apkanalyzer.bat in C:\Program Files\Android-sdk\platform-tools\apkanalyzer.bat,C:\Program Files\Android-sdk\emulator\apkanalyzer.bat,C:\Program Files\Android-sdk\tools\apkanalyzer.bat,C:\Program Files\Android-sdk\tools\bin\apkanalyzer.bat,C:\Program Files\Android-sdk\build-tools\28.0.1\apkanalyzer.bat,C:\Program Files\Android-sdk\build-tools\28.0.0\apkanalyzer.bat,C:\Program Files\Android-sdk\build-tools\27.0.2\apkanalyzer.bat. Do you have the Android SDK installed at 'C:\Program Files\Android-sdk'?
+2018-09-28 14:14:45:617 - info: [ADB] Extracting package and launch activity from manifest
+2018-09-28 14:14:46:744 - info: [ADB] Package name: 'com.wsandroid.suite'
+2018-09-28 14:14:46:745 - info: [ADB] Main activity name: 'com.mcafee.app.LauncherDelegateActivity'
+2018-09-28 14:14:46:745 - info: [debug] [AndroidDriver] Parsed package and activity are: com.wsandroid.suite/com.mcafee.app.LauncherDelegateActivity
+2018-09-28 14:14:46:746 - info: [debug] [ADB] Getting install status for com.wsandroid.suite
+2018-09-28 14:14:46:746 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell pm list packages com.wsandroid.suite'
+2018-09-28 14:14:48:789 - info: [debug] [ADB] App is installed
+2018-09-28 14:14:48:789 - info: [debug] [ADB] Getting package info for 'com.wsandroid.suite'
+2018-09-28 14:14:48:789 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys package com.wsandroid.suite'
+2018-09-28 14:14:51:069 - info: [debug] [ADB] The installed 'com.wsandroid.suite' package does not require upgrade (5100280 > 5001597)
+2018-09-28 14:14:51:070 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell rm -rf /data/local/tmp/strings.json'
+2018-09-28 14:14:52:189 - info: [debug] [AndroidDriver] Extracting strings from apk
+2018-09-28 14:14:52:189 - info: [debug] [AndroidDriver] C:\Users\sreddy6\MMS\MMS_builds\McafeeMobileSecuirty_Android_5.0_LD_bld_1597\release\mms-5.0.2.1597-production-release.apk
+2018-09-28 14:14:52:189 - info: [debug] [AndroidDriver] null
+2018-09-28 14:14:52:189 - info: [debug] [AndroidDriver] C:\Users\sreddy6\AppData\Local\Temp\com.wsandroid.suite
+2018-09-28 14:14:52:191 - info: [debug] [ADB] Extracting strings for language: default
+2018-09-28 14:14:56:986 - info: [ADB] Successfully extracted 3527 strings from 'C:\Users\sreddy6\MMS\MMS_builds\McafeeMobileSecuirty_Android_5.0_LD_bld_1597\release\mms-5.0.2.1597-production-release.apk' resources for '(default)' configuration
+2018-09-28 14:14:57:003 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 push C\:\\Users\\sreddy6\\AppData\\Local\\Temp\\com.wsandroid.suite\\strings.json /data/local/tmp'
+2018-09-28 14:14:58:144 - info: [debug] [AndroidBootstrap] Watching for bootstrap disconnect
+2018-09-28 14:14:58:146 - info: [debug] [ADB] Forwarding system: 4724 to device: 4724
+2018-09-28 14:14:58:146 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 forward tcp\:4724 tcp\:4724'
+2018-09-28 14:14:59:246 - info: [debug] [UiAutomator] Starting UiAutomator
+2018-09-28 14:14:59:247 - info: [debug] [UiAutomator] Moving to state 'starting'
+2018-09-28 14:14:59:247 - info: [debug] [UiAutomator] Parsing uiautomator jar
+2018-09-28 14:14:59:248 - info: [debug] [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2018-09-28 14:14:59:248 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 push C\:\\Users\\sreddy6\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-android-driver\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+2018-09-28 14:15:00:402 - info: [debug] [ADB] Attempting to kill all uiautomator processes
+2018-09-28 14:15:00:403 - info: [debug] [ADB] Getting all processes with uiautomator
+2018-09-28 14:15:00:403 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell ps'
+2018-09-28 14:15:01:714 - info: [ADB] No uiautomator process found to kill, continuing...
+2018-09-28 14:15:01:714 - info: [debug] [UiAutomator] Starting UIAutomator
+2018-09-28 14:15:01:715 - info: [debug] [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","ZL522255X4","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.wsandroid.suite","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+2018-09-28 14:15:03:403 - info: [debug] [UiAutomator] Moving to state 'online'
+2018-09-28 14:15:03:404 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Loading json...
+2018-09-28 14:15:03:406 - info: [AndroidBootstrap] Android bootstrap socket is now connected
+2018-09-28 14:15:03:408 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window'
+2018-09-28 14:15:04:028 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+2018-09-28 14:15:04:029 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2018-09-28 14:15:04:029 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2018-09-28 14:15:04:608 - info: [AndroidDriver] Screen already unlocked, doing nothing
+2018-09-28 14:15:04:609 - info: [debug] [ADB] Device API level: 26
+2018-09-28 14:15:04:610 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell am start -W -n com.wsandroid.suite/com.mcafee.app.LauncherDelegateActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2018-09-28 14:15:06:725 - info: [debug] [ADB] Waiting up to 20000ms for activity matching pkg: 'com.wsandroid.suite' and activity: 'com.mcafee.activation.WelcomeActivity' to be focused
+2018-09-28 14:15:06:725 - info: [debug] [ADB] Possible activities, to be checked: 'com.mcafee.activation.WelcomeActivity', 'com.wsandroid.suite.com.mcafee.activation.WelcomeActivity'
+2018-09-28 14:15:06:727 - info: [debug] [ADB] Getting focused package and activity
+2018-09-28 14:15:06:727 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-28 14:15:07:897 - info: [debug] [ADB] Found package: 'com.wsandroid.suite' and fully qualified activity name : 'com.mcafee.app.SplashActivity'
+2018-09-28 14:15:07:898 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-28 14:15:08:651 - info: [debug] [ADB] Getting focused package and activity
+2018-09-28 14:15:08:651 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-28 14:15:09:801 - info: [debug] [ADB] Found package: 'com.wsandroid.suite' and fully qualified activity name : 'com.mcafee.app.SplashActivity'
+2018-09-28 14:15:09:801 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-09-28 14:15:10:554 - info: [debug] [ADB] Getting focused package and activity
+2018-09-28 14:15:10:554 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell dumpsys window windows'
+2018-09-28 14:15:11:782 - info: [debug] [ADB] Found package: 'com.wsandroid.suite' and fully qualified activity name : 'com.mcafee.activation.WelcomeActivity'
+2018-09-28 14:15:11:784 - info: [Appium] New AndroidDriver session created successfully, session ee2d400e-fe7b-4501-b2d1-9dc34843d189 added to master session list
+2018-09-28 14:15:11:784 - info: [debug] [BaseDriver] Event 'newSessionStarted' logged at 1538144111784 (19:45:11 GMT+0530 (India Standard Time))
+2018-09-28 14:15:11:785 - info: [debug] [W3C] Cached the protocol value 'W3C' for the new session ee2d400e-fe7b-4501-b2d1-9dc34843d189
+2018-09-28 14:15:11:786 - info: [debug] [W3C] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"C:\\Users\\sreddy6\\MMS\\MMS_builds\\McafeeMobileSecuirty_Android_5.0_LD_bld_1597\\release\\mms-5.0.2.1597-production-release.apk","appPackage":"com.wsandroid.suite","appWaitActivity":"com.mcafee.activation.WelcomeActivity","deviceName":"ZL522255X4","noReset":true,"udid":"ZL522255X4"},"platformName":"android","app":"C:\\Users\\sreddy6\\MMS\\MMS_builds\\McafeeMobileSecuirty_Android_5.0_LD_bld_1597\\release\\mms-5.0.2.1597-production-release.apk","appPackage":"com.wsandroid.suite","appWaitActivity":"com.mcafee.activation.WelcomeActivity","deviceName":"ZL522255X4","noReset":true,"udid":"ZL522255X4","deviceUDID":"ZL522255X4","platformVersion":"8.0.0","deviceScreenSize":"720x1440","deviceModel":"moto g(6) play","deviceManufacturer":"motorola","appWaitPackage":"c...
+2018-09-28 14:15:11:787 - info: [HTTP] <-- POST /wd/hub/session 200 49740 ms - 1159
+2018-09-28 14:15:11:788 - info: [HTTP] 
+2018-09-28 14:15:11:873 - info: [HTTP] --> GET /wd/hub/session/ee2d400e-fe7b-4501-b2d1-9dc34843d189/appium/device/system_time
+2018-09-28 14:15:11:873 - info: [HTTP] {}
+2018-09-28 14:15:11:876 - info: [debug] [W3C] Calling AppiumDriver.getDeviceTime() with args: [null,"ee2d400e-fe7b-4501-b2d1-9dc34843d189"]
+2018-09-28 14:15:11:888 - info: [AndroidDriver] Attempting to capture android device date and time
+2018-09-28 14:15:11:888 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s ZL522255X4 shell date +%Y-%m-%dT%T%z'
+2018-09-28 14:15:13:043 - info: [debug] [W3C] Responding to client with driver.getDeviceTime() result: "2018-09-28T19:45:12+05:30"
+2018-09-28 14:15:13:045 - info: [HTTP] <-- GET /wd/hub/session/ee2d400e-fe7b-4501-b2d1-9dc34843d189/appium/device/system_time 200 1171 ms - 37
+2018-09-28 14:15:13:046 - info: [HTTP] 
+2018-09-28 14:15:13:056 - info: [HTTP] --> POST /wd/hub/session/ee2d400e-fe7b-4501-b2d1-9dc34843d189/timeouts
+2018-09-28 14:15:13:056 - info: [HTTP] {"implicit":20000}
+2018-09-28 14:15:13:057 - info: [debug] [W3C] Calling AppiumDriver.timeouts() with args: [null,null,null,null,20000,"ee2d400e-fe7b-4501-b2d1-9dc34843d189"]
+2018-09-28 14:15:13:058 - info: [debug] [BaseDriver] W3C timeout argument: {"implicit":20000}}
+2018-09-28 14:15:13:059 - info: [debug] [BaseDriver] Set implicit wait to 20000ms
+2018-09-28 14:15:13:060 - info: [debug] [W3C] Responding to client with driver.timeouts() result: null
+2018-09-28 14:15:13:060 - info: [HTTP] <-- POST /wd/hub/session/ee2d400e-fe7b-4501-b2d1-9dc34843d189/timeouts 200 4 ms - 14
+2018-09-28 14:15:13:061 - info: [HTTP] 
+2018-09-28 14:15:14:733 - info: [HTTP] --> POST /wd/hub/session/ee2d400e-fe7b-4501-b2d1-9dc34843d189/elements
+2018-09-28 14:15:14:733 - info: [HTTP] {"value":"//android.widget.Switch","using":"xpath"}
+2018-09-28 14:15:14:734 - info: [debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//android.widget.Switch","ee2d400e-fe7b-4501-b2d1-9dc34843d189"]
+2018-09-28 14:15:14:738 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-09-28 14:15:14:739 - info: [debug] [BaseDriver] Waiting up to 20000 ms for condition
+2018-09-28 14:15:14:741 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.Switch","context":"","multiple":true}}
+2018-09-28 14:15:14:757 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.Switch","context":"","multiple":true}}
+2018-09-28 14:15:14:758 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-09-28 14:15:14:758 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-09-28 14:15:14:758 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.Switch' using 'XPATH' with the contextId: '' multiple: true
+2018-09-28 14:15:14:971 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.Switch, INSTANCE=0]
+2018-09-28 14:15:14:973 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.Switch, INSTANCE=0]
+2018-09-28 14:15:14:974 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+2018-09-28 14:15:15:186 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.Switch, INSTANCE=1]
+2018-09-28 14:15:15:189 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-09-28 14:15:15:190 - info: [debug] [W3C] Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"1"},{"element-6066-11e4-a52e-4f735466cecf":"2"}]
+2018-09-28 14:15:15:192 - info: [HTTP] <-- POST /wd/hub/session/ee2d400e-fe7b-4501-b2d1-9dc34843d189/elements 200 458 ms - 99
+2018-09-28 14:15:15:192 - info: [HTTP] 
+2018-09-28 14:15:15:197 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.Switch, INSTANCE=1]
+2018-09-28 14:15:15:197 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+2018-09-28 14:15:15:198 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"1"},{"ELEMENT":"2"}]}
+2018-09-28 14:15:15:209 - info: [HTTP] --> GET /wd/hub/status
+2018-09-28 14:15:15:210 - info: [HTTP] {}
+2018-09-28 14:15:15:210 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-09-28 14:15:15:211 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-09-28 14:15:15:211 - info: [HTTP] <-- GET /wd/hub/status 200 2 ms - 151
+2018-09-28 14:15:15:212 - info: [HTTP] 

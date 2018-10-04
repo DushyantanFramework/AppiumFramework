@@ -1,0 +1,12 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:TestJenkins_testng.xml,org.eclipse.launchbar.core.descriptorType.default\:NewTest,org.eclipse.launchbar.core.descriptorType.default\:SetupSession,org.eclipse.launchbar.core.descriptorType.default\:AppiumFramework build.xml,org.eclipse.launchbar.core.descriptorType.default\:AutomationDriver
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:AppiumFramework\ build.xml/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:AppiumFramework\ build.xml/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:AutomationDriver/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:AutomationDriver/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:NewTest/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:NewTest/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:SetupSession/activeLaunchMode=run

@@ -1,0 +1,65 @@
+package com.appium.base;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.MalformedURLException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.*;
+
+import com.appium.setup.SetupSession;
+
+import io.appium.java_client.android.AndroidDriver;
+
+public class BaseTest {
+
+	AndroidDriver<?> driver = null;
+	
+	@BeforeClass
+	public void beforeClass() throws MalformedURLException 
+	{
+		
+		List<String> deviceList = new ArrayList<>();//SetupSession.getInstance().getDeviceList();
+		deviceList.add("ZL522255X4");
+		//deviceList.add("ce10171a84aa74520c");
+		for (String device : deviceList) {
+			SetupSession.getInstance().startSession(device);
+			SetupSession.getInstance().startService();
+			DesiredCapabilities cap =  SetupSession.getInstance().getCapability();
+			cap.setCapability("deviceName", device);
+			driver = SetupSession.getInstance().getDriver(cap);
+			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		}
+		
+	}
+	
+	@Test
+	public void test() throws IOException, InterruptedException {
+		System.out.println("Execution started....");
+		Process process = Runtime.getRuntime().exec("adb shell am start -a android.settings.AIRPLANE_MODE_SETTINGS");
+		process.waitFor();
+		Thread.sleep(3000);
+		driver.findElementByXPath("//android.widget.Switch").click();
+		WebDriverWait wait = new WebDriverWait(driver, 10);
+		WebElement toggle = wait.until(ExpectedConditions.elementToBeClickable(driver.findElementByXPath("//android.widget.Switch")));
+		if(toggle.isDisplayed())
+			wait.until(ExpectedConditions.visibilityOf(driver.findElementByXPath("//android.widget.TextView[@text='Airplane mode']"))).click();
+		//driver.startActivity(new Activity(appPackage, appActivity));
+		driver.findElement(By.id("com.wsandroid.suite:id/btn_next")).click();
+	}
+	
+	
+	@AfterClass
+	public void AfterClass() 
+	{
+		SetupSession.getInstance().stopService();
+	}
+}

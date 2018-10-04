@@ -1,0 +1,68 @@
+2018-09-29 10:01:21:494 - info: [Appium] Welcome to Appium v1.9.1
+2018-09-29 10:01:21:496 - info: [Appium] Non-default server args:
+2018-09-29 10:01:21:497 - info: [Appium]   address: 127.0.0.1
+2018-09-29 10:01:21:498 - info: [Appium]   port: 41322
+2018-09-29 10:01:21:498 - info: [Appium]   sessionOverride: true
+2018-09-29 10:01:21:498 - info: [Appium]   log: C:\Users\sreddy6\Desktop\Framework\AppiumFramework\ZL522255X4_2018_09_29_153110_log.txt
+2018-09-29 10:01:21:498 - info: [Appium]   defaultCapabilities: {
+2018-09-29 10:01:21:498 - info: [Appium]     noReset: true
+2018-09-29 10:01:21:499 - info: [Appium]     udid: ZL522255X4
+2018-09-29 10:01:21:499 - info: [Appium]   }
+2018-09-29 10:01:21:499 - info: [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2018-09-29 10:01:21:500 - info: [Appium]   noReset: true
+2018-09-29 10:01:21:500 - info: [Appium]   udid: ZL522255X4
+2018-09-29 10:01:21:620 - info: [Appium] Appium REST http interface listener started on 127.0.0.1:41322
+2018-09-29 10:01:22:187 - info: [HTTP] --> GET /wd/hub/status
+2018-09-29 10:01:22:188 - info: [HTTP] {}
+2018-09-29 10:01:22:190 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-09-29 10:01:22:192 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1"}}
+2018-09-29 10:01:22:196 - info: [HTTP] <-- GET /wd/hub/status 200 7 ms - 67
+2018-09-29 10:01:22:196 - info: [HTTP] 
+2018-09-29 10:01:23:408 - info: [HTTP] --> POST /wd/hub/session
+2018-09-29 10:01:23:409 - info: [HTTP] {"desiredCapabilities":{"app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","deviceName":"ZL522255X4","platformName":"Android"},"capabilities":{"desiredCapabilities":{"app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","deviceName":"ZL522255X4","platformName":"Android"},"firstMatch":[{"appium:app":"C:\\Users\\sreddy6\\base.apk","appium:appPackage":"com.bigbasket.mobileapp","appium:deviceName":"ZL522255X4","platformName":"android"}]}}
+2018-09-29 10:01:23:409 - info: [debug] [W3C] Calling AppiumDriver.createSession() with args: [{"app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","deviceName":"ZL522255X4","platformName":"Android"},null,{"desiredCapabilities":{"app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","deviceName":"ZL522255X4","platformName":"Android"},"firstMatch":[{"appium:app":"C:\\Users\\sreddy6\\base.apk","appium:appPackage":"com.bigbasket.mobileapp","appium:deviceName":"ZL522255X4","platformName":"android"}]}]
+2018-09-29 10:01:23:411 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1538215283410 (15:31:23 GMT+0530 (India Standard Time))
+2018-09-29 10:01:23:414 - warn: [BaseDriver] The capabilities ["noReset","udid"] are not standard capabilities and should have an extension prefix
+2018-09-29 10:01:23:419 - info: [Appium] Creating new AndroidDriver (v4.1.1) session
+2018-09-29 10:01:23:419 - info: [Appium] Capabilities:
+2018-09-29 10:01:23:419 - info: [Appium]   platformName: android
+2018-09-29 10:01:23:419 - info: [Appium]   noReset: true
+2018-09-29 10:01:23:419 - info: [Appium]   udid: ZL522255X4
+2018-09-29 10:01:23:420 - info: [Appium]   app: C:\Users\sreddy6\base.apk
+2018-09-29 10:01:23:420 - info: [Appium]   appPackage: com.bigbasket.mobileapp
+2018-09-29 10:01:23:420 - info: [Appium]   deviceName: ZL522255X4
+2018-09-29 10:01:23:424 - info: [debug] [BaseDriver] W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"noReset":true,"udid":"ZL5... were provided
+2018-09-29 10:01:23:425 - info: [debug] [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+2018-09-29 10:01:23:430 - info: [BaseDriver] Session created with session id: c06d201d-8e2b-4640-a368-152b0df70caf
+2018-09-29 10:01:24:724 - info: [AndroidDriver] Java version is: 1.8.0_151
+2018-09-29 10:01:24:727 - info: [ADB] Checking whether adb is present
+2018-09-29 10:01:24:736 - info: [ADB] Found 3 'build-tools' folders under 'C:\Program Files\Android-sdk' (newest first):
+2018-09-29 10:01:24:737 - info: [ADB]     C:/Program Files/Android-sdk/build-tools/28.0.1
+2018-09-29 10:01:24:737 - info: [ADB]     C:/Program Files/Android-sdk/build-tools/28.0.0
+2018-09-29 10:01:24:737 - info: [ADB]     C:/Program Files/Android-sdk/build-tools/27.0.2
+2018-09-29 10:01:24:738 - info: [ADB] Using adb.exe from C:\Program Files\Android-sdk\platform-tools\adb.exe
+2018-09-29 10:01:24:739 - info: [AndroidDriver] Retrieving device list
+2018-09-29 10:01:24:739 - info: [debug] [ADB] Trying to find a connected android device
+2018-09-29 10:01:24:740 - info: [debug] [ADB] Getting connected devices...
+2018-09-29 10:01:25:879 - info: [debug] [ADB] 1 device(s) connected
+2018-09-29 10:01:25:890 - error: [AndroidDriver] Error: Device ZL522255X4 was not in the list of connected devices
+2018-09-29 10:01:25:890 - error: [AndroidDriver]     at Object.wrappedLogger.errorAndThrow (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\appium-support\lib\logging.js:78:13)
+2018-09-29 10:01:25:890 - error: [AndroidDriver]     at Object.callee$0$0$ (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\android-helpers.js:178:16)
+2018-09-29 10:01:25:890 - error: [AndroidDriver]     at tryCatch (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+2018-09-29 10:01:25:891 - error: [AndroidDriver]     at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+2018-09-29 10:01:25:891 - error: [AndroidDriver]     at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+2018-09-29 10:01:25:891 - error: [AndroidDriver]     at GeneratorFunctionPrototype.invoke (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+2018-09-29 10:01:25:891 - error: [AndroidDriver]     at <anonymous>
+2018-09-29 10:01:25:892 - info: [debug] [AndroidDriver] Shutting down Android driver
+2018-09-29 10:01:25:893 - info: [debug] [AndroidDriver] Called deleteSession but bootstrap wasn't active
+2018-09-29 10:01:25:894 - info: [debug] [BaseDriver] Event 'newSessionStarted' logged at 1538215285894 (15:31:25 GMT+0530 (India Standard Time))
+2018-09-29 10:01:25:894 - info: [debug] [W3C] Encountered internal error running command: Error: Device ZL522255X4 was not in the list of connected devices
+2018-09-29 10:01:25:895 - info: [debug] [W3C]     at Object.wrappedLogger.errorAndThrow (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\appium-support\lib\logging.js:78:13)
+2018-09-29 10:01:25:895 - info: [debug] [W3C]     at Object.callee$0$0$ (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\android-helpers.js:178:16)
+2018-09-29 10:01:25:895 - info: [debug] [W3C]     at tryCatch (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+2018-09-29 10:01:25:895 - info: [debug] [W3C]     at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+2018-09-29 10:01:25:896 - info: [debug] [W3C]     at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+2018-09-29 10:01:25:896 - info: [debug] [W3C]     at GeneratorFunctionPrototype.invoke (C:\Users\sreddy6\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+2018-09-29 10:01:25:896 - info: [debug] [W3C]     at <anonymous>
+2018-09-29 10:01:25:916 - info: [HTTP] <-- POST /wd/hub/session 500 2507 ms - 1399
+2018-09-29 10:01:25:916 - info: [HTTP] 

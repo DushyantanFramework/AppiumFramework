@@ -1,0 +1,245 @@
+2018-10-02 11:21:27:118 - info: [Appium] Welcome to Appium v1.9.1
+2018-10-02 11:21:27:120 - info: [Appium] Non-default server args:
+2018-10-02 11:21:27:121 - info: [Appium]   address: 127.0.0.1
+2018-10-02 11:21:27:121 - info: [Appium]   port: 20239
+2018-10-02 11:21:27:121 - info: [Appium]   sessionOverride: true
+2018-10-02 11:21:27:121 - info: [Appium]   log: C:\Users\sreddy6\Desktop\Framework\AppiumFramework\47b608f8_2018_10_02_165115_log.txt
+2018-10-02 11:21:27:122 - info: [Appium]   defaultCapabilities: {
+2018-10-02 11:21:27:122 - info: [Appium]     noReset: true
+2018-10-02 11:21:27:122 - info: [Appium]     udid: 47b608f8
+2018-10-02 11:21:27:123 - info: [Appium]   }
+2018-10-02 11:21:27:123 - info: [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2018-10-02 11:21:27:124 - info: [Appium]   noReset: true
+2018-10-02 11:21:27:124 - info: [Appium]   udid: 47b608f8
+2018-10-02 11:21:27:263 - info: [Appium] Appium REST http interface listener started on 127.0.0.1:20239
+2018-10-02 11:21:27:546 - info: [HTTP] --> GET /wd/hub/status
+2018-10-02 11:21:27:547 - info: [HTTP] {}
+2018-10-02 11:21:27:553 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-10-02 11:21:27:559 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1"}}
+2018-10-02 11:21:27:568 - info: [HTTP] <-- GET /wd/hub/status 200 18 ms - 67
+2018-10-02 11:21:27:568 - info: [HTTP] 
+2018-10-02 11:21:28:904 - info: [HTTP] --> POST /wd/hub/session
+2018-10-02 11:21:28:904 - info: [HTTP] {"desiredCapabilities":{"app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","deviceName":"47b608f8","platformName":"Android"},"capabilities":{"desiredCapabilities":{"app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","deviceName":"47b608f8","platformName":"Android"},"firstMatch":[{"appium:app":"C:\\Users\\sreddy6\\base.apk","appium:appPackage":"com.bigbasket.mobileapp","appium:appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","appium:deviceName":"47b608f8","platformName":"android"}]}}
+2018-10-02 11:21:28:905 - info: [debug] [W3C] Calling AppiumDriver.createSession() with args: [{"app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","deviceName":"47b608f8","platformName":"Android"},null,{"desiredCapabilities":{"app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","deviceName":"47b608f8","platformName":"Android"},"firstMatch":[{"appium:app":"C:\\Users\\sreddy6\\base.apk","appium:appPackage":"com.bigbasket.mobileapp","appium:appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","appium:deviceName":"47b608f8","platformName":"android"}]}]
+2018-10-02 11:21:28:906 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1538479288906 (16:51:28 GMT+0530 (India Standard Time))
+2018-10-02 11:21:28:910 - warn: [BaseDriver] The capabilities ["noReset","udid"] are not standard capabilities and should have an extension prefix
+2018-10-02 11:21:28:913 - info: [Appium] Creating new AndroidDriver (v4.1.1) session
+2018-10-02 11:21:28:914 - info: [Appium] Capabilities:
+2018-10-02 11:21:28:914 - info: [Appium]   platformName: android
+2018-10-02 11:21:28:914 - info: [Appium]   noReset: true
+2018-10-02 11:21:28:914 - info: [Appium]   udid: 47b608f8
+2018-10-02 11:21:28:914 - info: [Appium]   app: C:\Users\sreddy6\base.apk
+2018-10-02 11:21:28:916 - info: [Appium]   appPackage: com.bigbasket.mobileapp
+2018-10-02 11:21:28:916 - info: [Appium]   appWaitActivity: com.bigbasket.mobileapp.activity.HomeActivity
+2018-10-02 11:21:28:916 - info: [Appium]   deviceName: 47b608f8
+2018-10-02 11:21:28:920 - info: [debug] [BaseDriver] W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"noReset":true,"udid":"47b... were provided
+2018-10-02 11:21:28:920 - info: [debug] [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+2018-10-02 11:21:28:927 - info: [BaseDriver] Session created with session id: 0fcf6956-e2b8-438e-ae25-2c0d67461f09
+2018-10-02 11:21:30:418 - info: [AndroidDriver] Java version is: 1.8.0_151
+2018-10-02 11:21:30:422 - info: [ADB] Checking whether adb is present
+2018-10-02 11:21:30:432 - info: [ADB] Found 3 'build-tools' folders under 'C:\Program Files\Android-sdk' (newest first):
+2018-10-02 11:21:30:433 - info: [ADB]     C:/Program Files/Android-sdk/build-tools/28.0.1
+2018-10-02 11:21:30:433 - info: [ADB]     C:/Program Files/Android-sdk/build-tools/28.0.0
+2018-10-02 11:21:30:433 - info: [ADB]     C:/Program Files/Android-sdk/build-tools/27.0.2
+2018-10-02 11:21:30:434 - info: [ADB] Using adb.exe from C:\Program Files\Android-sdk\platform-tools\adb.exe
+2018-10-02 11:21:30:435 - info: [AndroidDriver] Retrieving device list
+2018-10-02 11:21:30:436 - info: [debug] [ADB] Trying to find a connected android device
+2018-10-02 11:21:30:437 - info: [debug] [ADB] Getting connected devices...
+2018-10-02 11:21:32:197 - info: [debug] [ADB] 1 device(s) connected
+2018-10-02 11:21:32:198 - info: [AndroidDriver] Using device: 47b608f8
+2018-10-02 11:21:32:199 - info: [debug] [ADB] Setting device id to 47b608f8
+2018-10-02 11:21:32:201 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell getprop ro.build.version.sdk'
+2018-10-02 11:21:33:729 - info: [debug] [ADB] Current device property 'ro.build.version.sdk': 27
+2018-10-02 11:21:33:730 - info: [debug] [ADB] Device API level: 27
+2018-10-02 11:21:33:730 - warn: [AndroidDriver] Consider setting 'automationName' capability to 'uiautomator2' on Android >= 6, since UIAutomator framework is not maintained anymore by the OS vendor.
+2018-10-02 11:21:33:732 - info: [BaseDriver] Using local app 'C:\Users\sreddy6\base.apk'
+2018-10-02 11:21:33:733 - info: [debug] [AndroidDriver] Checking whether app is actually present
+2018-10-02 11:21:33:735 - info: [AndroidDriver] Starting Android session
+2018-10-02 11:21:33:736 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 wait-for-device'
+2018-10-02 11:21:35:249 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell echo ping'
+2018-10-02 11:21:36:714 - info: [debug] [AndroidDriver] Pushing settings apk to device...
+2018-10-02 11:21:36:716 - info: [debug] [ADB] Getting install status for io.appium.settings
+2018-10-02 11:21:36:716 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell pm list packages io.appium.settings'
+2018-10-02 11:21:38:587 - info: [debug] [ADB] App is installed
+2018-10-02 11:21:38:588 - info: [debug] [ADB] Getting package info for 'io.appium.settings'
+2018-10-02 11:21:38:588 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell dumpsys package io.appium.settings'
+2018-10-02 11:21:40:060 - info: [ADB] Checking whether aapt is present
+2018-10-02 11:21:40:064 - info: [ADB] Using aapt.exe from C:\Program Files\Android-sdk\build-tools\28.0.1\aapt.exe
+2018-10-02 11:21:41:400 - info: [debug] [ADB] The installed 'io.appium.settings' package does not require upgrade ('2.3.0' >= '2.3.0')
+2018-10-02 11:21:41:401 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell ps'
+2018-10-02 11:21:42:999 - info: [debug] [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2018-10-02 11:21:43:000 - info: [debug] [ADB] Device API level: 27
+2018-10-02 11:21:43:000 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell appops set io.appium.settings android\:mock_location allow'
+2018-10-02 11:21:44:489 - warn: [AndroidDriver] setDeviceLanguageCountry requires language or country.
+2018-10-02 11:21:44:489 - warn: [AndroidDriver] Got language: 'null' and country: 'null'
+2018-10-02 11:21:44:491 - info: [debug] [Logcat] Starting logcat capture
+2018-10-02 11:21:45:533 - info: [debug] [AndroidDriver] Pushing unlock helper app to device...
+2018-10-02 11:21:45:534 - info: [debug] [ADB] Getting install status for io.appium.unlock
+2018-10-02 11:21:45:535 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell pm list packages io.appium.unlock'
+2018-10-02 11:21:47:446 - info: [debug] [ADB] App is installed
+2018-10-02 11:21:47:447 - info: [debug] [ADB] Getting package info for 'io.appium.unlock'
+2018-10-02 11:21:47:447 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell dumpsys package io.appium.unlock'
+2018-10-02 11:21:50:280 - info: [debug] [ADB] The installed 'io.appium.unlock' package does not require upgrade ('2.0.0' >= '2.0.0')
+2018-10-02 11:21:50:281 - info: [ADB] Getting device platform version
+2018-10-02 11:21:50:281 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell getprop ro.build.version.release'
+2018-10-02 11:21:51:760 - info: [debug] [ADB] Current device property 'ro.build.version.release': 8.1.0
+2018-10-02 11:21:51:761 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell wm size'
+2018-10-02 11:21:53:657 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell getprop ro.product.model'
+2018-10-02 11:21:55:099 - info: [debug] [ADB] Current device property 'ro.product.model': Mi A2
+2018-10-02 11:21:55:099 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell getprop ro.product.manufacturer'
+2018-10-02 11:21:56:564 - info: [debug] [ADB] Current device property 'ro.product.manufacturer': Xiaomi
+2018-10-02 11:21:56:565 - info: [debug] [AndroidDriver] Parsing package and activity from app manifest
+2018-10-02 11:21:56:572 - info: [ADB] Using the alternative activity name detection method because of: Could not find apkanalyzer.bat in C:\Program Files\Android-sdk\platform-tools\apkanalyzer.bat,C:\Program Files\Android-sdk\emulator\apkanalyzer.bat,C:\Program Files\Android-sdk\tools\apkanalyzer.bat,C:\Program Files\Android-sdk\tools\bin\apkanalyzer.bat,C:\Program Files\Android-sdk\build-tools\28.0.1\apkanalyzer.bat,C:\Program Files\Android-sdk\build-tools\28.0.0\apkanalyzer.bat,C:\Program Files\Android-sdk\build-tools\27.0.2\apkanalyzer.bat. Do you have the Android SDK installed at 'C:\Program Files\Android-sdk'?
+2018-10-02 11:21:56:573 - info: [ADB] Extracting package and launch activity from manifest
+2018-10-02 11:21:57:892 - info: [ADB] Package name: 'com.bigbasket.mobileapp'
+2018-10-02 11:21:57:893 - info: [ADB] Main activity name: 'com.bigbasket.mobileapp.activity.SplashActivity'
+2018-10-02 11:21:57:893 - info: [debug] [AndroidDriver] Parsed package and activity are: com.bigbasket.mobileapp/com.bigbasket.mobileapp.activity.SplashActivity
+2018-10-02 11:21:57:894 - info: [debug] [ADB] Getting install status for com.bigbasket.mobileapp
+2018-10-02 11:21:57:894 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell pm list packages com.bigbasket.mobileapp'
+2018-10-02 11:21:59:798 - info: [debug] [ADB] App is installed
+2018-10-02 11:21:59:799 - info: [debug] [ADB] Getting package info for 'com.bigbasket.mobileapp'
+2018-10-02 11:21:59:799 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell dumpsys package com.bigbasket.mobileapp'
+2018-10-02 11:22:02:614 - info: [debug] [ADB] The installed 'com.bigbasket.mobileapp' package does not require upgrade (1716148 > 1716132)
+2018-10-02 11:22:02:615 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell rm -rf /data/local/tmp/strings.json'
+2018-10-02 11:22:04:076 - info: [debug] [AndroidDriver] Extracting strings from apk
+2018-10-02 11:22:04:076 - info: [debug] [AndroidDriver] C:\Users\sreddy6\base.apk
+2018-10-02 11:22:04:076 - info: [debug] [AndroidDriver] null
+2018-10-02 11:22:04:077 - info: [debug] [AndroidDriver] C:\Users\sreddy6\AppData\Local\Temp\com.bigbasket.mobileapp
+2018-10-02 11:22:04:078 - info: [debug] [ADB] Extracting strings for language: default
+2018-10-02 11:22:05:827 - info: [ADB] Successfully extracted 1422 strings from 'C:\Users\sreddy6\base.apk' resources for '(default)' configuration
+2018-10-02 11:22:05:867 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 push C\:\\Users\\sreddy6\\AppData\\Local\\Temp\\com.bigbasket.mobileapp\\strings.json /data/local/tmp'
+2018-10-02 11:22:07:310 - info: [debug] [AndroidBootstrap] Watching for bootstrap disconnect
+2018-10-02 11:22:07:312 - info: [debug] [ADB] Forwarding system: 4724 to device: 4724
+2018-10-02 11:22:07:312 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 forward tcp\:4724 tcp\:4724'
+2018-10-02 11:22:08:779 - info: [debug] [UiAutomator] Starting UiAutomator
+2018-10-02 11:22:08:780 - info: [debug] [UiAutomator] Moving to state 'starting'
+2018-10-02 11:22:08:780 - info: [debug] [UiAutomator] Parsing uiautomator jar
+2018-10-02 11:22:08:781 - info: [debug] [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2018-10-02 11:22:08:781 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 push C\:\\Users\\sreddy6\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-android-driver\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+2018-10-02 11:22:10:198 - info: [debug] [ADB] Attempting to kill all uiautomator processes
+2018-10-02 11:22:10:199 - info: [debug] [ADB] Getting all processes with uiautomator
+2018-10-02 11:22:10:199 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell ps'
+2018-10-02 11:22:11:822 - info: [ADB] No uiautomator process found to kill, continuing...
+2018-10-02 11:22:11:823 - info: [debug] [UiAutomator] Starting UIAutomator
+2018-10-02 11:22:11:823 - info: [debug] [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","47b608f8","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.bigbasket.mobileapp","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+2018-10-02 11:22:13:269 - info: [debug] [UiAutomator] Moving to state 'online'
+2018-10-02 11:22:13:275 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+2018-10-02 11:22:13:280 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2018-10-02 11:22:13:281 - info: [AndroidBootstrap] Android bootstrap socket is now connected
+2018-10-02 11:22:13:284 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell dumpsys window'
+2018-10-02 11:22:14:137 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2018-10-02 11:22:14:784 - info: [AndroidDriver] Screen already unlocked, doing nothing
+2018-10-02 11:22:14:785 - info: [debug] [ADB] Device API level: 27
+2018-10-02 11:22:14:786 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell am start -W -n com.bigbasket.mobileapp/com.bigbasket.mobileapp.activity.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2018-10-02 11:22:17:388 - info: [debug] [ADB] Waiting up to 20000ms for activity matching pkg: 'com.bigbasket.mobileapp' and activity: 'com.bigbasket.mobileapp.activity.HomeActivity' to be focused
+2018-10-02 11:22:17:389 - info: [debug] [ADB] Possible activities, to be checked: 'com.bigbasket.mobileapp.activity.HomeActivity', 'com.bigbasket.mobileapp.com.bigbasket.mobileapp.activity.HomeActivity'
+2018-10-02 11:22:17:392 - info: [debug] [ADB] Getting focused package and activity
+2018-10-02 11:22:17:393 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell dumpsys window windows'
+2018-10-02 11:22:18:814 - info: [debug] [ADB] Found package: 'com.bigbasket.mobileapp' and fully qualified activity name : 'com.bigbasket.mobileapp.activity.HomeActivity'
+2018-10-02 11:22:18:815 - info: [Appium] New AndroidDriver session created successfully, session 0fcf6956-e2b8-438e-ae25-2c0d67461f09 added to master session list
+2018-10-02 11:22:18:816 - info: [debug] [BaseDriver] Event 'newSessionStarted' logged at 1538479338816 (16:52:18 GMT+0530 (India Standard Time))
+2018-10-02 11:22:18:817 - info: [debug] [W3C] Cached the protocol value 'W3C' for the new session 0fcf6956-e2b8-438e-ae25-2c0d67461f09
+2018-10-02 11:22:18:818 - info: [debug] [W3C] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","noReset":true,"udid":"47b608f8","app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","deviceName":"47b608f8"},"platformName":"android","noReset":true,"udid":"47b608f8","app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","deviceName":"47b608f8","deviceUDID":"47b608f8","platformVersion":"8.1.0","deviceScreenSize":"1080x2160","deviceModel":"Mi A2","deviceManufacturer":"Xiaomi","appWaitPackage":"com.bigbasket.mobileapp","appActivity":"com.bigbasket.mobileapp.activity.SplashActivity"}}
+2018-10-02 11:22:18:819 - info: [HTTP] <-- POST /wd/hub/session 200 49914 ms - 973
+2018-10-02 11:22:18:819 - info: [HTTP] 
+2018-10-02 11:22:18:927 - info: [HTTP] --> GET /wd/hub/session/0fcf6956-e2b8-438e-ae25-2c0d67461f09
+2018-10-02 11:22:18:928 - info: [HTTP] {}
+2018-10-02 11:22:18:929 - info: [debug] [W3C] Calling AppiumDriver.getSession() with args: ["0fcf6956-e2b8-438e-ae25-2c0d67461f09"]
+2018-10-02 11:22:18:943 - info: [debug] [W3C] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","noReset":true,"udid":"47b608f8","app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","deviceName":"47b608f8"},"platformName":"android","noReset":true,"udid":"47b608f8","app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","deviceName":"47b608f8","deviceUDID":"47b608f8","platformVersion":"8.1.0","deviceScreenSize":"1080x2160","deviceModel":"Mi A2","deviceManufacturer":"Xiaomi","appWaitPackage":"com.bigbasket.mobileapp","appActivity":"com.bigbasket.mobileapp.activity.SplashActivity"}
+2018-10-02 11:22:18:945 - info: [HTTP] <-- GET /wd/hub/session/0fcf6956-e2b8-438e-ae25-2c0d67461f09 200 16 ms - 905
+2018-10-02 11:22:18:945 - info: [HTTP] 
+2018-10-02 11:22:18:958 - info: [HTTP] --> GET /wd/hub/session/0fcf6956-e2b8-438e-ae25-2c0d67461f09
+2018-10-02 11:22:18:959 - info: [HTTP] {}
+2018-10-02 11:22:18:959 - info: [debug] [W3C] Calling AppiumDriver.getSession() with args: ["0fcf6956-e2b8-438e-ae25-2c0d67461f09"]
+2018-10-02 11:22:18:960 - info: [debug] [W3C] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","noReset":true,"udid":"47b608f8","app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","deviceName":"47b608f8"},"platformName":"android","noReset":true,"udid":"47b608f8","app":"C:\\Users\\sreddy6\\base.apk","appPackage":"com.bigbasket.mobileapp","appWaitActivity":"com.bigbasket.mobileapp.activity.HomeActivity","deviceName":"47b608f8","deviceUDID":"47b608f8","platformVersion":"8.1.0","deviceScreenSize":"1080x2160","deviceModel":"Mi A2","deviceManufacturer":"Xiaomi","appWaitPackage":"com.bigbasket.mobileapp","appActivity":"com.bigbasket.mobileapp.activity.SplashActivity"}
+2018-10-02 11:22:18:963 - info: [HTTP] <-- GET /wd/hub/session/0fcf6956-e2b8-438e-ae25-2c0d67461f09 200 3 ms - 905
+2018-10-02 11:22:18:963 - info: [HTTP] 
+2018-10-02 11:22:18:968 - info: [HTTP] --> GET /wd/hub/session/0fcf6956-e2b8-438e-ae25-2c0d67461f09/appium/device/system_time
+2018-10-02 11:22:18:968 - info: [HTTP] {}
+2018-10-02 11:22:18:970 - info: [debug] [W3C] Calling AppiumDriver.getDeviceTime() with args: [null,"0fcf6956-e2b8-438e-ae25-2c0d67461f09"]
+2018-10-02 11:22:18:972 - info: [AndroidDriver] Attempting to capture android device date and time
+2018-10-02 11:22:18:973 - info: [debug] [ADB] Running 'C:\Program Files\Android-sdk\platform-tools\adb.exe -P 5037 -s 47b608f8 shell date +%Y-%m-%dT%T%z'
+2018-10-02 11:22:20:425 - info: [debug] [W3C] Responding to client with driver.getDeviceTime() result: "2018-10-02T16:52:18+05:30"
+2018-10-02 11:22:20:426 - info: [HTTP] <-- GET /wd/hub/session/0fcf6956-e2b8-438e-ae25-2c0d67461f09/appium/device/system_time 200 1457 ms - 37
+2018-10-02 11:22:20:426 - info: [HTTP] 
+2018-10-02 11:22:20:434 - info: [HTTP] --> POST /wd/hub/session/0fcf6956-e2b8-438e-ae25-2c0d67461f09/timeouts
+2018-10-02 11:22:20:434 - info: [HTTP] {"implicit":20000}
+2018-10-02 11:22:20:435 - info: [debug] [W3C] Calling AppiumDriver.timeouts() with args: [null,null,null,null,20000,"0fcf6956-e2b8-438e-ae25-2c0d67461f09"]
+2018-10-02 11:22:20:436 - info: [debug] [BaseDriver] W3C timeout argument: {"implicit":20000}}
+2018-10-02 11:22:20:437 - info: [debug] [BaseDriver] Set implicit wait to 20000ms
+2018-10-02 11:22:20:438 - info: [debug] [W3C] Responding to client with driver.timeouts() result: null
+2018-10-02 11:22:20:438 - info: [HTTP] <-- POST /wd/hub/session/0fcf6956-e2b8-438e-ae25-2c0d67461f09/timeouts 200 4 ms - 14
+2018-10-02 11:22:20:440 - info: [HTTP] 
+2018-10-02 11:22:20:474 - info: [HTTP] --> POST /wd/hub/session/0fcf6956-e2b8-438e-ae25-2c0d67461f09/elements
+2018-10-02 11:22:20:475 - info: [HTTP] {"using":"id","value":"com.bigbasket.mobileapp:id/text_your_location"}
+2018-10-02 11:22:20:475 - info: [debug] [W3C] Calling AppiumDriver.findElements() with args: ["id","com.bigbasket.mobileapp:id/text_your_location","0fcf6956-e2b8-438e-ae25-2c0d67461f09"]
+2018-10-02 11:22:20:477 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-02 11:22:20:478 - info: [debug] [BaseDriver] Waiting up to 20000 ms for condition
+2018-10-02 11:22:20:481 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/text_your_location","context":"","multiple":true}}
+2018-10-02 11:22:20:485 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/text_your_location","context":"","multiple":true}}
+2018-10-02 11:22:20:488 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 11:22:20:488 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 11:22:20:488 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.bigbasket.mobileapp:id/text_your_location' using 'ID' with the contextId: '' multiple: true
+2018-10-02 11:22:20:489 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.bigbasket.mobileapp:id/text_your_location]
+2018-10-02 11:22:20:489 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.bigbasket.mobileapp:id/text_your_location]
+2018-10-02 11:22:20:489 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-10-02 11:22:20:489 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/text_your_location]
+2018-10-02 11:22:21:175 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-02 11:22:21:178 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.bigbasket.mobileapp:id/text_your_location' using 'ID' with the contextId: '' multiple: true
+2018-10-02 11:22:21:180 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.bigbasket.mobileapp:id/text_your_location]
+2018-10-02 11:22:21:181 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.bigbasket.mobileapp:id/text_your_location]
+2018-10-02 11:22:21:183 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-10-02 11:22:21:184 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/text_your_location]
+2018-10-02 11:22:21:265 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2018-10-02 11:22:21:268 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 11:22:21:269 - info: [debug] [BaseDriver] Waited for 790 ms so far
+2018-10-02 11:22:21:771 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/text_your_location","context":"","multiple":true}}
+2018-10-02 11:22:21:779 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/text_your_location","context":"","multiple":true}}
+2018-10-02 11:22:21:780 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 11:22:21:780 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 11:22:21:781 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.bigbasket.mobileapp:id/text_your_location' using 'ID' with the contextId: '' multiple: true
+2018-10-02 11:22:21:781 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[RESOURCE_ID=com.bigbasket.mobileapp:id/text_your_location]
+2018-10-02 11:22:21:782 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[RESOURCE_ID=com.bigbasket.mobileapp:id/text_your_location]
+2018-10-02 11:22:21:782 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-10-02 11:22:21:782 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/text_your_location]
+2018-10-02 11:22:21:796 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (1)
+2018-10-02 11:22:21:798 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[INSTANCE=1, RESOURCE_ID=com.bigbasket.mobileapp:id/text_your_location]
+2018-10-02 11:22:21:801 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"1"}]}
+2018-10-02 11:22:21:802 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 11:22:21:804 - info: [debug] [W3C] Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"1"}]
+2018-10-02 11:22:21:805 - info: [HTTP] <-- POST /wd/hub/session/0fcf6956-e2b8-438e-ae25-2c0d67461f09/elements 200 1331 ms - 55
+2018-10-02 11:22:21:806 - info: [HTTP] 
+2018-10-02 11:22:21:833 - info: [HTTP] --> POST /wd/hub/session/0fcf6956-e2b8-438e-ae25-2c0d67461f09/element
+2018-10-02 11:22:21:834 - info: [HTTP] {"using":"id","value":"com.bigbasket.mobileapp:id/text_your_location"}
+2018-10-02 11:22:21:834 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["id","com.bigbasket.mobileapp:id/text_your_location","0fcf6956-e2b8-438e-ae25-2c0d67461f09"]
+2018-10-02 11:22:21:836 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-02 11:22:21:836 - info: [debug] [BaseDriver] Waiting up to 20000 ms for condition
+2018-10-02 11:22:21:837 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/text_your_location","context":"","multiple":false}}
+2018-10-02 11:22:21:845 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.bigbasket.mobileapp:id/text_your_location","context":"","multiple":false}}
+2018-10-02 11:22:21:847 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 11:22:21:847 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-02 11:22:21:848 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.bigbasket.mobileapp:id/text_your_location' using 'ID' with the contextId: '' multiple: false
+2018-10-02 11:22:21:848 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.bigbasket.mobileapp:id/text_your_location]
+2018-10-02 11:22:21:949 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"2"}}
+2018-10-02 11:22:21:950 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 11:22:21:951 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"2"}
+2018-10-02 11:22:21:953 - info: [HTTP] <-- POST /wd/hub/session/0fcf6956-e2b8-438e-ae25-2c0d67461f09/element 200 119 ms - 53
+2018-10-02 11:22:21:953 - info: [HTTP] 
+2018-10-02 11:22:21:971 - info: [HTTP] --> GET /wd/hub/session/0fcf6956-e2b8-438e-ae25-2c0d67461f09/element/2/text
+2018-10-02 11:22:21:971 - info: [HTTP] {}
+2018-10-02 11:22:21:972 - info: [debug] [W3C] Calling AppiumDriver.getText() with args: ["2","0fcf6956-e2b8-438e-ae25-2c0d67461f09"]
+2018-10-02 11:22:21:977 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getText","params":{"elementId":"2"}}
+2018-10-02 11:22:21:982 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getText","params":{"elementId":"2"}}
+2018-10-02 11:22:21:983 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-02 11:22:21:983 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getText
+2018-10-02 11:22:22:815 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-02 11:22:22:818 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"Your Location"}
+2018-10-02 11:22:22:820 - info: [debug] [W3C] Responding to client with driver.getText() result: "Your Location"
+2018-10-02 11:22:22:824 - info: [HTTP] <-- GET /wd/hub/session/0fcf6956-e2b8-438e-ae25-2c0d67461f09/element/2/text 200 851 ms - 25
+2018-10-02 11:22:22:825 - info: [HTTP] 
+2018-10-02 11:22:22:842 - info: [HTTP] --> GET /wd/hub/status
+2018-10-02 11:22:22:843 - info: [HTTP] {}
+2018-10-02 11:22:22:843 - info: [debug] [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-10-02 11:22:22:844 - info: [debug] [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.9.1","git-sha":"f9ee7d068e14f10729f88ebd85db802c2e8ac21a","built":"2018-09-20T18:14:29Z"}}
+2018-10-02 11:22:22:845 - info: [HTTP] <-- GET /wd/hub/status 200 3 ms - 151
+2018-10-02 11:22:22:845 - info: [HTTP] 
