@@ -20,7 +20,7 @@ public class AutomationDriver {
 //		testNg.setParallel(XmlSuite.ParallelMode.CLASSES);
 //		testNg.setPreserveOrder(true);
 //		testNg.run();
-		ExcelReader reader = new ExcelReader("C:\\Users\\sreddy6\\Desktop\\Framework\\AppiumFramework\\Resources\\Test.xlsx");
-		reader.ReadExcel("test", "TestCase");
+		//ExcelReader reader = new ExcelReader("C:\\Users\\sreddy6\\Desktop\\Framework\\AppiumFramework\\Resources\\Test.xlsx");
+		//reader.ReadExcel("test", "TestCase");
 	}
 }
