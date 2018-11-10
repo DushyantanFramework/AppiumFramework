@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.html5.Location;
@@ -16,7 +17,10 @@ import org.testng.annotations.Test;
 
 import com.appium.base.BaseTest;
 
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.Activity;
+import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.android.AndroidKeyCode;
 
@@ -37,7 +41,7 @@ public class Tester extends BaseTest{
 		Assert.assertTrue(line.trim().equals("1"));
 	}
 	
-	//@Test
+	@Test
 	public void test2() {
 		
 		WebDriverWait wait = new WebDriverWait(driver, 20);
@@ -73,33 +77,40 @@ public class Tester extends BaseTest{
 		driver.findElement(By.xpath("//android.widget.TextView[@text='Fruits & Vegetables']")).click();
 	}
 	
-	@Test
+	//@Test
 	public void testSearch() throws InterruptedException, IOException {
-		driver.findElements(By.id("com.bigbasket.mobileapp:id/bbBottomNavItemText")).get(2).click();
-		Assert.assertTrue(driver.findElement(By.id("com.bigbasket.mobileapp:id/txtTermHeader")).isEnabled());
-		driver.findElement(By.id("com.bigbasket.mobileapp:id/homePageSearchBox")).click();
-		Runtime.getRuntime().exec("adb shell input text fresh\\ bread");
-		//driver.findElement(By.id("com.bigbasket.mobileapp:id/homePageSearchBox")).sendKeys("bread");
-		driver.pressKeyCode(AndroidKeyCode.ENTER);
-		WebDriverWait wait = new WebDriverWait(driver, 20);
-		wait.until(ExpectedConditions.presenceOfElementLocated(By.id("com.bigbasket.mobileapp:id/txtProductCount")));
-		//driver.findElementByAndroidUIAutomator("new UiSelector().resourceId(\"com.bigbasket.mobileapp:id/txtProductCount\")"))
-		boolean istrue = driver.findElementByAndroidUIAutomator("new UiSelector().resourceId(\"com.bigbasket.mobileapp:id/txtProductCount\")").isEnabled();
-		Assert.assertTrue(istrue);
-		List<?> result = driver.findElements(By.id("com.bigbasket.mobileapp:id/txtProductDesc"));
-		for (Object object : result) {
-			Assert.assertTrue(((AndroidElement)object).getText().toLowerCase().contains("bread"));
-		}
-		driver.findElements(By.id("com.bigbasket.mobileapp:id/bbBottomNavItemText")).get(2).click();
-		try {
-			driver.hideKeyboard();
-		} catch (Exception e) {
-			System.out.println("Keyboard not found");
-		}
-		Assert.assertTrue(driver.findElements(By.id("com.bigbasket.mobileapp:id/txtTerm")).get(0).getText().equals("bread"));
-		Assert.assertTrue(driver.findElement(By.id("com.bigbasket.mobileapp:id/imgSearchTermAction")).isEnabled());
-		driver.findElement(By.id("com.bigbasket.mobileapp:id/imgSearchTermAction")).click();
-		Assert.assertFalse(driver.findElement(By.id("com.bigbasket.mobileapp:id/txtTerm")).getText().equals("bread"));
-		
+//		driver.findElements(By.id("com.bigbasket.mobileapp:id/bbBottomNavItemText")).get(2).click();
+//		Assert.assertTrue(driver.findElement(By.id("com.bigbasket.mobileapp:id/txtTermHeader")).isEnabled());
+//		driver.findElement(By.id("com.bigbasket.mobileapp:id/homePageSearchBox")).click();
+//		Runtime.getRuntime().exec("adb shell input text fresh\\ bread");
+//		//driver.findElement(By.id("com.bigbasket.mobileapp:id/homePageSearchBox")).sendKeys("bread");
+//		driver.pressKeyCode(AndroidKeyCode.ENTER);
+//		WebDriverWait wait = new WebDriverWait(driver, 20);
+//		wait.until(ExpectedConditions.presenceOfElementLocated(By.id("com.bigbasket.mobileapp:id/txtProductCount")));
+//		//driver.findElementByAndroidUIAutomator("new UiSelector().resourceId(\"com.bigbasket.mobileapp:id/txtProductCount\")"))
+//		boolean istrue = driver.findElementByAndroidUIAutomator("new UiSelector().resourceId(\"com.bigbasket.mobileapp:id/txtProductCount\")").isEnabled();
+//		Assert.assertTrue(istrue);
+//		List<?> result = driver.findElements(By.id("com.bigbasket.mobileapp:id/txtProductDesc"));
+//		for (Object object : result) {
+//			Assert.assertTrue(((AndroidElement)object).getText().toLowerCase().contains("bread"));
+//		}
+//		driver.findElements(By.id("com.bigbasket.mobileapp:id/bbBottomNavItemText")).get(2).click();
+//		try {
+//			driver.hideKeyboard();
+//		} catch (Exception e) {
+//			System.out.println("Keyboard not found");
+//		}
+//		Assert.assertTrue(driver.findElements(By.id("com.bigbasket.mobileapp:id/txtTerm")).get(0).getText().equals("bread"));
+//		Assert.assertTrue(driver.findElement(By.id("com.bigbasket.mobileapp:id/imgSearchTermAction")).isEnabled());
+//		driver.findElement(By.id("com.bigbasket.mobileapp:id/imgSearchTermAction")).click();
+//		Assert.assertFalse(driver.findElement(By.id("com.bigbasket.mobileapp:id/txtTerm")).getText().equals("bread"));
+		TouchAction t = new TouchAction(driver);
+		Dimension d = driver.manage().window().getSize();
+		int height = d.height;
+		int width = d.width;
+		//t.press(el)
+		Location loc = new Location(256.333, 256.333, 256.333);
+		driver.setLocation(loc);
+		//Thread.sleep(60000);
 	}
 }
