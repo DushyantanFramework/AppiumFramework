@@ -24,8 +24,8 @@ public class SetupSession {
 	private static SetupSession setupSession = null;
 	private String service_url;
 	private AppiumDriverLocalService service= null;
-	protected static String nodeJSExecutable = System.getenv("ProgramFiles")+File.separator+"nodejs"+File.separator+"node.exe";
-	protected static String appiumJS = System.getenv("APPDATA")+File.separator+"npm" +File.separator+"node_modules"+ File.separator + "appium" + File.separator + "build" + File.separator + "lib" + 
+	protected static String nodeJSExecutable = "C:\\Program Files"+File.separator+"nodejs"+File.separator+"node.exe";
+	protected static String appiumJS = "C:\\Users\\sreddy6\\AppData\\Roaming\\npm\\node_modules"+File.separator + "appium" + File.separator + "build" + File.separator + "lib" + 
 		      File.separator + "main.js";
 	private AndroidDriver<RemoteWebElement> driver = null;
 	
