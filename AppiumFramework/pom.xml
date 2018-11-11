@@ -9,6 +9,13 @@
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.7.0</version>
+        <executions>
+        	<execution>
+        		<configuration>
+        			<mainclass>AutomationDriver</mainclass>
+        		</configuration>
+        	</execution>
+        </executions>
         <configuration>
           <source>1.8</source>
           <target>1.8</target>
