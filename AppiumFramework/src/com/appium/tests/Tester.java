@@ -41,7 +41,7 @@ public class Tester extends BaseTest{
 		Assert.assertTrue(line.trim().equals("1"));
 	}
 	
-	@Test
+	//@Test
 	public void test2() {
 		
 		WebDriverWait wait = new WebDriverWait(driver, 20);
@@ -57,7 +57,7 @@ public class Tester extends BaseTest{
 		Assert.assertEquals("Teju", name);
 	}
 	
-	//@Test(priority=0)
+	@Test(priority=0)
 	public void testHomeScreen() {
 		WebDriverWait wait = new WebDriverWait(driver, 20);
 		wait.until(ExpectedConditions.presenceOfElementLocated((By.id("com.bigbasket.mobileapp:id/text_your_location"))));

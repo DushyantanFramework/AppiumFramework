@@ -1,31 +1,10 @@
-import java.io.File;
-import java.io.IOException;
-import java.net.URL;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.TimeUnit;
 
-import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.By;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.RemoteWebElement;
-import org.testng.Assert;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
 import org.testng.TestNG;
 import org.testng.xml.XmlSuite;
-
-import com.appium.excel.ExcelReader;
-import com.appium.setup.SetupSession;
-import com.test.perfecto.PageFactory;
-
-import io.appium.java_client.service.local.AppiumDriverLocalService;
-import io.appium.java_client.windows.WindowsDriver;
-import io.appium.java_client.windows.WindowsElement;
 
 public class AutomationDriver {
 

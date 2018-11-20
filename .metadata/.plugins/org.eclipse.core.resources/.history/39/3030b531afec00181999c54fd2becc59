@@ -16,7 +16,7 @@ public class BaseTest {
 	@BeforeClass
 	public void beforeClass() throws IOException 
 	{
-		SetupSession.getInstance().startSession("emulator-5554");
+		SetupSession.getInstance().startSession("47b608f8");
 		SetupSession.getInstance().startService();
 		driver = SetupSession.getInstance().getDriver(SetupSession.getInstance().getCapability("47b608f8"));
 	}	
