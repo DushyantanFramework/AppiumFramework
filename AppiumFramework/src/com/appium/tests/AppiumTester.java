@@ -3,8 +3,12 @@ package com.appium.tests;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -13,17 +17,12 @@ import com.appium.base.BaseTest;
 public class AppiumTester extends BaseTest{
 
 	@Test
-	public void test() throws IOException, InterruptedException {
-		System.out.println("Execution started....");
-		Process process = Runtime.getRuntime().exec("adb shell am start -a android.settings.AIRPLANE_MODE_SETTINGS");
-		process.waitFor();
-		WebElement toggle = driver.findElementsByXPath("//android.widget.Switch").get(1);
-		if (toggle.getText().equals("OFF")) {
-			toggle.click();
-		}
-		Process p1 = Runtime.getRuntime().exec("adb shell settings get global airplane_mode_on");
-		BufferedReader in = new BufferedReader(new InputStreamReader(p1.getInputStream()));
-		String line = in.readLine();
-		Assert.assertTrue(line.trim().equals("1"));
+	public void testMMS() throws IOException, InterruptedException {
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.findElement(By.id("com.wsandroid.suite:id/btn_next")).click();
+		WebDriverWait wait = new WebDriverWait(driver, 40);
+		wait.until(ExpectedConditions.presenceOfElementLocated(By.id("com.wsandroid.suite:id/btn_likes_ads"))).click();
+		driver.findElement(By.id("com.wsandroid.suite:id/img_actionbar_cancel")).click();
+		org.testng.Assert.assertTrue(driver.findElement(By.id("com.wsandroid.suite:id/new_msg_title")).isDisplayed());
 	}
 }

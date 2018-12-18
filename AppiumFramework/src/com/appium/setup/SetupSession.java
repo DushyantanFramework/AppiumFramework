@@ -22,7 +22,7 @@ import io.appium.java_client.service.local.flags.GeneralServerFlag;
 public class SetupSession {
 
 	private static SetupSession setupSession = null;
-	private String service_url;
+	public String service_url;
 	private AppiumDriverLocalService service= null;
 	protected static String nodeJSExecutable = "C:\\Program Files"+File.separator+"nodejs"+File.separator+"node.exe";
 	protected static String appiumJS = "C:\\Users\\sreddy6\\AppData\\Roaming\\npm\\node_modules"+File.separator + "appium" + File.separator + "build" + File.separator + "lib" + 

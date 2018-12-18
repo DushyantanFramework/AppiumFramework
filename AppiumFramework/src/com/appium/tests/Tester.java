@@ -31,7 +31,7 @@ public class Tester extends BaseTest{
 		System.out.println("Execution started....");
 		Process process = Runtime.getRuntime().exec("adb shell am start -a android.settings.AIRPLANE_MODE_SETTINGS");
 		process.waitFor();
-		WebElement toggle = driver.findElementsByXPath("//android.widget.Switch").get(1);
+		WebElement toggle = null;//driver.findElementsByXPath("//android.widget.Switch").get(1);
 		if (toggle.getText().equals("OFF")) {
 			toggle.click();
 		}
@@ -45,7 +45,7 @@ public class Tester extends BaseTest{
 	public void test2() {
 		
 		WebDriverWait wait = new WebDriverWait(driver, 20);
-		driver.startActivity(new Activity("com.google.android.apps.messaging", ".ui.ConversationListActivity"));
+		//driver.startActivity(new Activity("com.google.android.apps.messaging", ".ui.ConversationListActivity"));
 		driver.findElement(By.id("com.google.android.apps.messaging:id/start_new_conversation_button")).click();
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.id("com.google.android.apps.messaging:id/recipient_text_view"))).sendKeys("8978543653");
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.id("com.google.android.apps.messaging:id/contact_picker_create_group"))).click();
@@ -53,7 +53,7 @@ public class Tester extends BaseTest{
 		driver.hideKeyboard();
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.id("com.google.android.apps.messaging:id/send_message_button_container"))).click();
 		driver.navigate().back();
-		String name = driver.findElementsById("com.google.android.apps.messaging:id/conversation_name").get(0).getText();
+		String name = null;//driver.findElementsById("com.google.android.apps.messaging:id/conversation_name").get(0).getText();
 		Assert.assertEquals("Teju", name);
 	}
 	
@@ -70,7 +70,7 @@ public class Tester extends BaseTest{
 	//@Test(priority=1)
 	public void testCategories() {
 		//wait.until(c->c.findElements(By.xpath("//*[@id='bbBottomNavItemText']")).forEach(c->c.getText().equals("Categories")));
-		driver.findElements(By.id("com.bigbasket.mobileapp:id/bbBottomNavItemText")).get(1).click();
+		//driver.findElements(By.id("com.bigbasket.mobileapp:id/bbBottomNavItemText")).get(1).click();
 		Assert.assertTrue(driver.findElement(By.id("com.bigbasket.mobileapp:id/shopByCategory")).getText().equals("SHOP BY CATEGORY"));
 		driver.findElement(By.xpath("//android.widget.TextView[@text='Fruits & Vegetables']")).click();
 		Assert.assertEquals(driver.findElementsById("com.bigbasket.mobileapp:id/linearLayout").size(), 8);

@@ -5,20 +5,21 @@ import java.io.IOException;
 import org.openqa.selenium.remote.RemoteWebElement;
 import org.testng.annotations.*;
 
+import com.appium.iniparser.ParseINI;
+import com.appium.setup.DriverFactory;
 import com.appium.setup.SetupSession;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 
 public class BaseTest {
 
-	public AndroidDriver<RemoteWebElement> driver = null;
+	public AppiumDriver driver = null;
 	
 	@BeforeClass
 	public void beforeClass() throws IOException 
 	{
-		SetupSession.getInstance().startSession("emulator-5554");
-		SetupSession.getInstance().startService();
-		driver = SetupSession.getInstance().getDriver(SetupSession.getInstance().getCapability("47b608f8"));
+		driver = DriverFactory.getDriver("Samsung Galaxy Tab2");
 	}	
 	
 	
@@ -26,8 +27,7 @@ public class BaseTest {
 	@AfterClass
 	public void AfterClass() throws IOException 
 	{
-		SetupSession.getInstance().stopService();
-		
+		driver.closeApp();
 		System.out.println("After class ended");
 	}
 }
