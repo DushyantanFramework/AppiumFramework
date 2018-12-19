@@ -14,8 +14,8 @@ import io.appium.java_client.ios.IOSDriver;
 
 public class DriverFactory {
 
+	public static AppiumDriver driver = null;
 	public static AppiumDriver getDriver(String deviceName) throws InvalidFileFormatException, IOException {
-		AppiumDriver driver = null;
 		Section section = ParseINI.getSection(deviceName);
 		String user = section.get("user");
 		String password = section.get("password");

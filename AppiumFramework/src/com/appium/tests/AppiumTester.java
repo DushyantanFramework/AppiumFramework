@@ -13,16 +13,17 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.appium.base.BaseTest;
+import com.test.perfecto.PageFactory;
 
 public class AppiumTester extends BaseTest{
 
 	@Test
 	public void testMMS() throws IOException, InterruptedException {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		driver.findElement(By.id("com.wsandroid.suite:id/btn_next")).click();
+		PageFactory.homePage.acceptEULA.click();
 		WebDriverWait wait = new WebDriverWait(driver, 40);
-		wait.until(ExpectedConditions.presenceOfElementLocated(By.id("com.wsandroid.suite:id/btn_likes_ads"))).click();
-		driver.findElement(By.id("com.wsandroid.suite:id/img_actionbar_cancel")).click();
-		org.testng.Assert.assertTrue(driver.findElement(By.id("com.wsandroid.suite:id/new_msg_title")).isDisplayed());
+		wait.until(ExpectedConditions.presenceOfElementLocated(PageFactory.homePage.likeADS.getBy())).click();
+		PageFactory.homePage.cancelPermissions.click();
+		Assert.assertTrue(PageFactory.homePage.coachMark.isDisplayed());
 	}
 }
