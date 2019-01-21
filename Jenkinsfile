@@ -7,6 +7,7 @@ node {
       // ** NOTE: This 'M3' Maven tool must be configured
       // **       in the global configuration.           
       mvnHome = tool 'MVN'
+      env.PATH = "${mvnHome}/bin:${env.PATH}"
    }
    stage('Build') {
         dir("AppiumFramework"){
