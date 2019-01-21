@@ -25,6 +25,6 @@ public class AppiumTester extends BaseTest{
 		wait.until(ExpectedConditions.presenceOfElementLocated(PageFactory.homePage.likeADS.getBy())).click();
 		PageFactory.homePage.cancelPermissions.click();
 		Assert.assertTrue(PageFactory.homePage.coachMark.isDisplayed());
-		PageFactory.homePage.takeScreenshot();
+		PageFactory.homePage.takeScreenshot("");
 	}
 }
