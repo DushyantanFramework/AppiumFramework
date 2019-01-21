@@ -33,7 +33,7 @@ public class DriverFactory {
 		capabilities.setCapability("password", password);
 		capabilities.setCapability("autoLaunch",true);
 		capabilities.setCapability("newCommandTimeout", 60);
-		PerfectoLabUtils.uploadMedia("mobilecloud.perfectomobile.com", user, password, file, "PRIVATE:apps/mms.apk");
+		PerfectoLabUtils.uploadMedia("ps.perfectomobile.com", user, password, file, "PRIVATE:apps/mms.apk");
 		capabilities.setCapability("app", "PRIVATE:apps/mms.apk");
 		String host = section.get("host");
 		String url = "https://" + host + "/nexperience/perfectomobile/wd/hub";
